@@ -169,7 +169,7 @@ if __name__ == "__main__":
 
 	primitivetemplate = "\n".join([ line.rstrip() for line in filter( lambda x: re.search( r"R22.Reb0", x ) is not None, lines )])
 
-	BiasShiftFix(primitivetemplate)
+	primitivetemplate = BiasShiftFix(primitivetemplate)
 
 	### manuplate a template
 	with open("FocalPlaneSubsystem__Rafts.properties","w") as f:
