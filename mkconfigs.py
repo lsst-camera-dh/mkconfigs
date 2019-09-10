@@ -89,14 +89,19 @@ def PrepareInfo():
 	ccds = []
 
 	for Baylevel in results:
-		if Baylevel['child_hardwareTypeName'] != 'LCA-11021_RTM':
+		if Baylevel['child_hardwareTypeName'] not in ( 'LCA-11021_RTM', 'LCA-10692_CRTM' ):
 			continue
 		Bayinfo  =connection.getHardwareInstances(htype=Baylevel['child_hardwareTypeName'], experimentSN=Baylevel['child_experimentSN'])[0]
-		flavor = (Bayinfo["model"].split("-")[2])
+		if Baylevel['child_hardwareTypeName'] is 'LCA-11021_RTM':
+			flavor = (Bayinfo["model"].split("-")[2])
+		else:
+			flavor = "ITL"
+			
 		sub = connection.getHardwareHierarchy(experimentSN=Baylevel["child_experimentSN"], htype=Baylevel["child_hardwareTypeName"])
 
 		
 		for areb in sub:
+			# REB
 			if areb['child_hardwareTypeName'] == 'LCA-13574':
 				rebinfo =connection.getHardwareInstances(htype=areb['child_hardwareTypeName'], experimentSN=areb['child_experimentSN'])[0]
 				rebs.append(
@@ -110,6 +115,7 @@ def PrepareInfo():
 					}
 				)
 
+			# RSA
 			if areb['parent_hardwareTypeName']  == 'LCA-10753_RSA' and ( p.match(areb["child_hardwareTypeName"]) is not None ):
 				ccds.append(
 					{
@@ -124,6 +130,24 @@ def PrepareInfo():
 							)
 					}
 				)
+			# WGREB
+			if areb['child_hardwareTypeName'] in [
+								'LCA-13537', # WREB
+								'LCA-13540'  # GREB
+								]:
+				rebinfo =connection.getHardwareInstances(htype=areb['child_hardwareTypeName'], experimentSN=areb['child_experimentSN'])[0]
+				rebs.append(
+					{
+						"Bay": Baylevel["slotName"],
+						"Flavor": flavor,
+						"Name": Baylevel['child_experimentSN'],
+						"Slot": "WREB" if areb['child_hardwareTypeName'] == 'LCA-13537' else "GREB",
+						"SerialNum": rebinfo["manufacturerId"],
+						"path": "R{:02d}".format(int(Baylevel["slotName"].replace("Bay","")))
+					}
+				)
+
+
 	return rebs,ccds
 
 def BiasShiftFix( primitivetemplate ):
@@ -171,11 +195,26 @@ if __name__ == "__main__":
 
 	primitivetemplate = BiasShiftFix(primitivetemplate)
 
+	### CornerRafts: This came from /opt/lsst/ccs/20190726/ccs-test-configurations-master/IR2/lsst-ir2daq01/CRTM-0002
+	with open("cr-raft__Rafts.skelton") as f:
+		lines = f.readlines()
+
+	grebprimitivetemplate = "\n".join( [ "R22/"+re.sub(r"GREB\.", "GREB/", aline.rstrip()) for aline in filter( lambda x: re.search( r"GREB", x ) is not None, lines ) ] )
+	grebprimitivetemplate = BiasShiftFix(grebprimitivetemplate)
+	wrebprimitivetemplate = "\n".join( [ "R22/"+re.sub(r"WREB\.", "WREB/", aline.rstrip()) for aline in filter( lambda x: re.search( r"WREB", x ) is not None, lines ) ] )
+	wrebprimitivetemplate = BiasShiftFix(wrebprimitivetemplate)
+
 	### manuplate a template
 	with open("FocalPlaneSubsystem__Rafts.properties","w") as f:
 		for areb in rebs:
 			f.write("### {} \n".format(areb))
-			draft = buildtemplate( areb["path"], areb["Slot"], primitivetemplate )
+			if areb["Slot"] == "GREB":
+				draft = buildtemplate( areb["path"], areb["Slot"], grebprimitivetemplate )
+			elif areb["Slot"] == "WREB":
+				draft = buildtemplate( areb["path"], areb["Slot"], wrebprimitivetemplate )
+			else:
+				draft = buildtemplate( areb["path"], areb["Slot"], primitivetemplate )
+
 			draft = re.sub(
 					r"(?P<path>.*serialNum = )(.*)",
 					"\g<path>{}".format(int(areb["SerialNum"],16)),
