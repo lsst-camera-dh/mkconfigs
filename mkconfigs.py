@@ -171,7 +171,7 @@ def PrepareInfo():
 								int(Baylevel["slotName"].replace("Bay","")),
 								slot[0].upper(),
 								slot[0].upper(),
-								slot[-1]
+								int(slot[-1])-1
 							)
 					}
 				)
