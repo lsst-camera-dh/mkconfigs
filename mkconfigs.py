@@ -146,6 +146,35 @@ def PrepareInfo():
 						"path": "R{:02d}".format(int(Baylevel["slotName"].replace("Bay","")))
 					}
 				)
+			# CRSA
+			print (areb)
+			if ( areb['child_hardwareTypeName'] == "ITL-CCD" and areb["parent_hardwareTypeName"] == "LCA-10628" ) or \
+			   ( areb['child_hardwareTypeName'] == "ITL-Wavefront-CCD" and areb["parent_hardwareTypeName"] == "LCA-10626" ):
+				print("##############")
+				ccdhier =  connection.getContainingHardware(htype=areb['child_hardwareTypeName'], experimentSN=areb['child_experimentSN'])
+				for i in ccdhier:
+					print (i)
+				print("#########")
+				if areb["parent_hardwareTypeName"] == "LCA-10628":
+					# G
+					slot = (ccdhier[1]["slotName"])
+				else:
+					# W
+					slot = "W{}".format((ccdhier[0]["slotName"])[-1])
+				ccds.append(
+					{
+						"Bay": Baylevel["slotName"],
+						"Flavor": flavor,
+						"Name": areb["child_experimentSN"],
+						"Slot": areb["slotName"],
+						"path": "R{:02d}/Reb{}/S{}{}".format(
+								int(Baylevel["slotName"].replace("Bay","")),
+								slot[0].upper(),
+								slot[0].upper(),
+								slot[-1]
+							)
+					}
+				)
 
 
 	return rebs,ccds
@@ -203,6 +232,7 @@ if __name__ == "__main__":
 	grebprimitivetemplate = BiasShiftFix(grebprimitivetemplate)
 	wrebprimitivetemplate = "\n".join( [ "R22/"+re.sub(r"WREB\.", "WREB/", aline.rstrip()) for aline in filter( lambda x: re.search( r"WREB", x ) is not None, lines ) ] )
 	wrebprimitivetemplate = BiasShiftFix(wrebprimitivetemplate)
+	grebprimitivetemplate = BiasShiftFix(grebprimitivetemplate)
 
 	### manuplate a template
 	with open("FocalPlaneSubsystem__Rafts.properties","w") as f:
