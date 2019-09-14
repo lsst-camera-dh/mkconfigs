@@ -1,0 +1,240 @@
+#********  GREB.Bias0/gdMax
+#** category : RaftsLimits
+#********
+GREB.Bias0/gdMax = 22.0
+
+#********  GREB.Bias0/gdMin
+#** category : RaftsLimits
+#********
+GREB.Bias0/gdMin = 18.0
+
+#********  GREB.Bias0/odMax
+#** category : RaftsLimits
+#********
+GREB.Bias0/odMax = 28.0
+
+#********  GREB.Bias0/odMin
+#** category : RaftsLimits
+#********
+GREB.Bias0/odMin = 22.0
+
+#********  GREB.Bias0/ogMax
+#** category : RaftsLimits
+#********
+GREB.Bias0/ogMax = 2.0
+
+#********  GREB.Bias0/ogMin
+#** category : RaftsLimits
+#********
+GREB.Bias0/ogMin = -2.0
+
+#********  GREB.Bias0/rdMax
+#** category : RaftsLimits
+#********
+GREB.Bias0/rdMax = 40.0
+
+#********  GREB.Bias0/rdMin
+#** category : RaftsLimits
+#********
+GREB.Bias0/rdMin = 12.0
+
+#********  GREB.Bias1/gdMax
+#** category : RaftsLimits
+#********
+GREB.Bias1/gdMax = 22.0
+
+#********  GREB.Bias1/gdMin
+#** category : RaftsLimits
+#********
+GREB.Bias1/gdMin = 18.0
+
+#********  GREB.Bias1/odMax
+#** category : RaftsLimits
+#********
+GREB.Bias1/odMax = 40.0
+
+#********  GREB.Bias1/odMin
+#** category : RaftsLimits
+#********
+GREB.Bias1/odMin = 0.0
+
+#********  GREB.Bias1/ogMax
+#** category : RaftsLimits
+#********
+GREB.Bias1/ogMax = 2.0
+
+#********  GREB.Bias1/ogMin
+#** category : RaftsLimits
+#********
+GREB.Bias1/ogMin = -5.0
+
+#********  GREB.Bias1/rdMax
+#** category : RaftsLimits
+#********
+GREB.Bias1/rdMax = 14.0
+
+#********  GREB.Bias1/rdMin
+#** category : RaftsLimits
+#********
+GREB.Bias1/rdMin = 12.0
+
+#********  GREB.DAC/pclkHighMax
+#** category : RaftsLimits
+#********
+GREB.DAC/pclkHighMax = 20.0
+
+#********  GREB.DAC/pclkHighMin
+#** category : RaftsLimits
+#********
+GREB.DAC/pclkHighMin = 1.0
+
+#********  GREB.DAC/pclkLowMax
+#** category : RaftsLimits
+#********
+GREB.DAC/pclkLowMax = 20.0
+
+#********  GREB.DAC/pclkLowMin
+#** category : RaftsLimits
+#********
+GREB.DAC/pclkLowMin = -20.0
+
+#********  GREB.DAC/rgHighMax
+#** category : RaftsLimits
+#********
+GREB.DAC/rgHighMax = 20.0
+
+#********  GREB.DAC/rgHighMin
+#** category : RaftsLimits
+#********
+GREB.DAC/rgHighMin = -20.0
+
+#********  GREB.DAC/rgLowMax
+#** category : RaftsLimits
+#********
+GREB.DAC/rgLowMax = -0.5
+
+#********  GREB.DAC/rgLowMin
+#** category : RaftsLimits
+#********
+GREB.DAC/rgLowMin = -3.0
+
+#********  GREB.DAC/sclkHighMax
+#** category : RaftsLimits
+#********
+GREB.DAC/sclkHighMax = 20.0
+
+#********  GREB.DAC/sclkHighMin
+#** category : RaftsLimits
+#********
+GREB.DAC/sclkHighMin = -20.0
+
+#********  GREB.DAC/sclkLowMax
+#** category : RaftsLimits
+#********
+GREB.DAC/sclkLowMax = 20.0
+
+#********  GREB.DAC/sclkLowMin
+#** category : RaftsLimits
+#********
+GREB.DAC/sclkLowMin = -7.0
+
+#********  WREB.Bias0/gdMax
+#** category : RaftsLimits
+#********
+WREB.Bias0/gdMax = 40.0
+
+#********  WREB.Bias0/gdMin
+#** category : RaftsLimits
+#********
+WREB.Bias0/gdMin = 0.0
+
+#********  WREB.Bias0/odMax
+#** category : RaftsLimits
+#********
+WREB.Bias0/odMax = 28.0
+
+#********  WREB.Bias0/odMin
+#** category : RaftsLimits
+#********
+WREB.Bias0/odMin = 0.0
+
+#********  WREB.Bias0/ogMax
+#** category : RaftsLimits
+#********
+WREB.Bias0/ogMax = 5.0
+
+#********  WREB.Bias0/ogMin
+#** category : RaftsLimits
+#********
+WREB.Bias0/ogMin = -5.0
+
+#********  WREB.Bias0/rdMax
+#** category : RaftsLimits
+#********
+WREB.Bias0/rdMax = 40.0
+
+#********  WREB.Bias0/rdMin
+#** category : RaftsLimits
+#********
+WREB.Bias0/rdMin = 0.0
+
+#********  WREB.DAC/pclkHighMax
+#** category : RaftsLimits
+#********
+WREB.DAC/pclkHighMax = 4.0
+
+#********  WREB.DAC/pclkHighMin
+#** category : RaftsLimits
+#********
+WREB.DAC/pclkHighMin = 1.0
+
+#********  WREB.DAC/pclkLowMax
+#** category : RaftsLimits
+#********
+WREB.DAC/pclkLowMax = 20.0
+
+#********  WREB.DAC/pclkLowMin
+#** category : RaftsLimits
+#********
+WREB.DAC/pclkLowMin = -20.0
+
+#********  WREB.DAC/rgHighMax
+#** category : RaftsLimits
+#********
+WREB.DAC/rgHighMax = 20.0
+
+#********  WREB.DAC/rgHighMin
+#** category : RaftsLimits
+#********
+WREB.DAC/rgHighMin = 6.0
+
+#********  WREB.DAC/rgLowMax
+#** category : RaftsLimits
+#********
+WREB.DAC/rgLowMax = -0.5
+
+#********  WREB.DAC/rgLowMin
+#** category : RaftsLimits
+#********
+WREB.DAC/rgLowMin = -3.0
+
+#********  WREB.DAC/sclkHighMax
+#** category : RaftsLimits
+#********
+WREB.DAC/sclkHighMax = 20.0
+
+#********  WREB.DAC/sclkHighMin
+#** category : RaftsLimits
+#********
+WREB.DAC/sclkHighMin = 3.0
+
+#********  WREB.DAC/sclkLowMax
+#** category : RaftsLimits
+#********
+WREB.DAC/sclkLowMax = 20.0
+
+#********  WREB.DAC/sclkLowMin
+#** category : RaftsLimits
+#********
+WREB.DAC/sclkLowMin = -20.0
+
