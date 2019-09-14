@@ -92,10 +92,13 @@ def PrepareInfo():
 		if Baylevel['child_hardwareTypeName'] not in ( 'LCA-11021_RTM', 'LCA-10692_CRTM' ):
 			continue
 		Bayinfo  =connection.getHardwareInstances(htype=Baylevel['child_hardwareTypeName'], experimentSN=Baylevel['child_experimentSN'])[0]
-		if Baylevel['child_hardwareTypeName'] is 'LCA-11021_RTM':
+		if Baylevel['child_hardwareTypeName'] == 'LCA-11021_RTM':
 			flavor = (Bayinfo["model"].split("-")[2])
 		else:
 			flavor = "ITL"
+		print ("#############")
+		print (Bayinfo, Baylevel, flavor)
+		print ("#############")
 			
 		sub = connection.getHardwareHierarchy(experimentSN=Baylevel["child_experimentSN"], htype=Baylevel["child_hardwareTypeName"])
 
@@ -150,11 +153,7 @@ def PrepareInfo():
 			print (areb)
 			if ( areb['child_hardwareTypeName'] == "ITL-CCD" and areb["parent_hardwareTypeName"] == "LCA-10628" ) or \
 			   ( areb['child_hardwareTypeName'] == "ITL-Wavefront-CCD" and areb["parent_hardwareTypeName"] == "LCA-10626" ):
-				print("##############")
 				ccdhier =  connection.getContainingHardware(htype=areb['child_hardwareTypeName'], experimentSN=areb['child_experimentSN'])
-				for i in ccdhier:
-					print (i)
-				print("#########")
 				if areb["parent_hardwareTypeName"] == "LCA-10628":
 					# G
 					slot = (ccdhier[1]["slotName"])
@@ -207,7 +206,8 @@ def HardwareProperties( rebs, ccds ):
 
 if __name__ == "__main__":
 	### Parameters for e2v
-	pl = -6.0
+#	pl = -6.0
+	pl = 0.0
 	dp  = 9.0 
 	
 	### Write out HardwareId.properties
@@ -217,7 +217,7 @@ if __name__ == "__main__":
 	### Write out Rafts.properties
 	# build a primitive template from skelton, this script will repeat this set for every raft
 
-	with open("FocalPlaneSubsystem__Rafts.skelton") as f:
+	with open("skeltons/FocalPlaneSubsystem__Rafts.skelton") as f:
 		lines = f.readlines()
 
 	primitivetemplate = "\n".join([ line.rstrip() for line in filter( lambda x: re.search( r"R22.Reb0", x ) is not None, lines )])
@@ -225,25 +225,38 @@ if __name__ == "__main__":
 	primitivetemplate = BiasShiftFix(primitivetemplate)
 
 	### CornerRafts: This came from /opt/lsst/ccs/20190726/ccs-test-configurations-master/IR2/lsst-ir2daq01/CRTM-0002
-	with open("cr-raft__Rafts.skelton") as f:
+	with open("skeltons/cr-raft__Rafts.skelton") as f:
 		lines = f.readlines()
 
-	grebprimitivetemplate = "\n".join( [ "R22/"+re.sub(r"GREB\.", "GREB/", aline.rstrip()) for aline in filter( lambda x: re.search( r"GREB", x ) is not None, lines ) ] )
+	grebprimitivetemplate = "\n".join( [ "R22/"+re.sub(r"GREB\.", "RebG/", aline.rstrip()) for aline in filter( lambda x: re.search( r"GREB", x ) is not None, lines ) ] )
 	grebprimitivetemplate = BiasShiftFix(grebprimitivetemplate)
-	wrebprimitivetemplate = "\n".join( [ "R22/"+re.sub(r"WREB\.", "WREB/", aline.rstrip()) for aline in filter( lambda x: re.search( r"WREB", x ) is not None, lines ) ] )
+	wrebprimitivetemplate = "\n".join( [ "R22/"+re.sub(r"WREB\.", "RebW/", aline.rstrip()) for aline in filter( lambda x: re.search( r"WREB", x ) is not None, lines ) ] )
 	wrebprimitivetemplate = BiasShiftFix(wrebprimitivetemplate)
-	grebprimitivetemplate = BiasShiftFix(grebprimitivetemplate)
+
+	with open("skeltons/FocalPlaneSubsystem__RaftsLimits.skelton") as f:
+		lines = f.readlines()
+
+	limitprimitivetemplate = "\n".join([ line.rstrip() for line in filter( lambda x: re.search( r"R22.Reb0", x ) is not None, lines )])
+
+	with open("skeltons/cr-raft__RaftsLimits.skelton") as f:
+		lines = f.readlines()
+	greblimitprimitivetemplate = "\n".join( [ "R22/"+re.sub(r"GREB\.", "RebG/", aline.rstrip()) for aline in filter( lambda x: re.search( r"^GREB", x ) is not None, lines ) ] )
+	wreblimitprimitivetemplate = "\n".join( [ "R22/"+re.sub(r"WREB\.", "RebW/", aline.rstrip()) for aline in filter( lambda x: re.search( r"^WREB", x ) is not None, lines ) ] )
 
 	### manuplate a template
-	with open("FocalPlaneSubsystem__Rafts.properties","w") as f:
+	with open("FocalPlaneSubsystem__Rafts.properties","w") as f, \
+		open("FocalPlaneSubsystem__RaftsLimits.properties","w") as limit:
 		for areb in rebs:
 			f.write("### {} \n".format(areb))
 			if areb["Slot"] == "GREB":
 				draft = buildtemplate( areb["path"], areb["Slot"], grebprimitivetemplate )
+				limitdraft = buildtemplate( areb["path"], areb["Slot"], greblimitprimitivetemplate)
 			elif areb["Slot"] == "WREB":
 				draft = buildtemplate( areb["path"], areb["Slot"], wrebprimitivetemplate )
+				limitdraft = buildtemplate( areb["path"], areb["Slot"], wreblimitprimitivetemplate)
 			else:
 				draft = buildtemplate( areb["path"], areb["Slot"], primitivetemplate )
+				limitdraft = buildtemplate(areb["path"], areb["Slot"], limitprimitivetemplate)
 
 			draft = re.sub(
 					r"(?P<path>.*serialNum = )(.*)",
@@ -261,4 +274,5 @@ if __name__ == "__main__":
 					)
 			
 			f.write("{}\n".format(draft))
+			limit.write("{}\n".format(limitdraft))
 			
