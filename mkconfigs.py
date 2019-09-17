@@ -243,7 +243,7 @@ if __name__ == "__main__":
 	greblimitprimitivetemplate = "\n".join( [ "R22/"+re.sub(r"GREB\.", "RebG/", aline.rstrip()) for aline in filter( lambda x: re.search( r"^GREB", x ) is not None, lines ) ] )
 	wreblimitprimitivetemplate = "\n".join( [ "R22/"+re.sub(r"WREB\.", "RebW/", aline.rstrip()) for aline in filter( lambda x: re.search( r"^WREB", x ) is not None, lines ) ] )
 
-	### manuplate a template
+	### manipulate a template
 	with open("FocalPlaneSubsystem__Rafts.properties","w") as f, \
 		open("FocalPlaneSubsystem__RaftsLimits.properties","w") as limit:
 		for areb in rebs:
