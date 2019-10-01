@@ -69,10 +69,11 @@ def getvoltages( pl, swing ):
 		}
 def buildtemplate( baynum, rebnum, primitivetemplate):
 	for pattern, repl in [
-			( r"R22", baynum ),
+			( r"R00",baynum ),
 			( r"Reb0", rebnum ),
 			]:
 		primitivetemplate=re.sub(pattern,repl,primitivetemplate)
+		primitivetemplate=re.sub(r"(R.*)\.(Reb.)\.(.*)","\g<1>/\g<2>/\g<3>",primitivetemplate)
 	return primitivetemplate
 
 def PrepareInfo():
@@ -205,10 +206,12 @@ def HardwareProperties( rebs, ccds ):
 
 
 if __name__ == "__main__":
+# RaftLimits -- not support e2v case
+# a path to serial number needs to be formatted
 	### Parameters for e2v
 #	pl = -6.0
-	pl = 0.0
-	dp  = 9.0 
+	pl = -5.8
+	dp  = 9.6 
 	
 	### Write out HardwareId.properties
 	rebs, ccds = PrepareInfo()
@@ -219,44 +222,63 @@ if __name__ == "__main__":
 
 	with open("skeltons/FocalPlaneSubsystem__Rafts.skelton") as f:
 		lines = f.readlines()
-
 	primitivetemplate = "\n".join([ line.rstrip() for line in filter( lambda x: re.search( r"R22.Reb0", x ) is not None, lines )])
-
 	primitivetemplate = BiasShiftFix(primitivetemplate)
+
+
+	### RaftsLimits
+	with open("skeltons/RTM-005_BPtestSM3_TS8Subsystem__RaftsLimits.skelton") as f:
+		lines = f.readlines()
+	limitprimitivetemplate_e2v = "\n".join([ line.rstrip() for line in filter( lambda x: re.search( r"R00.Reb0", x ) is not None, lines )])
+	with open("skeltons/RTM-023_TS8Subsystem__RaftsLimits.skelton") as f:
+		lines = f.readlines()
+	limitprimitivetemplate_itl = "\n".join([ line.rstrip() for line in filter( lambda x: re.search( r"R00.Reb0", x ) is not None, lines )])
+
+
 
 	### CornerRafts: This came from /opt/lsst/ccs/20190726/ccs-test-configurations-master/IR2/lsst-ir2daq01/CRTM-0002
 	with open("skeltons/cr-raft__Rafts.skelton") as f:
 		lines = f.readlines()
-
-	grebprimitivetemplate = "\n".join( [ "R22/"+re.sub(r"GREB\.", "RebG/", aline.rstrip()) for aline in filter( lambda x: re.search( r"GREB", x ) is not None, lines ) ] )
+	grebprimitivetemplate = "\n".join( [ "R22/"+re.sub(r"GREB[\./]", "RebG/", aline.rstrip()) for aline in filter( lambda x: re.search( r"GREB", x ) is not None, lines ) ] )
 	grebprimitivetemplate = BiasShiftFix(grebprimitivetemplate)
-	wrebprimitivetemplate = "\n".join( [ "R22/"+re.sub(r"WREB\.", "RebW/", aline.rstrip()) for aline in filter( lambda x: re.search( r"WREB", x ) is not None, lines ) ] )
+	wrebprimitivetemplate = "\n".join( [ "R22/"+re.sub(r"WREB[\./]", "RebW/", aline.rstrip()) for aline in filter( lambda x: re.search( r"WREB", x ) is not None, lines ) ] )
 	wrebprimitivetemplate = BiasShiftFix(wrebprimitivetemplate)
-
-	with open("skeltons/FocalPlaneSubsystem__RaftsLimits.skelton") as f:
-		lines = f.readlines()
-
-	limitprimitivetemplate = "\n".join([ line.rstrip() for line in filter( lambda x: re.search( r"R22.Reb0", x ) is not None, lines )])
 
 	with open("skeltons/cr-raft__RaftsLimits.skelton") as f:
 		lines = f.readlines()
-	greblimitprimitivetemplate = "\n".join( [ "R22/"+re.sub(r"GREB\.", "RebG/", aline.rstrip()) for aline in filter( lambda x: re.search( r"^GREB", x ) is not None, lines ) ] )
-	wreblimitprimitivetemplate = "\n".join( [ "R22/"+re.sub(r"WREB\.", "RebW/", aline.rstrip()) for aline in filter( lambda x: re.search( r"^WREB", x ) is not None, lines ) ] )
+	greblimitprimitivetemplate = "\n".join( [ "R00/"+re.sub(r"GREB[\./]", "RebG/", aline.rstrip()) for aline in filter( lambda x: re.search( r"^GREB", x ) is not None, lines ) ] )
+	wreblimitprimitivetemplate = "\n".join( [ "R00/"+re.sub(r"WREB[\./]", "RebW/", aline.rstrip()) for aline in filter( lambda x: re.search( r"^WREB", x ) is not None, lines ) ] )
+
+	### RaftsLimits
+	with open("skeltons/RTM-005_BPtestSM3_TS8Subsystem__RaftsPower.skelton") as f:
+		lines = f.readlines()
+	powerprimitivetemplate_e2v = "\n".join([ line.rstrip() for line in filter( lambda x: re.search( r"R00.Reb0", x ) is not None, lines )])
+	with open("skeltons/RTM-023_TS8Subsystem__RaftsPower.skelton") as f:
+		lines = f.readlines()
+	powerprimitivetemplate_itl = "\n".join([ line.rstrip() for line in filter( lambda x: re.search( r"R00.Reb0", x ) is not None, lines )])
 
 	### manipulate a template
 	with open("FocalPlaneSubsystem__Rafts.properties","w") as f, \
-		open("FocalPlaneSubsystem__RaftsLimits.properties","w") as limit:
+		open("FocalPlaneSubsystem__RaftsLimits.properties","w") as limit, \
+		open("FocalPlaneSubsystem__RaftsPower.properties","w") as power:
 		for areb in rebs:
 			f.write("### {} \n".format(areb))
 			if areb["Slot"] == "GREB":
 				draft = buildtemplate( areb["path"], areb["Slot"], grebprimitivetemplate )
 				limitdraft = buildtemplate( areb["path"], areb["Slot"], greblimitprimitivetemplate)
+				powerdraft = buildtemplate(areb["path"], areb["Slot"], powerprimitivetemplate_itl)
 			elif areb["Slot"] == "WREB":
 				draft = buildtemplate( areb["path"], areb["Slot"], wrebprimitivetemplate )
 				limitdraft = buildtemplate( areb["path"], areb["Slot"], wreblimitprimitivetemplate)
+				powerdraft = buildtemplate(areb["path"], areb["Slot"], powerprimitivetemplate_itl)
 			else:
 				draft = buildtemplate( areb["path"], areb["Slot"], primitivetemplate )
-				limitdraft = buildtemplate(areb["path"], areb["Slot"], limitprimitivetemplate)
+				if areb["Flavor"] == "E2V":
+					limitdraft = buildtemplate(areb["path"], areb["Slot"], limitprimitivetemplate_e2v)
+					powerdraft = buildtemplate(areb["path"], areb["Slot"], powerprimitivetemplate_e2v)
+				else:
+					limitdraft = buildtemplate(areb["path"], areb["Slot"], limitprimitivetemplate_itl)
+					powerdraft = buildtemplate(areb["path"], areb["Slot"], powerprimitivetemplate_itl)
 
 			draft = re.sub(
 					r"(?P<path>.*serialNum = )(.*)",
@@ -275,4 +297,5 @@ if __name__ == "__main__":
 			
 			f.write("{}\n".format(draft))
 			limit.write("{}\n".format(limitdraft))
+			power.write("{}\n".format(limitdraft))
 			
