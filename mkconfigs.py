@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 from eTraveler.clientAPI.connection import Connection
 import re
+mastername = "focal-plane_9-raft_"
 
 def getvoltages( pl, swing ):
 	# Offset averages for RTM-006
@@ -67,22 +68,6 @@ def getvoltages( pl, swing ):
 				"ogP": og1,
 			}
 		}
-def buildtemplate( baynum, rebnum, primitivetemplate):
-	for pattern, repl in [
-			( r"R00",baynum ),
-			( r"R22",baynum ),
-			( r"Reb0", rebnum ),
-			]:
-		primitivetemplate=re.sub(pattern,repl,primitivetemplate)
-		primitivetemplate=re.sub(r"(R.*)\.(Reb.)\.(.*)","\g<1>/\g<2>/\g<3>",primitivetemplate)
-		primitivetemplate=re.sub(r"(R.*)\.(Reb.)\/(.*)","\g<1>/\g<2>/\g<3>",primitivetemplate)
-	return primitivetemplate
-
-def fixccdtemppath( template ):
-	template = re.sub(r"(R.*)\.(Reb.)\.CCDTemp(.)","\g<1>/\g<2>/S0\g<3>/Temp",template) ### for Science Rafts
-	template = re.sub(r"(R.*)[\./]Reb(.)[\./]CCDtemp(.)","\g<1>/Reb\g<2>/S\g<2>\g<3>/Temp",template) # for corner rafts
-	template = re.sub(r"SW0","SW",template) # for coner rafts. this is a necesarry fix for inconsistency between RebG and RebW
-	return template
 
 def PrepareInfo():
 	### Prepare necesarry information from eTraveler
@@ -187,6 +172,46 @@ def PrepareInfo():
 
 	return rebs,ccds
 
+def buildtemplate( baynum, rebnum, primitivetemplate):
+	for pattern, repl in [
+			( r"R00",baynum ),
+			( r"R22",baynum ),
+			( r"Reb0", rebnum ),
+			]:
+		primitivetemplate=re.sub(pattern,repl,primitivetemplate)
+		primitivetemplate=re.sub(r"(R.*)\.(Reb.)\.(.*)","\g<1>/\g<2>/\g<3>",primitivetemplate) # dot
+		primitivetemplate=re.sub(r"(R.*)\.(Reb.)\/(.*)","\g<1>/\g<2>/\g<3>",primitivetemplate) # slash
+		primitivetemplate=re.sub(r"Reb1/S0","Reb1/S1",primitivetemplate) # slash
+		primitivetemplate=re.sub(r"Reb2/S0","Reb2/S2",primitivetemplate) # slash
+	return primitivetemplate
+
+def fixccdtemppath( template ):
+	### TEMP stuff
+	template = re.sub(r"(R.*)\.Reb(.)\.CCDTemp(.)","\g<1>/Reb\g<2>/S\g<2>\g<3>/Temp",template) ### for Science Rafts
+	template = re.sub(r"(R.*)[\./]Reb(.)[\./]CCDtemp(.)","\g<1>/Reb\g<2>/S\g<2>\g<3>/Temp",template) # for corner rafts
+
+	### Current
+	template = re.sub(r"(R.*)\.Reb(.)\.CCDI(.)(.)(.)","\g<1>/Reb\g<2>/S\g<2>\g<3>/Seg\g<4>\g<5>/I",template) ### for Science Rafts
+	template = re.sub(r".*OD.I.*\n","",template) ### get rid of entries for OD[01]I
+
+	### Current
+	template = re.sub(r"(R.*)\.Reb(.)\.(..)(\d)V","\g<1>/Reb\g<2>/S\g<2>\g<4>/\g<3>V",template) ### for Biases
+
+	### ASPIC
+	# R00.Reb0.Atemp1L/dbandHi
+	# R10/Reb1/AspicL/Temp1/limitHi
+	template = re.sub(r"(R.*)\.Reb(.)\.Atemp(\d)(\w)","\g<1>/Reb\g<2>/Aspic\g<4>/Temp\g<3>",template) ### for Science Rafts
+	template = re.sub(r"(R.*)[\./]Reb(.)[\./]Atemp(\d)(\w)","\g<1>/Reb\g<2>/Aspic\g<4>/Temp\g<3>",template) # for corner rafts
+
+	# Bias
+	template = re.sub(r"Reb([GW])/(..)(\d)V","Reb\g<1>/S\g<1>\g<3>/\g<2>V",template) # for coner rafts.
+	template = re.sub(r"Reb([GW])/(..)V","Reb\g<1>/S\g<1>/\g<2>V",template) # for coner rafts.
+
+	template = re.sub(r"SW0","SW",template) # for coner rafts. this is a necesarry fix for inconsistency between RebG and RebW
+
+	template = re.sub(r"RTDtemp","RTDTemp",template) # for coner rafts. this is a necesarry fix for inconsistency between RebG and RebW
+	return template
+
 def BiasShiftFix( primitivetemplate ):
 	### Bias shift mitigation tweak
 	for  pattern, repl in [
@@ -201,7 +226,7 @@ def BiasShiftFix( primitivetemplate ):
 	return primitivetemplate
 
 def HardwareProperties( rebs, ccds ):
-	with open("FocalPlaneSubsystem__HardwareId.properties","w") as f:
+	with open("{}HardwareId.properties".format(mastername),"w") as f:
 		for line in sorted(
 			list(
 				set(
@@ -212,6 +237,35 @@ def HardwareProperties( rebs, ccds ):
 		):
 			f.write(line)
 
+def fixCornerRaftsSN(draft):
+	with open("skeletons/crsn.list") as f:
+		lines = f.readlines()
+
+	for aline in lines:
+		m = re.match(r"(.*)[\s\t]*=[\s\t]*(.*)",aline)
+		path = m.group(1)
+		value = m.group(2)
+		print(path,value)
+		draft = re.sub(
+				r"(?P<path>{}.*= )(?P<original>.*)".format(path),
+				"\g<path>{}".format(value),
+				draft)
+	return draft
+
+def fixlimitskeleton(draft):
+	with open("skeletons/science-raft.list") as f:
+		lines = f.readlines()
+
+	for aline in lines:
+		m = re.match(r"(.*)[\s\t]*=[\s\t]*(.*)",aline)
+		path = m.group(1)
+		value = m.group(2)
+		print(path,value)
+		draft = re.sub(
+				r"(?P<path>{}.*= )(?P<original>.*)".format(path),
+				"\g<path>{}".format(value),
+				draft)
+	return draft
 
 if __name__ == "__main__":
 # RaftLimits -- not support e2v case
@@ -228,10 +282,15 @@ if __name__ == "__main__":
 	### Write out Rafts.properties
 	# build a primitive template from skeleton, this script will repeat this set for every raft
 
-	with open("skeletons/FocalPlaneSubsystem__Rafts.skeleton") as f:
+	with open("skeletons/RTM-005_BPtestSM3_TS8Subsystem__Rafts.skeleton") as f:
 		lines = f.readlines()
-	primitivetemplate = "\n".join([ line.rstrip() for line in filter( lambda x: re.search( r"^R22.Reb0", x ) is not None, lines )])
-	primitivetemplate = BiasShiftFix(primitivetemplate)
+	primitivetemplate_e2v = "\n".join([ line.rstrip() for line in filter( lambda x: re.search( r"^R00.Reb0", x ) is not None, lines )])
+	primitivetemplate_e2v = BiasShiftFix(primitivetemplate_e2v)
+
+	with open("skeletons/RTM-018_TS8Subsystem__Rafts.skeleton") as f:
+		lines = f.readlines()
+	primitivetemplate_itl = "\n".join([ line.rstrip() for line in filter( lambda x: re.search( r"^R00.Reb0", x ) is not None, lines )])
+	primitivetemplate_itl = BiasShiftFix(primitivetemplate_itl)
 
 
 	### RaftsLimits
@@ -243,14 +302,14 @@ if __name__ == "__main__":
 	raftslimitprimitivetemplate_itl = "\n".join([ line.rstrip() for line in filter( lambda x: re.search( r"^R00.Reb0", x ) is not None, lines )])
 
 	### Limits
-	with open("skeletons/RTM-018_TS8Subsystem__Limits.skeleton") as f:
+	with open("skeletons/TS8Subsystem__Limits.skeleton") as f:
 		lines = f.readlines()
 	limitprimitivetemplate_itl = "\n".join([ line.rstrip() for line in filter( lambda x: re.search( r"^R00.Reb0", x ) is not None, lines )])
-	limitprimitivetemplate_itl = fixccdtemppath( limitprimitivetemplate_itl)
+	limitprimitivetemplate_itl = fixccdtemppath( fixlimitskeleton(limitprimitivetemplate_itl))
 	with open("skeletons/RTM-005_BPtestSM3_TS8Subsystem__Limits.skeleton") as f:
 		lines = f.readlines()
 	limitprimitivetemplate_e2v = "\n".join([ line.rstrip() for line in filter( lambda x: re.search( r"^R00.Reb0", x ) is not None, lines )])
-	limitprimitivetemplate_e2v = fixccdtemppath( limitprimitivetemplate_e2v)
+	limitprimitivetemplate_e2v = fixccdtemppath( fixlimitskeleton(limitprimitivetemplate_e2v))
 
 	### RaftsPower
 	with open("skeletons/RTM-005_BPtestSM3_TS8Subsystem__RaftsPower.skeleton") as f:
@@ -281,12 +340,11 @@ if __name__ == "__main__":
 	with open("skeletons/cr-raft__Limits.skeleton") as f:
 		lines = f.readlines()
 	greblimitprimitivetemplate = "\n".join( [ "R00/"+re.sub(r"GREB[\./]", "RebG/", aline.rstrip()) for aline in filter( lambda x: re.search( r"^GREB", x ) is not None, lines ) ] )
-	greblimitprimitivetemplate = fixccdtemppath( greblimitprimitivetemplate )
+	greblimitprimitivetemplate = fixccdtemppath( fixlimitskeleton(greblimitprimitivetemplate ) )
 	wreblimitprimitivetemplate = "\n".join( [ "R00/"+re.sub(r"WREB[\./]", "RebW/", aline.rstrip()) for aline in filter( lambda x: re.search( r"^WREB", x ) is not None, lines ) ] )
-	wreblimitprimitivetemplate = fixccdtemppath( wreblimitprimitivetemplate )
+	wreblimitprimitivetemplate = fixccdtemppath( fixlimitskeleton(wreblimitprimitivetemplate ) )
 
 	### manipulate a template
-	mastername = "focal-plane__"
 	with open("{}Rafts.properties".format(mastername),"w") as f, \
 		open("{}RaftsLimits.properties".format(mastername),"w") as raftslimit, \
 		open("{}Limits.properties".format(mastername),"w") as limit, \
@@ -304,12 +362,13 @@ if __name__ == "__main__":
 				powerdraft = buildtemplate(areb["path"], "RebW", wrebpowerprimitivetemplate)
 				limitdraft = buildtemplate(areb["path"], areb["Slot"], wreblimitprimitivetemplate)
 			else:
-				draft = buildtemplate( areb["path"], areb["Slot"], primitivetemplate )
 				if areb["Flavor"] == "E2V":
+					draft = buildtemplate( areb["path"], areb["Slot"], primitivetemplate_e2v )
 					raftslimitdraft = buildtemplate(areb["path"], areb["Slot"], raftslimitprimitivetemplate_e2v)
 					powerdraft = buildtemplate(areb["path"], areb["Slot"], powerprimitivetemplate_e2v)
 					limitdraft = buildtemplate(areb["path"], areb["Slot"], limitprimitivetemplate_e2v)
 				else:
+					draft = buildtemplate( areb["path"], areb["Slot"], primitivetemplate_itl )
 					raftslimitdraft = buildtemplate(areb["path"], areb["Slot"], raftslimitprimitivetemplate_itl)
 					powerdraft = buildtemplate(areb["path"], areb["Slot"], powerprimitivetemplate_itl)
 					limitdraft = buildtemplate(areb["path"], areb["Slot"], limitprimitivetemplate_itl)
@@ -329,7 +388,7 @@ if __name__ == "__main__":
 						draft 
 					)
 			
-			f.write("{}\n".format(draft))
+			f.write("{}\n".format(fixCornerRaftsSN(draft)))
 			raftslimit.write("{}\n".format(raftslimitdraft))
 			power.write("{}\n".format(powerdraft))
 			limit.write("{}\n".format(limitdraft))
