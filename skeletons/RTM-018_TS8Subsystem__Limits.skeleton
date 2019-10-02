@@ -1,0 +1,8820 @@
+#********  R00.Reb0.AnaI/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.AnaI/dbandHi = 0.0
+
+#********  R00.Reb0.AnaI/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.AnaI/dbandLo = 0.0
+
+#********  R00.Reb0.AnaI/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.AnaI/limitHi = 700.0
+
+#********  R00.Reb0.AnaI/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.AnaI/limitLo = 0.0
+
+#********  R00.Reb0.AnaV/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.AnaV/dbandHi = 0.0
+
+#********  R00.Reb0.AnaV/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.AnaV/dbandLo = 0.0
+
+#********  R00.Reb0.AnaV/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.AnaV/limitHi = 8.0
+
+#********  R00.Reb0.AnaV/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.AnaV/limitLo = 0.0
+
+#********  R00.Reb0.Atemp0L/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.Atemp0L/dbandHi = 5.0
+
+#********  R00.Reb0.Atemp0L/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.Atemp0L/dbandLo = 5.0
+
+#********  R00.Reb0.Atemp0L/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.Atemp0L/limitHi = 45.0
+
+#********  R00.Reb0.Atemp0L/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.Atemp0L/limitLo = -50.0
+
+#********  R00.Reb0.Atemp0U/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.Atemp0U/dbandHi = 5.0
+
+#********  R00.Reb0.Atemp0U/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.Atemp0U/dbandLo = 5.0
+
+#********  R00.Reb0.Atemp0U/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.Atemp0U/limitHi = 45.0
+
+#********  R00.Reb0.Atemp0U/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.Atemp0U/limitLo = -50.0
+
+#********  R00.Reb0.Atemp1L/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.Atemp1L/dbandHi = 5.0
+
+#********  R00.Reb0.Atemp1L/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.Atemp1L/dbandLo = 5.0
+
+#********  R00.Reb0.Atemp1L/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.Atemp1L/limitHi = 45.0
+
+#********  R00.Reb0.Atemp1L/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.Atemp1L/limitLo = -50.0
+
+#********  R00.Reb0.Atemp1U/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.Atemp1U/dbandHi = 5.0
+
+#********  R00.Reb0.Atemp1U/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.Atemp1U/dbandLo = 5.0
+
+#********  R00.Reb0.Atemp1U/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.Atemp1U/limitHi = 45.0
+
+#********  R00.Reb0.Atemp1U/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.Atemp1U/limitLo = -50.0
+
+#********  R00.Reb0.Atemp2L/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.Atemp2L/dbandHi = 5.0
+
+#********  R00.Reb0.Atemp2L/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.Atemp2L/dbandLo = 5.0
+
+#********  R00.Reb0.Atemp2L/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.Atemp2L/limitHi = 45.0
+
+#********  R00.Reb0.Atemp2L/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.Atemp2L/limitLo = -50.0
+
+#********  R00.Reb0.Atemp2U/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.Atemp2U/dbandHi = 5.0
+
+#********  R00.Reb0.Atemp2U/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.Atemp2U/dbandLo = 5.0
+
+#********  R00.Reb0.Atemp2U/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.Atemp2U/limitHi = 45.0
+
+#********  R00.Reb0.Atemp2U/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.Atemp2U/limitLo = -50.0
+
+#********  R00.Reb0.CCDI000/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.CCDI000/dbandHi = 0.0
+
+#********  R00.Reb0.CCDI000/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.CCDI000/dbandLo = 0.0
+
+#********  R00.Reb0.CCDI000/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.CCDI000/limitHi = 3.0
+
+#********  R00.Reb0.CCDI000/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.CCDI000/limitLo = 0.0
+
+#********  R00.Reb0.CCDI001/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.CCDI001/dbandHi = 0.0
+
+#********  R00.Reb0.CCDI001/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.CCDI001/dbandLo = 0.0
+
+#********  R00.Reb0.CCDI001/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.CCDI001/limitHi = 3.0
+
+#********  R00.Reb0.CCDI001/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.CCDI001/limitLo = 0.0
+
+#********  R00.Reb0.CCDI002/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.CCDI002/dbandHi = 0.0
+
+#********  R00.Reb0.CCDI002/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.CCDI002/dbandLo = 0.0
+
+#********  R00.Reb0.CCDI002/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.CCDI002/limitHi = 3.0
+
+#********  R00.Reb0.CCDI002/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.CCDI002/limitLo = 0.0
+
+#********  R00.Reb0.CCDI003/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.CCDI003/dbandHi = 0.0
+
+#********  R00.Reb0.CCDI003/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.CCDI003/dbandLo = 0.0
+
+#********  R00.Reb0.CCDI003/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.CCDI003/limitHi = 3.0
+
+#********  R00.Reb0.CCDI003/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.CCDI003/limitLo = 0.0
+
+#********  R00.Reb0.CCDI004/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.CCDI004/dbandHi = 0.0
+
+#********  R00.Reb0.CCDI004/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.CCDI004/dbandLo = 0.0
+
+#********  R00.Reb0.CCDI004/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.CCDI004/limitHi = 3.0
+
+#********  R00.Reb0.CCDI004/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.CCDI004/limitLo = 0.0
+
+#********  R00.Reb0.CCDI005/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.CCDI005/dbandHi = 0.0
+
+#********  R00.Reb0.CCDI005/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.CCDI005/dbandLo = 0.0
+
+#********  R00.Reb0.CCDI005/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.CCDI005/limitHi = 3.0
+
+#********  R00.Reb0.CCDI005/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.CCDI005/limitLo = 0.0
+
+#********  R00.Reb0.CCDI006/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.CCDI006/dbandHi = 0.0
+
+#********  R00.Reb0.CCDI006/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.CCDI006/dbandLo = 0.0
+
+#********  R00.Reb0.CCDI006/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.CCDI006/limitHi = 3.0
+
+#********  R00.Reb0.CCDI006/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.CCDI006/limitLo = 0.0
+
+#********  R00.Reb0.CCDI007/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.CCDI007/dbandHi = 0.0
+
+#********  R00.Reb0.CCDI007/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.CCDI007/dbandLo = 0.0
+
+#********  R00.Reb0.CCDI007/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.CCDI007/limitHi = 3.0
+
+#********  R00.Reb0.CCDI007/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.CCDI007/limitLo = 0.0
+
+#********  R00.Reb0.CCDI010/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.CCDI010/dbandHi = 0.0
+
+#********  R00.Reb0.CCDI010/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.CCDI010/dbandLo = 0.0
+
+#********  R00.Reb0.CCDI010/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.CCDI010/limitHi = 3.0
+
+#********  R00.Reb0.CCDI010/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.CCDI010/limitLo = 0.0
+
+#********  R00.Reb0.CCDI011/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.CCDI011/dbandHi = 0.0
+
+#********  R00.Reb0.CCDI011/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.CCDI011/dbandLo = 0.0
+
+#********  R00.Reb0.CCDI011/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.CCDI011/limitHi = 3.0
+
+#********  R00.Reb0.CCDI011/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.CCDI011/limitLo = 0.0
+
+#********  R00.Reb0.CCDI012/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.CCDI012/dbandHi = 0.0
+
+#********  R00.Reb0.CCDI012/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.CCDI012/dbandLo = 0.0
+
+#********  R00.Reb0.CCDI012/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.CCDI012/limitHi = 3.0
+
+#********  R00.Reb0.CCDI012/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.CCDI012/limitLo = 0.0
+
+#********  R00.Reb0.CCDI013/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.CCDI013/dbandHi = 0.0
+
+#********  R00.Reb0.CCDI013/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.CCDI013/dbandLo = 0.0
+
+#********  R00.Reb0.CCDI013/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.CCDI013/limitHi = 3.0
+
+#********  R00.Reb0.CCDI013/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.CCDI013/limitLo = 0.0
+
+#********  R00.Reb0.CCDI014/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.CCDI014/dbandHi = 0.0
+
+#********  R00.Reb0.CCDI014/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.CCDI014/dbandLo = 0.0
+
+#********  R00.Reb0.CCDI014/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.CCDI014/limitHi = 3.0
+
+#********  R00.Reb0.CCDI014/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.CCDI014/limitLo = 0.0
+
+#********  R00.Reb0.CCDI015/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.CCDI015/dbandHi = 0.0
+
+#********  R00.Reb0.CCDI015/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.CCDI015/dbandLo = 0.0
+
+#********  R00.Reb0.CCDI015/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.CCDI015/limitHi = 3.0
+
+#********  R00.Reb0.CCDI015/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.CCDI015/limitLo = 0.0
+
+#********  R00.Reb0.CCDI016/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.CCDI016/dbandHi = 0.0
+
+#********  R00.Reb0.CCDI016/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.CCDI016/dbandLo = 0.0
+
+#********  R00.Reb0.CCDI016/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.CCDI016/limitHi = 3.0
+
+#********  R00.Reb0.CCDI016/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.CCDI016/limitLo = 0.0
+
+#********  R00.Reb0.CCDI017/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.CCDI017/dbandHi = 0.0
+
+#********  R00.Reb0.CCDI017/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.CCDI017/dbandLo = 0.0
+
+#********  R00.Reb0.CCDI017/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.CCDI017/limitHi = 3.0
+
+#********  R00.Reb0.CCDI017/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.CCDI017/limitLo = 0.0
+
+#********  R00.Reb0.CCDI100/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.CCDI100/dbandHi = 0.0
+
+#********  R00.Reb0.CCDI100/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.CCDI100/dbandLo = 0.0
+
+#********  R00.Reb0.CCDI100/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.CCDI100/limitHi = 3.0
+
+#********  R00.Reb0.CCDI100/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.CCDI100/limitLo = 0.0
+
+#********  R00.Reb0.CCDI101/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.CCDI101/dbandHi = 0.0
+
+#********  R00.Reb0.CCDI101/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.CCDI101/dbandLo = 0.0
+
+#********  R00.Reb0.CCDI101/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.CCDI101/limitHi = 3.0
+
+#********  R00.Reb0.CCDI101/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.CCDI101/limitLo = 0.0
+
+#********  R00.Reb0.CCDI102/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.CCDI102/dbandHi = 0.0
+
+#********  R00.Reb0.CCDI102/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.CCDI102/dbandLo = 0.0
+
+#********  R00.Reb0.CCDI102/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.CCDI102/limitHi = 3.0
+
+#********  R00.Reb0.CCDI102/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.CCDI102/limitLo = 0.0
+
+#********  R00.Reb0.CCDI103/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.CCDI103/dbandHi = 0.0
+
+#********  R00.Reb0.CCDI103/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.CCDI103/dbandLo = 0.0
+
+#********  R00.Reb0.CCDI103/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.CCDI103/limitHi = 3.0
+
+#********  R00.Reb0.CCDI103/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.CCDI103/limitLo = 0.0
+
+#********  R00.Reb0.CCDI104/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.CCDI104/dbandHi = 0.0
+
+#********  R00.Reb0.CCDI104/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.CCDI104/dbandLo = 0.0
+
+#********  R00.Reb0.CCDI104/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.CCDI104/limitHi = 3.0
+
+#********  R00.Reb0.CCDI104/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.CCDI104/limitLo = 0.0
+
+#********  R00.Reb0.CCDI105/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.CCDI105/dbandHi = 0.0
+
+#********  R00.Reb0.CCDI105/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.CCDI105/dbandLo = 0.0
+
+#********  R00.Reb0.CCDI105/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.CCDI105/limitHi = 3.0
+
+#********  R00.Reb0.CCDI105/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.CCDI105/limitLo = 0.0
+
+#********  R00.Reb0.CCDI106/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.CCDI106/dbandHi = 0.0
+
+#********  R00.Reb0.CCDI106/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.CCDI106/dbandLo = 0.0
+
+#********  R00.Reb0.CCDI106/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.CCDI106/limitHi = 3.0
+
+#********  R00.Reb0.CCDI106/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.CCDI106/limitLo = 0.0
+
+#********  R00.Reb0.CCDI107/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.CCDI107/dbandHi = 0.0
+
+#********  R00.Reb0.CCDI107/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.CCDI107/dbandLo = 0.0
+
+#********  R00.Reb0.CCDI107/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.CCDI107/limitHi = 3.0
+
+#********  R00.Reb0.CCDI107/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.CCDI107/limitLo = 0.0
+
+#********  R00.Reb0.CCDI110/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.CCDI110/dbandHi = 0.0
+
+#********  R00.Reb0.CCDI110/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.CCDI110/dbandLo = 0.0
+
+#********  R00.Reb0.CCDI110/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.CCDI110/limitHi = 3.0
+
+#********  R00.Reb0.CCDI110/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.CCDI110/limitLo = 0.0
+
+#********  R00.Reb0.CCDI111/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.CCDI111/dbandHi = 0.0
+
+#********  R00.Reb0.CCDI111/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.CCDI111/dbandLo = 0.0
+
+#********  R00.Reb0.CCDI111/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.CCDI111/limitHi = 3.0
+
+#********  R00.Reb0.CCDI111/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.CCDI111/limitLo = 0.0
+
+#********  R00.Reb0.CCDI112/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.CCDI112/dbandHi = 0.0
+
+#********  R00.Reb0.CCDI112/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.CCDI112/dbandLo = 0.0
+
+#********  R00.Reb0.CCDI112/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.CCDI112/limitHi = 3.0
+
+#********  R00.Reb0.CCDI112/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.CCDI112/limitLo = 0.0
+
+#********  R00.Reb0.CCDI113/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.CCDI113/dbandHi = 0.0
+
+#********  R00.Reb0.CCDI113/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.CCDI113/dbandLo = 0.0
+
+#********  R00.Reb0.CCDI113/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.CCDI113/limitHi = 3.0
+
+#********  R00.Reb0.CCDI113/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.CCDI113/limitLo = 0.0
+
+#********  R00.Reb0.CCDI114/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.CCDI114/dbandHi = 0.0
+
+#********  R00.Reb0.CCDI114/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.CCDI114/dbandLo = 0.0
+
+#********  R00.Reb0.CCDI114/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.CCDI114/limitHi = 3.0
+
+#********  R00.Reb0.CCDI114/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.CCDI114/limitLo = 0.0
+
+#********  R00.Reb0.CCDI115/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.CCDI115/dbandHi = 0.0
+
+#********  R00.Reb0.CCDI115/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.CCDI115/dbandLo = 0.0
+
+#********  R00.Reb0.CCDI115/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.CCDI115/limitHi = 3.0
+
+#********  R00.Reb0.CCDI115/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.CCDI115/limitLo = 0.0
+
+#********  R00.Reb0.CCDI116/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.CCDI116/dbandHi = 0.0
+
+#********  R00.Reb0.CCDI116/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.CCDI116/dbandLo = 0.0
+
+#********  R00.Reb0.CCDI116/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.CCDI116/limitHi = 3.0
+
+#********  R00.Reb0.CCDI116/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.CCDI116/limitLo = 0.0
+
+#********  R00.Reb0.CCDI117/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.CCDI117/dbandHi = 0.0
+
+#********  R00.Reb0.CCDI117/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.CCDI117/dbandLo = 0.0
+
+#********  R00.Reb0.CCDI117/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.CCDI117/limitHi = 3.0
+
+#********  R00.Reb0.CCDI117/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.CCDI117/limitLo = 0.0
+
+#********  R00.Reb0.CCDI200/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.CCDI200/dbandHi = 0.0
+
+#********  R00.Reb0.CCDI200/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.CCDI200/dbandLo = 0.0
+
+#********  R00.Reb0.CCDI200/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.CCDI200/limitHi = 3.0
+
+#********  R00.Reb0.CCDI200/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.CCDI200/limitLo = 0.0
+
+#********  R00.Reb0.CCDI201/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.CCDI201/dbandHi = 0.0
+
+#********  R00.Reb0.CCDI201/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.CCDI201/dbandLo = 0.0
+
+#********  R00.Reb0.CCDI201/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.CCDI201/limitHi = 3.0
+
+#********  R00.Reb0.CCDI201/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.CCDI201/limitLo = 0.0
+
+#********  R00.Reb0.CCDI202/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.CCDI202/dbandHi = 0.0
+
+#********  R00.Reb0.CCDI202/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.CCDI202/dbandLo = 0.0
+
+#********  R00.Reb0.CCDI202/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.CCDI202/limitHi = 3.0
+
+#********  R00.Reb0.CCDI202/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.CCDI202/limitLo = 0.0
+
+#********  R00.Reb0.CCDI203/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.CCDI203/dbandHi = 0.0
+
+#********  R00.Reb0.CCDI203/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.CCDI203/dbandLo = 0.0
+
+#********  R00.Reb0.CCDI203/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.CCDI203/limitHi = 3.0
+
+#********  R00.Reb0.CCDI203/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.CCDI203/limitLo = 0.0
+
+#********  R00.Reb0.CCDI204/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.CCDI204/dbandHi = 0.0
+
+#********  R00.Reb0.CCDI204/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.CCDI204/dbandLo = 0.0
+
+#********  R00.Reb0.CCDI204/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.CCDI204/limitHi = 3.0
+
+#********  R00.Reb0.CCDI204/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.CCDI204/limitLo = 0.0
+
+#********  R00.Reb0.CCDI205/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.CCDI205/dbandHi = 0.0
+
+#********  R00.Reb0.CCDI205/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.CCDI205/dbandLo = 0.0
+
+#********  R00.Reb0.CCDI205/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.CCDI205/limitHi = 3.0
+
+#********  R00.Reb0.CCDI205/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.CCDI205/limitLo = 0.0
+
+#********  R00.Reb0.CCDI206/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.CCDI206/dbandHi = 0.0
+
+#********  R00.Reb0.CCDI206/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.CCDI206/dbandLo = 0.0
+
+#********  R00.Reb0.CCDI206/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.CCDI206/limitHi = 3.0
+
+#********  R00.Reb0.CCDI206/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.CCDI206/limitLo = 0.0
+
+#********  R00.Reb0.CCDI207/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.CCDI207/dbandHi = 0.0
+
+#********  R00.Reb0.CCDI207/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.CCDI207/dbandLo = 0.0
+
+#********  R00.Reb0.CCDI207/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.CCDI207/limitHi = 3.0
+
+#********  R00.Reb0.CCDI207/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.CCDI207/limitLo = 0.0
+
+#********  R00.Reb0.CCDI210/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.CCDI210/dbandHi = 0.0
+
+#********  R00.Reb0.CCDI210/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.CCDI210/dbandLo = 0.0
+
+#********  R00.Reb0.CCDI210/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.CCDI210/limitHi = 3.0
+
+#********  R00.Reb0.CCDI210/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.CCDI210/limitLo = 0.0
+
+#********  R00.Reb0.CCDI211/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.CCDI211/dbandHi = 0.0
+
+#********  R00.Reb0.CCDI211/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.CCDI211/dbandLo = 0.0
+
+#********  R00.Reb0.CCDI211/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.CCDI211/limitHi = 3.0
+
+#********  R00.Reb0.CCDI211/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.CCDI211/limitLo = 0.0
+
+#********  R00.Reb0.CCDI212/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.CCDI212/dbandHi = 0.0
+
+#********  R00.Reb0.CCDI212/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.CCDI212/dbandLo = 0.0
+
+#********  R00.Reb0.CCDI212/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.CCDI212/limitHi = 3.0
+
+#********  R00.Reb0.CCDI212/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.CCDI212/limitLo = 0.0
+
+#********  R00.Reb0.CCDI213/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.CCDI213/dbandHi = 0.0
+
+#********  R00.Reb0.CCDI213/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.CCDI213/dbandLo = 0.0
+
+#********  R00.Reb0.CCDI213/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.CCDI213/limitHi = 3.0
+
+#********  R00.Reb0.CCDI213/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.CCDI213/limitLo = 0.0
+
+#********  R00.Reb0.CCDI214/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.CCDI214/dbandHi = 0.0
+
+#********  R00.Reb0.CCDI214/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.CCDI214/dbandLo = 0.0
+
+#********  R00.Reb0.CCDI214/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.CCDI214/limitHi = 3.0
+
+#********  R00.Reb0.CCDI214/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.CCDI214/limitLo = 0.0
+
+#********  R00.Reb0.CCDI215/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.CCDI215/dbandHi = 0.0
+
+#********  R00.Reb0.CCDI215/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.CCDI215/dbandLo = 0.0
+
+#********  R00.Reb0.CCDI215/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.CCDI215/limitHi = 3.0
+
+#********  R00.Reb0.CCDI215/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.CCDI215/limitLo = 0.0
+
+#********  R00.Reb0.CCDI216/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.CCDI216/dbandHi = 0.0
+
+#********  R00.Reb0.CCDI216/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.CCDI216/dbandLo = 0.0
+
+#********  R00.Reb0.CCDI216/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.CCDI216/limitHi = 3.0
+
+#********  R00.Reb0.CCDI216/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.CCDI216/limitLo = 0.0
+
+#********  R00.Reb0.CCDI217/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.CCDI217/dbandHi = 0.0
+
+#********  R00.Reb0.CCDI217/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.CCDI217/dbandLo = 0.0
+
+#********  R00.Reb0.CCDI217/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.CCDI217/limitHi = 3.0
+
+#********  R00.Reb0.CCDI217/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.CCDI217/limitLo = 0.0
+
+#********  R00.Reb0.CCDTemp0/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.CCDTemp0/dbandHi = 0.0
+
+#********  R00.Reb0.CCDTemp0/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.CCDTemp0/dbandLo = 0.0
+
+#********  R00.Reb0.CCDTemp0/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.CCDTemp0/limitHi = 45.0
+
+#********  R00.Reb0.CCDTemp0/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.CCDTemp0/limitLo = -120.0
+
+#********  R00.Reb0.CCDTemp1/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.CCDTemp1/dbandHi = 0.0
+
+#********  R00.Reb0.CCDTemp1/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.CCDTemp1/dbandLo = 0.0
+
+#********  R00.Reb0.CCDTemp1/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.CCDTemp1/limitHi = 45.0
+
+#********  R00.Reb0.CCDTemp1/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.CCDTemp1/limitLo = -120.0
+
+#********  R00.Reb0.CCDTemp2/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.CCDTemp2/dbandHi = 0.0
+
+#********  R00.Reb0.CCDTemp2/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.CCDTemp2/dbandLo = 0.0
+
+#********  R00.Reb0.CCDTemp2/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.CCDTemp2/limitHi = 45.0
+
+#********  R00.Reb0.CCDTemp2/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.CCDTemp2/limitLo = -120.0
+
+#********  R00.Reb0.ClkHI/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.ClkHI/dbandHi = 0.0
+
+#********  R00.Reb0.ClkHI/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.ClkHI/dbandLo = 0.0
+
+#********  R00.Reb0.ClkHI/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.ClkHI/limitHi = 150.0
+
+#********  R00.Reb0.ClkHI/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.ClkHI/limitLo = 0.0
+
+#********  R00.Reb0.ClkHV/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.ClkHV/dbandHi = 0.0
+
+#********  R00.Reb0.ClkHV/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.ClkHV/dbandLo = 0.0
+
+#********  R00.Reb0.ClkHV/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.ClkHV/limitHi = 16.0
+
+#********  R00.Reb0.ClkHV/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.ClkHV/limitLo = 0.0
+
+#********  R00.Reb0.ClkLI/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.ClkLI/dbandHi = 0.0
+
+#********  R00.Reb0.ClkLI/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.ClkLI/dbandLo = 0.0
+
+#********  R00.Reb0.ClkLI/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.ClkLI/limitHi = 100.0
+
+#********  R00.Reb0.ClkLI/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.ClkLI/limitLo = 0.0
+
+#********  R00.Reb0.ClkLV/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.ClkLV/dbandHi = 0.0
+
+#********  R00.Reb0.ClkLV/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.ClkLV/dbandLo = 0.0
+
+#********  R00.Reb0.ClkLV/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.ClkLV/limitHi = 16.0
+
+#********  R00.Reb0.ClkLV/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.ClkLV/limitLo = 0.0
+
+#********  R00.Reb0.DigI/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.DigI/dbandHi = 0.0
+
+#********  R00.Reb0.DigI/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.DigI/dbandLo = 0.0
+
+#********  R00.Reb0.DigI/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.DigI/limitHi = 600.0
+
+#********  R00.Reb0.DigI/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.DigI/limitLo = 0.0
+
+#********  R00.Reb0.DigV/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.DigV/dbandHi = 0.0
+
+#********  R00.Reb0.DigV/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.DigV/dbandLo = 0.0
+
+#********  R00.Reb0.DigV/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.DigV/limitHi = 6.0
+
+#********  R00.Reb0.DigV/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.DigV/limitLo = 0.0
+
+#********  R00.Reb0.GD0V/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.GD0V/dbandHi = 0.0
+
+#********  R00.Reb0.GD0V/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.GD0V/dbandLo = 0.0
+
+#********  R00.Reb0.GD0V/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.GD0V/limitHi =  22.0
+
+#********  R00.Reb0.GD0V/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.GD0V/limitLo =  18.0
+
+#********  R00.Reb0.GD1V/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.GD1V/dbandHi = 0.0
+
+#********  R00.Reb0.GD1V/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.GD1V/dbandLo = 0.0
+
+#********  R00.Reb0.GD1V/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.GD1V/limitHi =  22.0
+
+#********  R00.Reb0.GD1V/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.GD1V/limitLo =  18.0
+
+#********  R00.Reb0.GD2V/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.GD2V/dbandHi = 0.0
+
+#********  R00.Reb0.GD2V/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.GD2V/dbandLo = 0.0
+
+#********  R00.Reb0.GD2V/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.GD2V/limitHi =  22.0
+
+#********  R00.Reb0.GD2V/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.GD2V/limitLo =  18.0
+
+#********  R00.Reb0.HtrV/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.HtrV/dbandHi = 0.0
+
+#********  R00.Reb0.HtrV/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.HtrV/dbandLo = 0.0
+
+#********  R00.Reb0.HtrV/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.HtrV/limitHi = 9.0
+
+#********  R00.Reb0.HtrV/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.HtrV/limitLo = 0.0
+
+#********  R00.Reb0.HtrW/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.HtrW/dbandHi = 0.0
+
+#********  R00.Reb0.HtrW/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.HtrW/dbandLo = 0.0
+
+#********  R00.Reb0.HtrW/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.HtrW/limitHi = 0.0
+
+#********  R00.Reb0.HtrW/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.HtrW/limitLo = 0.0
+
+#********  R00.Reb0.OD0V/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.OD0V/dbandHi = 0.0
+
+#********  R00.Reb0.OD0V/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.OD0V/dbandLo = 0.0
+
+#********  R00.Reb0.OD0V/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.OD0V/limitHi = 30.5
+
+#********  R00.Reb0.OD0V/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.OD0V/limitLo = 0.0
+
+#********  R00.Reb0.OD1V/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.OD1V/dbandHi = 0.0
+
+#********  R00.Reb0.OD1V/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.OD1V/dbandLo = 0.0
+
+#********  R00.Reb0.OD1V/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.OD1V/limitHi = 30.5
+
+#********  R00.Reb0.OD1V/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.OD1V/limitLo = 0.0
+
+#********  R00.Reb0.OD2V/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.OD2V/dbandHi = 0.0
+
+#********  R00.Reb0.OD2V/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.OD2V/dbandLo = 0.0
+
+#********  R00.Reb0.OD2V/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.OD2V/limitHi = 30.5
+
+#********  R00.Reb0.OD2V/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.OD2V/limitLo = 0.0
+
+#********  R00.Reb0.ODI/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.ODI/dbandHi = 0.0
+
+#********  R00.Reb0.ODI/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.ODI/dbandLo = 0.0
+
+#********  R00.Reb0.ODI/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.ODI/limitHi = 200.0
+
+#********  R00.Reb0.ODI/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.ODI/limitLo = 0.0
+
+#********  R00.Reb0.ODV/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.ODV/dbandHi = 0.0
+
+#********  R00.Reb0.ODV/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.ODV/dbandLo = 0.0
+
+#********  R00.Reb0.ODV/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.ODV/limitHi = 27.0
+
+#********  R00.Reb0.ODV/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.ODV/limitLo = 23.0
+
+#********  R00.Reb0.OG0V/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.OG0V/dbandHi = 0.0
+
+#********  R00.Reb0.OG0V/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.OG0V/dbandLo = 0.0
+
+#********  R00.Reb0.OG0V/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.OG0V/limitHi =  2.2
+
+#********  R00.Reb0.OG0V/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.OG0V/limitLo =  -2.2
+
+#********  R00.Reb0.OG1V/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.OG1V/dbandHi = 0.0
+
+#********  R00.Reb0.OG1V/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.OG1V/dbandLo = 0.0
+
+#********  R00.Reb0.OG1V/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.OG1V/limitHi =  2.2
+
+#********  R00.Reb0.OG1V/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.OG1V/limitLo =  -2.2
+
+#********  R00.Reb0.OG2V/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.OG2V/dbandHi = 0.0
+
+#********  R00.Reb0.OG2V/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.OG2V/dbandLo = 0.0
+
+#********  R00.Reb0.OG2V/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.OG2V/limitHi =  2.2
+
+#********  R00.Reb0.OG2V/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.OG2V/limitLo =  -2.2
+
+#********  R00.Reb0.PClkL/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.PClkL/dbandHi = 0.0
+
+#********  R00.Reb0.PClkL/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.PClkL/dbandLo = 0.0
+
+#********  R00.Reb0.PClkL/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.PClkL/limitHi = -7.0
+
+#********  R00.Reb0.PClkL/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.PClkL/limitLo = -9.0
+
+#********  R00.Reb0.PClkU/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.PClkU/dbandHi = 0.0
+
+#********  R00.Reb0.PClkU/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.PClkU/dbandLo = 0.0
+
+#********  R00.Reb0.PClkU/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.PClkU/limitHi = 3.0
+
+#********  R00.Reb0.PClkU/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.PClkU/limitLo = 1.0
+
+#********  R00.Reb0.Power/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.Power/dbandHi = 0.0
+
+#********  R00.Reb0.Power/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.Power/dbandLo = 0.0
+
+#********  R00.Reb0.Power/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.Power/limitHi = 25.0
+
+#********  R00.Reb0.Power/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.Power/limitLo = 0.0
+
+#********  R00.Reb0.RD0V/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.RD0V/dbandHi = 0.0
+
+#********  R00.Reb0.RD0V/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.RD0V/dbandLo = 0.0
+
+#********  R00.Reb0.RD0V/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.RD0V/limitHi =  15.0
+
+#********  R00.Reb0.RD0V/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.RD0V/limitLo =  11.0
+
+#********  R00.Reb0.RD1V/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.RD1V/dbandHi = 0.0
+
+#********  R00.Reb0.RD1V/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.RD1V/dbandLo = 0.0
+
+#********  R00.Reb0.RD1V/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.RD1V/limitHi =  15.0
+
+#********  R00.Reb0.RD1V/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.RD1V/limitLo =  11.0
+
+#********  R00.Reb0.RD2V/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.RD2V/dbandHi = 0.0
+
+#********  R00.Reb0.RD2V/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.RD2V/dbandLo = 0.0
+
+#********  R00.Reb0.RD2V/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.RD2V/limitHi =  15.0
+
+#********  R00.Reb0.RD2V/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.RD2V/limitLo =  11.0
+
+#********  R00.Reb0.RGL/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.RGL/dbandHi = 0.0
+
+#********  R00.Reb0.RGL/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.RGL/dbandLo = 0.0
+
+#********  R00.Reb0.RGL/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.RGL/limitHi = 0.0
+
+#********  R00.Reb0.RGL/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.RGL/limitLo = -1.0
+
+#********  R00.Reb0.RGU/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.RGU/dbandHi = 0.0
+
+#********  R00.Reb0.RGU/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.RGU/dbandLo = 0.0
+
+#********  R00.Reb0.RGU/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.RGU/limitHi = 9.0
+
+#********  R00.Reb0.RGU/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.RGU/limitLo = 7.0
+
+#********  R00.Reb0.RTDTemp/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.RTDTemp/dbandHi = 0.0
+
+#********  R00.Reb0.RTDTemp/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.RTDTemp/dbandLo = 0.0
+
+#********  R00.Reb0.RTDTemp/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.RTDTemp/limitHi = 45.0
+
+#********  R00.Reb0.RTDTemp/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.RTDTemp/limitLo = -120.0
+
+#********  R00.Reb0.Ref05V/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.Ref05V/dbandHi = 0.0
+
+#********  R00.Reb0.Ref05V/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.Ref05V/dbandLo = 0.0
+
+#********  R00.Reb0.Ref05V/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.Ref05V/limitHi = 5.5
+
+#********  R00.Reb0.Ref05V/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.Ref05V/limitLo = 0.0
+
+#********  R00.Reb0.Ref125V/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.Ref125V/dbandHi = 0.0
+
+#********  R00.Reb0.Ref125V/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.Ref125V/dbandLo = 0.0
+
+#********  R00.Reb0.Ref125V/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.Ref125V/limitHi = 2.75
+
+#********  R00.Reb0.Ref125V/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.Ref125V/limitLo = 0.0
+
+#********  R00.Reb0.Ref15V/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.Ref15V/dbandHi = 0.0
+
+#********  R00.Reb0.Ref15V/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.Ref15V/dbandLo = 0.0
+
+#********  R00.Reb0.Ref15V/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.Ref15V/limitHi = 5.5
+
+#********  R00.Reb0.Ref15V/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.Ref15V/limitLo = 0.0
+
+#********  R00.Reb0.Ref25V/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.Ref25V/dbandHi = 0.0
+
+#********  R00.Reb0.Ref25V/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.Ref25V/dbandLo = 0.0
+
+#********  R00.Reb0.Ref25V/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.Ref25V/limitHi = 5.5
+
+#********  R00.Reb0.Ref25V/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.Ref25V/limitLo = 0.0
+
+#********  R00.Reb0.RefN12/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.RefN12/dbandHi = 0.0
+
+#********  R00.Reb0.RefN12/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.RefN12/dbandLo = 0.0
+
+#********  R00.Reb0.RefN12/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.RefN12/limitHi = 0.0
+
+#********  R00.Reb0.RefN12/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.RefN12/limitLo = -14.0
+
+#********  R00.Reb0.RefP12/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.RefP12/dbandHi = 0.0
+
+#********  R00.Reb0.RefP12/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.RefP12/dbandLo = 0.0
+
+#********  R00.Reb0.RefP12/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.RefP12/limitHi = 14.0
+
+#********  R00.Reb0.RefP12/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.RefP12/limitLo = 0.0
+
+#********  R00.Reb0.SClkL/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.SClkL/dbandHi = 0.0
+
+#********  R00.Reb0.SClkL/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.SClkL/dbandLo = 0.0
+
+#********  R00.Reb0.SClkL/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.SClkL/limitHi = -4.0
+
+#********  R00.Reb0.SClkL/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.SClkL/limitLo = -6.0
+
+#********  R00.Reb0.SClkU/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.SClkU/dbandHi = 0.0
+
+#********  R00.Reb0.SClkU/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.SClkU/dbandLo = 0.0
+
+#********  R00.Reb0.SClkU/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.SClkU/limitHi = 4.0
+
+#********  R00.Reb0.SClkU/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.SClkU/limitLo = 0.0
+
+#********  R00.Reb0.Temp1/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.Temp1/dbandHi = 5.0
+
+#********  R00.Reb0.Temp1/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.Temp1/dbandLo = 5.0
+
+#********  R00.Reb0.Temp1/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.Temp1/limitHi = 20.0
+
+#********  R00.Reb0.Temp1/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.Temp1/limitLo = -50.0
+
+#********  R00.Reb0.Temp10/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.Temp10/dbandHi = 5.0
+
+#********  R00.Reb0.Temp10/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.Temp10/dbandLo = 5.0
+
+#********  R00.Reb0.Temp10/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.Temp10/limitHi = 45.0
+
+#********  R00.Reb0.Temp10/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.Temp10/limitLo = -50.0
+
+#********  R00.Reb0.Temp2/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.Temp2/dbandHi = 5.0
+
+#********  R00.Reb0.Temp2/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.Temp2/dbandLo = 5.0
+
+#********  R00.Reb0.Temp2/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.Temp2/limitHi = 20.0
+
+#********  R00.Reb0.Temp2/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.Temp2/limitLo = -50.0
+
+#********  R00.Reb0.Temp3/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.Temp3/dbandHi = 5.0
+
+#********  R00.Reb0.Temp3/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.Temp3/dbandLo = 5.0
+
+#********  R00.Reb0.Temp3/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.Temp3/limitHi = 45.0
+
+#********  R00.Reb0.Temp3/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.Temp3/limitLo = -50.0
+
+#********  R00.Reb0.Temp4/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.Temp4/dbandHi = 5.0
+
+#********  R00.Reb0.Temp4/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.Temp4/dbandLo = 5.0
+
+#********  R00.Reb0.Temp4/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.Temp4/limitHi = 45.0
+
+#********  R00.Reb0.Temp4/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.Temp4/limitLo = -50.0
+
+#********  R00.Reb0.Temp5/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.Temp5/dbandHi = 5.0
+
+#********  R00.Reb0.Temp5/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.Temp5/dbandLo = 5.0
+
+#********  R00.Reb0.Temp5/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.Temp5/limitHi = 45.0
+
+#********  R00.Reb0.Temp5/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.Temp5/limitLo = -50.0
+
+#********  R00.Reb0.Temp6/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.Temp6/dbandHi = 5.0
+
+#********  R00.Reb0.Temp6/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.Temp6/dbandLo = 5.0
+
+#********  R00.Reb0.Temp6/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.Temp6/limitHi = 45.0
+
+#********  R00.Reb0.Temp6/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.Temp6/limitLo = -50.0
+
+#********  R00.Reb0.Temp7/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.Temp7/dbandHi = 5.0
+
+#********  R00.Reb0.Temp7/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.Temp7/dbandLo = 5.0
+
+#********  R00.Reb0.Temp7/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.Temp7/limitHi = 45.0
+
+#********  R00.Reb0.Temp7/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.Temp7/limitLo = -50.0
+
+#********  R00.Reb0.Temp8/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.Temp8/dbandHi = 5.0
+
+#********  R00.Reb0.Temp8/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.Temp8/dbandLo = 5.0
+
+#********  R00.Reb0.Temp8/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.Temp8/limitHi = 45.0
+
+#********  R00.Reb0.Temp8/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.Temp8/limitLo = -50.0
+
+#********  R00.Reb0.Temp9/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.Temp9/dbandHi = 5.0
+
+#********  R00.Reb0.Temp9/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.Temp9/dbandLo = 5.0
+
+#********  R00.Reb0.Temp9/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.Temp9/limitHi = 45.0
+
+#********  R00.Reb0.Temp9/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb0.Temp9/limitLo = -50.0
+
+#********  R00.Reb1.AnaI/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.AnaI/dbandHi = 0.0
+
+#********  R00.Reb1.AnaI/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.AnaI/dbandLo = 0.0
+
+#********  R00.Reb1.AnaI/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.AnaI/limitHi = 700.0
+
+#********  R00.Reb1.AnaI/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.AnaI/limitLo = 0.0
+
+#********  R00.Reb1.AnaV/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.AnaV/dbandHi = 0.0
+
+#********  R00.Reb1.AnaV/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.AnaV/dbandLo = 0.0
+
+#********  R00.Reb1.AnaV/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.AnaV/limitHi = 8.0
+
+#********  R00.Reb1.AnaV/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.AnaV/limitLo = 0.0
+
+#********  R00.Reb1.Atemp0L/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.Atemp0L/dbandHi = 5.0
+
+#********  R00.Reb1.Atemp0L/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.Atemp0L/dbandLo = 5.0
+
+#********  R00.Reb1.Atemp0L/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.Atemp0L/limitHi = 45.0
+
+#********  R00.Reb1.Atemp0L/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.Atemp0L/limitLo = -50.0
+
+#********  R00.Reb1.Atemp0U/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.Atemp0U/dbandHi = 5.0
+
+#********  R00.Reb1.Atemp0U/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.Atemp0U/dbandLo = 5.0
+
+#********  R00.Reb1.Atemp0U/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.Atemp0U/limitHi = 45.0
+
+#********  R00.Reb1.Atemp0U/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.Atemp0U/limitLo = -50.0
+
+#********  R00.Reb1.Atemp1L/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.Atemp1L/dbandHi = 5.0
+
+#********  R00.Reb1.Atemp1L/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.Atemp1L/dbandLo = 5.0
+
+#********  R00.Reb1.Atemp1L/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.Atemp1L/limitHi = 45.0
+
+#********  R00.Reb1.Atemp1L/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.Atemp1L/limitLo = -50.0
+
+#********  R00.Reb1.Atemp1U/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.Atemp1U/dbandHi = 5.0
+
+#********  R00.Reb1.Atemp1U/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.Atemp1U/dbandLo = 5.0
+
+#********  R00.Reb1.Atemp1U/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.Atemp1U/limitHi = 45.0
+
+#********  R00.Reb1.Atemp1U/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.Atemp1U/limitLo = -50.0
+
+#********  R00.Reb1.Atemp2L/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.Atemp2L/dbandHi = 5.0
+
+#********  R00.Reb1.Atemp2L/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.Atemp2L/dbandLo = 5.0
+
+#********  R00.Reb1.Atemp2L/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.Atemp2L/limitHi = 45.0
+
+#********  R00.Reb1.Atemp2L/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.Atemp2L/limitLo = -50.0
+
+#********  R00.Reb1.Atemp2U/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.Atemp2U/dbandHi = 5.0
+
+#********  R00.Reb1.Atemp2U/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.Atemp2U/dbandLo = 5.0
+
+#********  R00.Reb1.Atemp2U/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.Atemp2U/limitHi = 45.0
+
+#********  R00.Reb1.Atemp2U/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.Atemp2U/limitLo = -50.0
+
+#********  R00.Reb1.CCDI000/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.CCDI000/dbandHi = 0.0
+
+#********  R00.Reb1.CCDI000/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.CCDI000/dbandLo = 0.0
+
+#********  R00.Reb1.CCDI000/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.CCDI000/limitHi = 3.0
+
+#********  R00.Reb1.CCDI000/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.CCDI000/limitLo = 0.0
+
+#********  R00.Reb1.CCDI001/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.CCDI001/dbandHi = 0.0
+
+#********  R00.Reb1.CCDI001/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.CCDI001/dbandLo = 0.0
+
+#********  R00.Reb1.CCDI001/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.CCDI001/limitHi = 3.0
+
+#********  R00.Reb1.CCDI001/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.CCDI001/limitLo = 0.0
+
+#********  R00.Reb1.CCDI002/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.CCDI002/dbandHi = 0.0
+
+#********  R00.Reb1.CCDI002/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.CCDI002/dbandLo = 0.0
+
+#********  R00.Reb1.CCDI002/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.CCDI002/limitHi = 3.0
+
+#********  R00.Reb1.CCDI002/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.CCDI002/limitLo = 0.0
+
+#********  R00.Reb1.CCDI003/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.CCDI003/dbandHi = 0.0
+
+#********  R00.Reb1.CCDI003/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.CCDI003/dbandLo = 0.0
+
+#********  R00.Reb1.CCDI003/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.CCDI003/limitHi = 3.0
+
+#********  R00.Reb1.CCDI003/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.CCDI003/limitLo = 0.0
+
+#********  R00.Reb1.CCDI004/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.CCDI004/dbandHi = 0.0
+
+#********  R00.Reb1.CCDI004/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.CCDI004/dbandLo = 0.0
+
+#********  R00.Reb1.CCDI004/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.CCDI004/limitHi = 3.0
+
+#********  R00.Reb1.CCDI004/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.CCDI004/limitLo = 0.0
+
+#********  R00.Reb1.CCDI005/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.CCDI005/dbandHi = 0.0
+
+#********  R00.Reb1.CCDI005/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.CCDI005/dbandLo = 0.0
+
+#********  R00.Reb1.CCDI005/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.CCDI005/limitHi = 3.0
+
+#********  R00.Reb1.CCDI005/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.CCDI005/limitLo = 0.0
+
+#********  R00.Reb1.CCDI006/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.CCDI006/dbandHi = 0.0
+
+#********  R00.Reb1.CCDI006/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.CCDI006/dbandLo = 0.0
+
+#********  R00.Reb1.CCDI006/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.CCDI006/limitHi = 3.0
+
+#********  R00.Reb1.CCDI006/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.CCDI006/limitLo = 0.0
+
+#********  R00.Reb1.CCDI007/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.CCDI007/dbandHi = 0.0
+
+#********  R00.Reb1.CCDI007/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.CCDI007/dbandLo = 0.0
+
+#********  R00.Reb1.CCDI007/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.CCDI007/limitHi = 3.0
+
+#********  R00.Reb1.CCDI007/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.CCDI007/limitLo = 0.0
+
+#********  R00.Reb1.CCDI010/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.CCDI010/dbandHi = 0.0
+
+#********  R00.Reb1.CCDI010/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.CCDI010/dbandLo = 0.0
+
+#********  R00.Reb1.CCDI010/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.CCDI010/limitHi = 3.0
+
+#********  R00.Reb1.CCDI010/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.CCDI010/limitLo = 0.0
+
+#********  R00.Reb1.CCDI011/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.CCDI011/dbandHi = 0.0
+
+#********  R00.Reb1.CCDI011/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.CCDI011/dbandLo = 0.0
+
+#********  R00.Reb1.CCDI011/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.CCDI011/limitHi = 3.0
+
+#********  R00.Reb1.CCDI011/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.CCDI011/limitLo = 0.0
+
+#********  R00.Reb1.CCDI012/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.CCDI012/dbandHi = 0.0
+
+#********  R00.Reb1.CCDI012/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.CCDI012/dbandLo = 0.0
+
+#********  R00.Reb1.CCDI012/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.CCDI012/limitHi = 3.0
+
+#********  R00.Reb1.CCDI012/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.CCDI012/limitLo = 0.0
+
+#********  R00.Reb1.CCDI013/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.CCDI013/dbandHi = 0.0
+
+#********  R00.Reb1.CCDI013/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.CCDI013/dbandLo = 0.0
+
+#********  R00.Reb1.CCDI013/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.CCDI013/limitHi = 3.0
+
+#********  R00.Reb1.CCDI013/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.CCDI013/limitLo = 0.0
+
+#********  R00.Reb1.CCDI014/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.CCDI014/dbandHi = 0.0
+
+#********  R00.Reb1.CCDI014/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.CCDI014/dbandLo = 0.0
+
+#********  R00.Reb1.CCDI014/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.CCDI014/limitHi = 3.0
+
+#********  R00.Reb1.CCDI014/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.CCDI014/limitLo = 0.0
+
+#********  R00.Reb1.CCDI015/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.CCDI015/dbandHi = 0.0
+
+#********  R00.Reb1.CCDI015/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.CCDI015/dbandLo = 0.0
+
+#********  R00.Reb1.CCDI015/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.CCDI015/limitHi = 3.0
+
+#********  R00.Reb1.CCDI015/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.CCDI015/limitLo = 0.0
+
+#********  R00.Reb1.CCDI016/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.CCDI016/dbandHi = 0.0
+
+#********  R00.Reb1.CCDI016/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.CCDI016/dbandLo = 0.0
+
+#********  R00.Reb1.CCDI016/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.CCDI016/limitHi = 3.0
+
+#********  R00.Reb1.CCDI016/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.CCDI016/limitLo = 0.0
+
+#********  R00.Reb1.CCDI017/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.CCDI017/dbandHi = 0.0
+
+#********  R00.Reb1.CCDI017/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.CCDI017/dbandLo = 0.0
+
+#********  R00.Reb1.CCDI017/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.CCDI017/limitHi = 3.0
+
+#********  R00.Reb1.CCDI017/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.CCDI017/limitLo = 0.0
+
+#********  R00.Reb1.CCDI100/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.CCDI100/dbandHi = 0.0
+
+#********  R00.Reb1.CCDI100/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.CCDI100/dbandLo = 0.0
+
+#********  R00.Reb1.CCDI100/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.CCDI100/limitHi = 3.0
+
+#********  R00.Reb1.CCDI100/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.CCDI100/limitLo = 0.0
+
+#********  R00.Reb1.CCDI101/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.CCDI101/dbandHi = 0.0
+
+#********  R00.Reb1.CCDI101/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.CCDI101/dbandLo = 0.0
+
+#********  R00.Reb1.CCDI101/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.CCDI101/limitHi = 3.0
+
+#********  R00.Reb1.CCDI101/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.CCDI101/limitLo = 0.0
+
+#********  R00.Reb1.CCDI102/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.CCDI102/dbandHi = 0.0
+
+#********  R00.Reb1.CCDI102/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.CCDI102/dbandLo = 0.0
+
+#********  R00.Reb1.CCDI102/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.CCDI102/limitHi = 3.0
+
+#********  R00.Reb1.CCDI102/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.CCDI102/limitLo = 0.0
+
+#********  R00.Reb1.CCDI103/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.CCDI103/dbandHi = 0.0
+
+#********  R00.Reb1.CCDI103/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.CCDI103/dbandLo = 0.0
+
+#********  R00.Reb1.CCDI103/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.CCDI103/limitHi = 3.0
+
+#********  R00.Reb1.CCDI103/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.CCDI103/limitLo = 0.0
+
+#********  R00.Reb1.CCDI104/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.CCDI104/dbandHi = 0.0
+
+#********  R00.Reb1.CCDI104/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.CCDI104/dbandLo = 0.0
+
+#********  R00.Reb1.CCDI104/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.CCDI104/limitHi = 3.0
+
+#********  R00.Reb1.CCDI104/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.CCDI104/limitLo = 0.0
+
+#********  R00.Reb1.CCDI105/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.CCDI105/dbandHi = 0.0
+
+#********  R00.Reb1.CCDI105/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.CCDI105/dbandLo = 0.0
+
+#********  R00.Reb1.CCDI105/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.CCDI105/limitHi = 3.0
+
+#********  R00.Reb1.CCDI105/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.CCDI105/limitLo = 0.0
+
+#********  R00.Reb1.CCDI106/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.CCDI106/dbandHi = 0.0
+
+#********  R00.Reb1.CCDI106/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.CCDI106/dbandLo = 0.0
+
+#********  R00.Reb1.CCDI106/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.CCDI106/limitHi = 3.0
+
+#********  R00.Reb1.CCDI106/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.CCDI106/limitLo = 0.0
+
+#********  R00.Reb1.CCDI107/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.CCDI107/dbandHi = 0.0
+
+#********  R00.Reb1.CCDI107/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.CCDI107/dbandLo = 0.0
+
+#********  R00.Reb1.CCDI107/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.CCDI107/limitHi = 3.0
+
+#********  R00.Reb1.CCDI107/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.CCDI107/limitLo = 0.0
+
+#********  R00.Reb1.CCDI110/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.CCDI110/dbandHi = 0.0
+
+#********  R00.Reb1.CCDI110/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.CCDI110/dbandLo = 0.0
+
+#********  R00.Reb1.CCDI110/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.CCDI110/limitHi = 3.0
+
+#********  R00.Reb1.CCDI110/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.CCDI110/limitLo = 0.0
+
+#********  R00.Reb1.CCDI111/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.CCDI111/dbandHi = 0.0
+
+#********  R00.Reb1.CCDI111/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.CCDI111/dbandLo = 0.0
+
+#********  R00.Reb1.CCDI111/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.CCDI111/limitHi = 3.0
+
+#********  R00.Reb1.CCDI111/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.CCDI111/limitLo = 0.0
+
+#********  R00.Reb1.CCDI112/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.CCDI112/dbandHi = 0.0
+
+#********  R00.Reb1.CCDI112/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.CCDI112/dbandLo = 0.0
+
+#********  R00.Reb1.CCDI112/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.CCDI112/limitHi = 3.0
+
+#********  R00.Reb1.CCDI112/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.CCDI112/limitLo = 0.0
+
+#********  R00.Reb1.CCDI113/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.CCDI113/dbandHi = 0.0
+
+#********  R00.Reb1.CCDI113/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.CCDI113/dbandLo = 0.0
+
+#********  R00.Reb1.CCDI113/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.CCDI113/limitHi = 3.0
+
+#********  R00.Reb1.CCDI113/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.CCDI113/limitLo = 0.0
+
+#********  R00.Reb1.CCDI114/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.CCDI114/dbandHi = 0.0
+
+#********  R00.Reb1.CCDI114/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.CCDI114/dbandLo = 0.0
+
+#********  R00.Reb1.CCDI114/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.CCDI114/limitHi = 3.0
+
+#********  R00.Reb1.CCDI114/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.CCDI114/limitLo = 0.0
+
+#********  R00.Reb1.CCDI115/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.CCDI115/dbandHi = 0.0
+
+#********  R00.Reb1.CCDI115/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.CCDI115/dbandLo = 0.0
+
+#********  R00.Reb1.CCDI115/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.CCDI115/limitHi = 3.0
+
+#********  R00.Reb1.CCDI115/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.CCDI115/limitLo = 0.0
+
+#********  R00.Reb1.CCDI116/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.CCDI116/dbandHi = 0.0
+
+#********  R00.Reb1.CCDI116/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.CCDI116/dbandLo = 0.0
+
+#********  R00.Reb1.CCDI116/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.CCDI116/limitHi = 3.0
+
+#********  R00.Reb1.CCDI116/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.CCDI116/limitLo = 0.0
+
+#********  R00.Reb1.CCDI117/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.CCDI117/dbandHi = 0.0
+
+#********  R00.Reb1.CCDI117/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.CCDI117/dbandLo = 0.0
+
+#********  R00.Reb1.CCDI117/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.CCDI117/limitHi = 3.0
+
+#********  R00.Reb1.CCDI117/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.CCDI117/limitLo = 0.0
+
+#********  R00.Reb1.CCDI200/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.CCDI200/dbandHi = 0.0
+
+#********  R00.Reb1.CCDI200/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.CCDI200/dbandLo = 0.0
+
+#********  R00.Reb1.CCDI200/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.CCDI200/limitHi = 3.0
+
+#********  R00.Reb1.CCDI200/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.CCDI200/limitLo = 0.0
+
+#********  R00.Reb1.CCDI201/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.CCDI201/dbandHi = 0.0
+
+#********  R00.Reb1.CCDI201/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.CCDI201/dbandLo = 0.0
+
+#********  R00.Reb1.CCDI201/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.CCDI201/limitHi = 3.0
+
+#********  R00.Reb1.CCDI201/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.CCDI201/limitLo = 0.0
+
+#********  R00.Reb1.CCDI202/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.CCDI202/dbandHi = 0.0
+
+#********  R00.Reb1.CCDI202/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.CCDI202/dbandLo = 0.0
+
+#********  R00.Reb1.CCDI202/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.CCDI202/limitHi = 3.0
+
+#********  R00.Reb1.CCDI202/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.CCDI202/limitLo = 0.0
+
+#********  R00.Reb1.CCDI203/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.CCDI203/dbandHi = 0.0
+
+#********  R00.Reb1.CCDI203/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.CCDI203/dbandLo = 0.0
+
+#********  R00.Reb1.CCDI203/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.CCDI203/limitHi = 3.0
+
+#********  R00.Reb1.CCDI203/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.CCDI203/limitLo = 0.0
+
+#********  R00.Reb1.CCDI204/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.CCDI204/dbandHi = 0.0
+
+#********  R00.Reb1.CCDI204/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.CCDI204/dbandLo = 0.0
+
+#********  R00.Reb1.CCDI204/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.CCDI204/limitHi = 3.0
+
+#********  R00.Reb1.CCDI204/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.CCDI204/limitLo = 0.0
+
+#********  R00.Reb1.CCDI205/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.CCDI205/dbandHi = 0.0
+
+#********  R00.Reb1.CCDI205/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.CCDI205/dbandLo = 0.0
+
+#********  R00.Reb1.CCDI205/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.CCDI205/limitHi = 3.0
+
+#********  R00.Reb1.CCDI205/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.CCDI205/limitLo = 0.0
+
+#********  R00.Reb1.CCDI206/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.CCDI206/dbandHi = 0.0
+
+#********  R00.Reb1.CCDI206/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.CCDI206/dbandLo = 0.0
+
+#********  R00.Reb1.CCDI206/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.CCDI206/limitHi = 3.0
+
+#********  R00.Reb1.CCDI206/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.CCDI206/limitLo = 0.0
+
+#********  R00.Reb1.CCDI207/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.CCDI207/dbandHi = 0.0
+
+#********  R00.Reb1.CCDI207/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.CCDI207/dbandLo = 0.0
+
+#********  R00.Reb1.CCDI207/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.CCDI207/limitHi = 3.0
+
+#********  R00.Reb1.CCDI207/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.CCDI207/limitLo = 0.0
+
+#********  R00.Reb1.CCDI210/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.CCDI210/dbandHi = 0.0
+
+#********  R00.Reb1.CCDI210/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.CCDI210/dbandLo = 0.0
+
+#********  R00.Reb1.CCDI210/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.CCDI210/limitHi = 3.0
+
+#********  R00.Reb1.CCDI210/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.CCDI210/limitLo = 0.0
+
+#********  R00.Reb1.CCDI211/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.CCDI211/dbandHi = 0.0
+
+#********  R00.Reb1.CCDI211/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.CCDI211/dbandLo = 0.0
+
+#********  R00.Reb1.CCDI211/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.CCDI211/limitHi = 3.0
+
+#********  R00.Reb1.CCDI211/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.CCDI211/limitLo = 0.0
+
+#********  R00.Reb1.CCDI212/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.CCDI212/dbandHi = 0.0
+
+#********  R00.Reb1.CCDI212/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.CCDI212/dbandLo = 0.0
+
+#********  R00.Reb1.CCDI212/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.CCDI212/limitHi = 3.0
+
+#********  R00.Reb1.CCDI212/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.CCDI212/limitLo = 0.0
+
+#********  R00.Reb1.CCDI213/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.CCDI213/dbandHi = 0.0
+
+#********  R00.Reb1.CCDI213/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.CCDI213/dbandLo = 0.0
+
+#********  R00.Reb1.CCDI213/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.CCDI213/limitHi = 3.0
+
+#********  R00.Reb1.CCDI213/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.CCDI213/limitLo = 0.0
+
+#********  R00.Reb1.CCDI214/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.CCDI214/dbandHi = 0.0
+
+#********  R00.Reb1.CCDI214/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.CCDI214/dbandLo = 0.0
+
+#********  R00.Reb1.CCDI214/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.CCDI214/limitHi = 3.0
+
+#********  R00.Reb1.CCDI214/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.CCDI214/limitLo = 0.0
+
+#********  R00.Reb1.CCDI215/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.CCDI215/dbandHi = 0.0
+
+#********  R00.Reb1.CCDI215/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.CCDI215/dbandLo = 0.0
+
+#********  R00.Reb1.CCDI215/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.CCDI215/limitHi = 3.0
+
+#********  R00.Reb1.CCDI215/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.CCDI215/limitLo = 0.0
+
+#********  R00.Reb1.CCDI216/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.CCDI216/dbandHi = 0.0
+
+#********  R00.Reb1.CCDI216/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.CCDI216/dbandLo = 0.0
+
+#********  R00.Reb1.CCDI216/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.CCDI216/limitHi = 3.0
+
+#********  R00.Reb1.CCDI216/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.CCDI216/limitLo = 0.0
+
+#********  R00.Reb1.CCDI217/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.CCDI217/dbandHi = 0.0
+
+#********  R00.Reb1.CCDI217/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.CCDI217/dbandLo = 0.0
+
+#********  R00.Reb1.CCDI217/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.CCDI217/limitHi = 3.0
+
+#********  R00.Reb1.CCDI217/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.CCDI217/limitLo = 0.0
+
+#********  R00.Reb1.CCDTemp0/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.CCDTemp0/dbandHi = 0.0
+
+#********  R00.Reb1.CCDTemp0/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.CCDTemp0/dbandLo = 0.0
+
+#********  R00.Reb1.CCDTemp0/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.CCDTemp0/limitHi = 45.0
+
+#********  R00.Reb1.CCDTemp0/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.CCDTemp0/limitLo = -120.0
+
+#********  R00.Reb1.CCDTemp1/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.CCDTemp1/dbandHi = 0.0
+
+#********  R00.Reb1.CCDTemp1/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.CCDTemp1/dbandLo = 0.0
+
+#********  R00.Reb1.CCDTemp1/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.CCDTemp1/limitHi = 45.0
+
+#********  R00.Reb1.CCDTemp1/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.CCDTemp1/limitLo = -120.0
+
+#********  R00.Reb1.CCDTemp2/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.CCDTemp2/dbandHi = 0.0
+
+#********  R00.Reb1.CCDTemp2/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.CCDTemp2/dbandLo = 0.0
+
+#********  R00.Reb1.CCDTemp2/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.CCDTemp2/limitHi = 45.0
+
+#********  R00.Reb1.CCDTemp2/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.CCDTemp2/limitLo = -120.0
+
+#********  R00.Reb1.ClkHI/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.ClkHI/dbandHi = 0.0
+
+#********  R00.Reb1.ClkHI/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.ClkHI/dbandLo = 0.0
+
+#********  R00.Reb1.ClkHI/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.ClkHI/limitHi = 150.0
+
+#********  R00.Reb1.ClkHI/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.ClkHI/limitLo = 0.0
+
+#********  R00.Reb1.ClkHV/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.ClkHV/dbandHi = 0.0
+
+#********  R00.Reb1.ClkHV/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.ClkHV/dbandLo = 0.0
+
+#********  R00.Reb1.ClkHV/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.ClkHV/limitHi = 16.0
+
+#********  R00.Reb1.ClkHV/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.ClkHV/limitLo = 0.0
+
+#********  R00.Reb1.ClkLI/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.ClkLI/dbandHi = 0.0
+
+#********  R00.Reb1.ClkLI/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.ClkLI/dbandLo = 0.0
+
+#********  R00.Reb1.ClkLI/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.ClkLI/limitHi = 100.0
+
+#********  R00.Reb1.ClkLI/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.ClkLI/limitLo = 0.0
+
+#********  R00.Reb1.ClkLV/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.ClkLV/dbandHi = 0.0
+
+#********  R00.Reb1.ClkLV/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.ClkLV/dbandLo = 0.0
+
+#********  R00.Reb1.ClkLV/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.ClkLV/limitHi = 16.0
+
+#********  R00.Reb1.ClkLV/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.ClkLV/limitLo = 0.0
+
+#********  R00.Reb1.DigI/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.DigI/dbandHi = 0.0
+
+#********  R00.Reb1.DigI/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.DigI/dbandLo = 0.0
+
+#********  R00.Reb1.DigI/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.DigI/limitHi = 600.0
+
+#********  R00.Reb1.DigI/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.DigI/limitLo = 0.0
+
+#********  R00.Reb1.DigV/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.DigV/dbandHi = 0.0
+
+#********  R00.Reb1.DigV/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.DigV/dbandLo = 0.0
+
+#********  R00.Reb1.DigV/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.DigV/limitHi = 6.0
+
+#********  R00.Reb1.DigV/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.DigV/limitLo = 0.0
+
+#********  R00.Reb1.GD0V/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.GD0V/dbandHi = 0.0
+
+#********  R00.Reb1.GD0V/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.GD0V/dbandLo = 0.0
+
+#********  R00.Reb1.GD0V/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.GD0V/limitHi =  22.0
+
+#********  R00.Reb1.GD0V/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.GD0V/limitLo =  18.0
+
+#********  R00.Reb1.GD1V/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.GD1V/dbandHi = 0.0
+
+#********  R00.Reb1.GD1V/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.GD1V/dbandLo = 0.0
+
+#********  R00.Reb1.GD1V/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.GD1V/limitHi =  22.0
+
+#********  R00.Reb1.GD1V/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.GD1V/limitLo =  18.0
+
+#********  R00.Reb1.GD2V/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.GD2V/dbandHi = 0.0
+
+#********  R00.Reb1.GD2V/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.GD2V/dbandLo = 0.0
+
+#********  R00.Reb1.GD2V/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.GD2V/limitHi =  22.0
+
+#********  R00.Reb1.GD2V/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.GD2V/limitLo =  18.0
+
+#********  R00.Reb1.HtrV/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.HtrV/dbandHi = 0.0
+
+#********  R00.Reb1.HtrV/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.HtrV/dbandLo = 0.0
+
+#********  R00.Reb1.HtrV/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.HtrV/limitHi = 9.0
+
+#********  R00.Reb1.HtrV/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.HtrV/limitLo = 0.0
+
+#********  R00.Reb1.HtrW/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.HtrW/dbandHi = 0.0
+
+#********  R00.Reb1.HtrW/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.HtrW/dbandLo = 0.0
+
+#********  R00.Reb1.HtrW/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.HtrW/limitHi = 0.0
+
+#********  R00.Reb1.HtrW/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.HtrW/limitLo = 0.0
+
+#********  R00.Reb1.OD0V/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.OD0V/dbandHi = 0.0
+
+#********  R00.Reb1.OD0V/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.OD0V/dbandLo = 0.0
+
+#********  R00.Reb1.OD0V/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.OD0V/limitHi = 30.5
+
+#********  R00.Reb1.OD0V/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.OD0V/limitLo = 0.0
+
+#********  R00.Reb1.OD1V/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.OD1V/dbandHi = 0.0
+
+#********  R00.Reb1.OD1V/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.OD1V/dbandLo = 0.0
+
+#********  R00.Reb1.OD1V/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.OD1V/limitHi = 30.5
+
+#********  R00.Reb1.OD1V/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.OD1V/limitLo = 0.0
+
+#********  R00.Reb1.OD2V/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.OD2V/dbandHi = 0.0
+
+#********  R00.Reb1.OD2V/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.OD2V/dbandLo = 0.0
+
+#********  R00.Reb1.OD2V/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.OD2V/limitHi = 30.5
+
+#********  R00.Reb1.OD2V/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.OD2V/limitLo = 0.0
+
+#********  R00.Reb1.ODI/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.ODI/dbandHi = 0.0
+
+#********  R00.Reb1.ODI/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.ODI/dbandLo = 0.0
+
+#********  R00.Reb1.ODI/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.ODI/limitHi = 200.0
+
+#********  R00.Reb1.ODI/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.ODI/limitLo = 0.0
+
+#********  R00.Reb1.ODV/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.ODV/dbandHi = 0.0
+
+#********  R00.Reb1.ODV/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.ODV/dbandLo = 0.0
+
+#********  R00.Reb1.ODV/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.ODV/limitHi = 27.0
+
+#********  R00.Reb1.ODV/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.ODV/limitLo = 23.0
+
+#********  R00.Reb1.OG0V/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.OG0V/dbandHi = 0.0
+
+#********  R00.Reb1.OG0V/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.OG0V/dbandLo = 0.0
+
+#********  R00.Reb1.OG0V/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.OG0V/limitHi =  2.2
+
+#********  R00.Reb1.OG0V/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.OG0V/limitLo =  -2.2
+
+#********  R00.Reb1.OG1V/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.OG1V/dbandHi = 0.0
+
+#********  R00.Reb1.OG1V/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.OG1V/dbandLo = 0.0
+
+#********  R00.Reb1.OG1V/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.OG1V/limitHi =  2.2
+
+#********  R00.Reb1.OG1V/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.OG1V/limitLo =  -2.2
+
+#********  R00.Reb1.OG2V/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.OG2V/dbandHi = 0.0
+
+#********  R00.Reb1.OG2V/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.OG2V/dbandLo = 0.0
+
+#********  R00.Reb1.OG2V/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.OG2V/limitHi =  2.2
+
+#********  R00.Reb1.OG2V/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.OG2V/limitLo =  -2.2
+
+#********  R00.Reb1.PClkL/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.PClkL/dbandHi = 0.0
+
+#********  R00.Reb1.PClkL/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.PClkL/dbandLo = 0.0
+
+#********  R00.Reb1.PClkL/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.PClkL/limitHi = -7.0
+
+#********  R00.Reb1.PClkL/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.PClkL/limitLo = -9.0
+
+#********  R00.Reb1.PClkU/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.PClkU/dbandHi = 0.0
+
+#********  R00.Reb1.PClkU/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.PClkU/dbandLo = 0.0
+
+#********  R00.Reb1.PClkU/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.PClkU/limitHi = 3.0
+
+#********  R00.Reb1.PClkU/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.PClkU/limitLo = 1.0
+
+#********  R00.Reb1.Power/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.Power/dbandHi = 0.0
+
+#********  R00.Reb1.Power/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.Power/dbandLo = 0.0
+
+#********  R00.Reb1.Power/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.Power/limitHi = 25.0
+
+#********  R00.Reb1.Power/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.Power/limitLo = 0.0
+
+#********  R00.Reb1.RD0V/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.RD0V/dbandHi = 0.0
+
+#********  R00.Reb1.RD0V/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.RD0V/dbandLo = 0.0
+
+#********  R00.Reb1.RD0V/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.RD0V/limitHi =  15.0
+
+#********  R00.Reb1.RD0V/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.RD0V/limitLo =  11.0
+
+#********  R00.Reb1.RD1V/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.RD1V/dbandHi = 0.0
+
+#********  R00.Reb1.RD1V/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.RD1V/dbandLo = 0.0
+
+#********  R00.Reb1.RD1V/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.RD1V/limitHi =  15.0
+
+#********  R00.Reb1.RD1V/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.RD1V/limitLo =  11.0
+
+#********  R00.Reb1.RD2V/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.RD2V/dbandHi = 0.0
+
+#********  R00.Reb1.RD2V/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.RD2V/dbandLo = 0.0
+
+#********  R00.Reb1.RD2V/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.RD2V/limitHi =  15.0
+
+#********  R00.Reb1.RD2V/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.RD2V/limitLo =  11.0
+
+#********  R00.Reb1.RGL/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.RGL/dbandHi = 0.0
+
+#********  R00.Reb1.RGL/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.RGL/dbandLo = 0.0
+
+#********  R00.Reb1.RGL/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.RGL/limitHi = 0.0
+
+#********  R00.Reb1.RGL/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.RGL/limitLo = -1.0
+
+#********  R00.Reb1.RGU/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.RGU/dbandHi = 0.0
+
+#********  R00.Reb1.RGU/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.RGU/dbandLo = 0.0
+
+#********  R00.Reb1.RGU/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.RGU/limitHi = 9.0
+
+#********  R00.Reb1.RGU/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.RGU/limitLo = 7.0
+
+#********  R00.Reb1.RTDTemp/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.RTDTemp/dbandHi = 0.0
+
+#********  R00.Reb1.RTDTemp/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.RTDTemp/dbandLo = 0.0
+
+#********  R00.Reb1.RTDTemp/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.RTDTemp/limitHi = 45.0
+
+#********  R00.Reb1.RTDTemp/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.RTDTemp/limitLo = -120.0
+
+#********  R00.Reb1.Ref05V/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.Ref05V/dbandHi = 0.0
+
+#********  R00.Reb1.Ref05V/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.Ref05V/dbandLo = 0.0
+
+#********  R00.Reb1.Ref05V/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.Ref05V/limitHi = 5.5
+
+#********  R00.Reb1.Ref05V/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.Ref05V/limitLo = 0.0
+
+#********  R00.Reb1.Ref125V/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.Ref125V/dbandHi = 0.0
+
+#********  R00.Reb1.Ref125V/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.Ref125V/dbandLo = 0.0
+
+#********  R00.Reb1.Ref125V/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.Ref125V/limitHi = 2.75
+
+#********  R00.Reb1.Ref125V/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.Ref125V/limitLo = 0.0
+
+#********  R00.Reb1.Ref15V/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.Ref15V/dbandHi = 0.0
+
+#********  R00.Reb1.Ref15V/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.Ref15V/dbandLo = 0.0
+
+#********  R00.Reb1.Ref15V/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.Ref15V/limitHi = 5.5
+
+#********  R00.Reb1.Ref15V/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.Ref15V/limitLo = 0.0
+
+#********  R00.Reb1.Ref25V/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.Ref25V/dbandHi = 0.0
+
+#********  R00.Reb1.Ref25V/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.Ref25V/dbandLo = 0.0
+
+#********  R00.Reb1.Ref25V/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.Ref25V/limitHi = 5.5
+
+#********  R00.Reb1.Ref25V/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.Ref25V/limitLo = 0.0
+
+#********  R00.Reb1.RefN12/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.RefN12/dbandHi = 0.0
+
+#********  R00.Reb1.RefN12/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.RefN12/dbandLo = 0.0
+
+#********  R00.Reb1.RefN12/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.RefN12/limitHi = 0.0
+
+#********  R00.Reb1.RefN12/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.RefN12/limitLo = -14.0
+
+#********  R00.Reb1.RefP12/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.RefP12/dbandHi = 0.0
+
+#********  R00.Reb1.RefP12/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.RefP12/dbandLo = 0.0
+
+#********  R00.Reb1.RefP12/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.RefP12/limitHi = 14.0
+
+#********  R00.Reb1.RefP12/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.RefP12/limitLo = 0.0
+
+#********  R00.Reb1.SClkL/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.SClkL/dbandHi = 0.0
+
+#********  R00.Reb1.SClkL/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.SClkL/dbandLo = 0.0
+
+#********  R00.Reb1.SClkL/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.SClkL/limitHi = -4.0
+
+#********  R00.Reb1.SClkL/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.SClkL/limitLo = -6.0
+
+#********  R00.Reb1.SClkU/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.SClkU/dbandHi = 0.0
+
+#********  R00.Reb1.SClkU/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.SClkU/dbandLo = 0.0
+
+#********  R00.Reb1.SClkU/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.SClkU/limitHi = 4.0
+
+#********  R00.Reb1.SClkU/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.SClkU/limitLo = 0.0
+
+#********  R00.Reb1.Temp1/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.Temp1/dbandHi = 5.0
+
+#********  R00.Reb1.Temp1/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.Temp1/dbandLo = 5.0
+
+#********  R00.Reb1.Temp1/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.Temp1/limitHi = 20.0
+
+#********  R00.Reb1.Temp1/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.Temp1/limitLo = -50.0
+
+#********  R00.Reb1.Temp10/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.Temp10/dbandHi = 5.0
+
+#********  R00.Reb1.Temp10/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.Temp10/dbandLo = 5.0
+
+#********  R00.Reb1.Temp10/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.Temp10/limitHi = 45.0
+
+#********  R00.Reb1.Temp10/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.Temp10/limitLo = -50.0
+
+#********  R00.Reb1.Temp2/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.Temp2/dbandHi = 5.0
+
+#********  R00.Reb1.Temp2/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.Temp2/dbandLo = 5.0
+
+#********  R00.Reb1.Temp2/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.Temp2/limitHi = 20.0
+
+#********  R00.Reb1.Temp2/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.Temp2/limitLo = -50.0
+
+#********  R00.Reb1.Temp3/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.Temp3/dbandHi = 5.0
+
+#********  R00.Reb1.Temp3/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.Temp3/dbandLo = 5.0
+
+#********  R00.Reb1.Temp3/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.Temp3/limitHi = 45.0
+
+#********  R00.Reb1.Temp3/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.Temp3/limitLo = -50.0
+
+#********  R00.Reb1.Temp4/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.Temp4/dbandHi = 5.0
+
+#********  R00.Reb1.Temp4/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.Temp4/dbandLo = 5.0
+
+#********  R00.Reb1.Temp4/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.Temp4/limitHi = 45.0
+
+#********  R00.Reb1.Temp4/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.Temp4/limitLo = -50.0
+
+#********  R00.Reb1.Temp5/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.Temp5/dbandHi = 5.0
+
+#********  R00.Reb1.Temp5/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.Temp5/dbandLo = 5.0
+
+#********  R00.Reb1.Temp5/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.Temp5/limitHi = 45.0
+
+#********  R00.Reb1.Temp5/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.Temp5/limitLo = -50.0
+
+#********  R00.Reb1.Temp6/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.Temp6/dbandHi = 5.0
+
+#********  R00.Reb1.Temp6/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.Temp6/dbandLo = 5.0
+
+#********  R00.Reb1.Temp6/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.Temp6/limitHi = 45.0
+
+#********  R00.Reb1.Temp6/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.Temp6/limitLo = -50.0
+
+#********  R00.Reb1.Temp7/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.Temp7/dbandHi = 5.0
+
+#********  R00.Reb1.Temp7/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.Temp7/dbandLo = 5.0
+
+#********  R00.Reb1.Temp7/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.Temp7/limitHi = 45.0
+
+#********  R00.Reb1.Temp7/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.Temp7/limitLo = -50.0
+
+#********  R00.Reb1.Temp8/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.Temp8/dbandHi = 5.0
+
+#********  R00.Reb1.Temp8/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.Temp8/dbandLo = 5.0
+
+#********  R00.Reb1.Temp8/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.Temp8/limitHi = 45.0
+
+#********  R00.Reb1.Temp8/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.Temp8/limitLo = -50.0
+
+#********  R00.Reb1.Temp9/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.Temp9/dbandHi = 5.0
+
+#********  R00.Reb1.Temp9/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.Temp9/dbandLo = 5.0
+
+#********  R00.Reb1.Temp9/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.Temp9/limitHi = 45.0
+
+#********  R00.Reb1.Temp9/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb1.Temp9/limitLo = -50.0
+
+#********  R00.Reb2.AnaI/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.AnaI/dbandHi = 0.0
+
+#********  R00.Reb2.AnaI/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.AnaI/dbandLo = 0.0
+
+#********  R00.Reb2.AnaI/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.AnaI/limitHi = 700.0
+
+#********  R00.Reb2.AnaI/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.AnaI/limitLo = 0.0
+
+#********  R00.Reb2.AnaV/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.AnaV/dbandHi = 0.0
+
+#********  R00.Reb2.AnaV/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.AnaV/dbandLo = 0.0
+
+#********  R00.Reb2.AnaV/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.AnaV/limitHi = 8.0
+
+#********  R00.Reb2.AnaV/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.AnaV/limitLo = 0.0
+
+#********  R00.Reb2.Atemp0L/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.Atemp0L/dbandHi = 5.0
+
+#********  R00.Reb2.Atemp0L/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.Atemp0L/dbandLo = 5.0
+
+#********  R00.Reb2.Atemp0L/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.Atemp0L/limitHi = 45.0
+
+#********  R00.Reb2.Atemp0L/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.Atemp0L/limitLo = -50.0
+
+#********  R00.Reb2.Atemp0U/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.Atemp0U/dbandHi = 5.0
+
+#********  R00.Reb2.Atemp0U/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.Atemp0U/dbandLo = 5.0
+
+#********  R00.Reb2.Atemp0U/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.Atemp0U/limitHi = 45.0
+
+#********  R00.Reb2.Atemp0U/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.Atemp0U/limitLo = -50.0
+
+#********  R00.Reb2.Atemp1L/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.Atemp1L/dbandHi = 5.0
+
+#********  R00.Reb2.Atemp1L/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.Atemp1L/dbandLo = 5.0
+
+#********  R00.Reb2.Atemp1L/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.Atemp1L/limitHi = 45.0
+
+#********  R00.Reb2.Atemp1L/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.Atemp1L/limitLo = -50.0
+
+#********  R00.Reb2.Atemp1U/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.Atemp1U/dbandHi = 5.0
+
+#********  R00.Reb2.Atemp1U/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.Atemp1U/dbandLo = 5.0
+
+#********  R00.Reb2.Atemp1U/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.Atemp1U/limitHi = 45.0
+
+#********  R00.Reb2.Atemp1U/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.Atemp1U/limitLo = -50.0
+
+#********  R00.Reb2.Atemp2L/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.Atemp2L/dbandHi = 5.0
+
+#********  R00.Reb2.Atemp2L/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.Atemp2L/dbandLo = 5.0
+
+#********  R00.Reb2.Atemp2L/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.Atemp2L/limitHi = 45.0
+
+#********  R00.Reb2.Atemp2L/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.Atemp2L/limitLo = -50.0
+
+#********  R00.Reb2.Atemp2U/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.Atemp2U/dbandHi = 5.0
+
+#********  R00.Reb2.Atemp2U/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.Atemp2U/dbandLo = 5.0
+
+#********  R00.Reb2.Atemp2U/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.Atemp2U/limitHi = 45.0
+
+#********  R00.Reb2.Atemp2U/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.Atemp2U/limitLo = -50.0
+
+#********  R00.Reb2.CCDI000/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.CCDI000/dbandHi = 0.0
+
+#********  R00.Reb2.CCDI000/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.CCDI000/dbandLo = 0.0
+
+#********  R00.Reb2.CCDI000/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.CCDI000/limitHi = 3.0
+
+#********  R00.Reb2.CCDI000/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.CCDI000/limitLo = 0.0
+
+#********  R00.Reb2.CCDI001/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.CCDI001/dbandHi = 0.0
+
+#********  R00.Reb2.CCDI001/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.CCDI001/dbandLo = 0.0
+
+#********  R00.Reb2.CCDI001/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.CCDI001/limitHi = 3.0
+
+#********  R00.Reb2.CCDI001/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.CCDI001/limitLo = 0.0
+
+#********  R00.Reb2.CCDI002/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.CCDI002/dbandHi = 0.0
+
+#********  R00.Reb2.CCDI002/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.CCDI002/dbandLo = 0.0
+
+#********  R00.Reb2.CCDI002/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.CCDI002/limitHi = 3.0
+
+#********  R00.Reb2.CCDI002/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.CCDI002/limitLo = 0.0
+
+#********  R00.Reb2.CCDI003/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.CCDI003/dbandHi = 0.0
+
+#********  R00.Reb2.CCDI003/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.CCDI003/dbandLo = 0.0
+
+#********  R00.Reb2.CCDI003/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.CCDI003/limitHi = 3.0
+
+#********  R00.Reb2.CCDI003/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.CCDI003/limitLo = 0.0
+
+#********  R00.Reb2.CCDI004/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.CCDI004/dbandHi = 0.0
+
+#********  R00.Reb2.CCDI004/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.CCDI004/dbandLo = 0.0
+
+#********  R00.Reb2.CCDI004/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.CCDI004/limitHi = 3.0
+
+#********  R00.Reb2.CCDI004/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.CCDI004/limitLo = 0.0
+
+#********  R00.Reb2.CCDI005/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.CCDI005/dbandHi = 0.0
+
+#********  R00.Reb2.CCDI005/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.CCDI005/dbandLo = 0.0
+
+#********  R00.Reb2.CCDI005/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.CCDI005/limitHi = 3.0
+
+#********  R00.Reb2.CCDI005/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.CCDI005/limitLo = 0.0
+
+#********  R00.Reb2.CCDI006/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.CCDI006/dbandHi = 0.0
+
+#********  R00.Reb2.CCDI006/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.CCDI006/dbandLo = 0.0
+
+#********  R00.Reb2.CCDI006/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.CCDI006/limitHi = 3.0
+
+#********  R00.Reb2.CCDI006/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.CCDI006/limitLo = 0.0
+
+#********  R00.Reb2.CCDI007/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.CCDI007/dbandHi = 0.0
+
+#********  R00.Reb2.CCDI007/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.CCDI007/dbandLo = 0.0
+
+#********  R00.Reb2.CCDI007/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.CCDI007/limitHi = 3.0
+
+#********  R00.Reb2.CCDI007/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.CCDI007/limitLo = 0.0
+
+#********  R00.Reb2.CCDI010/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.CCDI010/dbandHi = 0.0
+
+#********  R00.Reb2.CCDI010/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.CCDI010/dbandLo = 0.0
+
+#********  R00.Reb2.CCDI010/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.CCDI010/limitHi = 3.0
+
+#********  R00.Reb2.CCDI010/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.CCDI010/limitLo = 0.0
+
+#********  R00.Reb2.CCDI011/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.CCDI011/dbandHi = 0.0
+
+#********  R00.Reb2.CCDI011/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.CCDI011/dbandLo = 0.0
+
+#********  R00.Reb2.CCDI011/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.CCDI011/limitHi = 3.0
+
+#********  R00.Reb2.CCDI011/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.CCDI011/limitLo = 0.0
+
+#********  R00.Reb2.CCDI012/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.CCDI012/dbandHi = 0.0
+
+#********  R00.Reb2.CCDI012/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.CCDI012/dbandLo = 0.0
+
+#********  R00.Reb2.CCDI012/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.CCDI012/limitHi = 3.0
+
+#********  R00.Reb2.CCDI012/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.CCDI012/limitLo = 0.0
+
+#********  R00.Reb2.CCDI013/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.CCDI013/dbandHi = 0.0
+
+#********  R00.Reb2.CCDI013/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.CCDI013/dbandLo = 0.0
+
+#********  R00.Reb2.CCDI013/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.CCDI013/limitHi = 3.0
+
+#********  R00.Reb2.CCDI013/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.CCDI013/limitLo = 0.0
+
+#********  R00.Reb2.CCDI014/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.CCDI014/dbandHi = 0.0
+
+#********  R00.Reb2.CCDI014/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.CCDI014/dbandLo = 0.0
+
+#********  R00.Reb2.CCDI014/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.CCDI014/limitHi = 3.0
+
+#********  R00.Reb2.CCDI014/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.CCDI014/limitLo = 0.0
+
+#********  R00.Reb2.CCDI015/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.CCDI015/dbandHi = 0.0
+
+#********  R00.Reb2.CCDI015/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.CCDI015/dbandLo = 0.0
+
+#********  R00.Reb2.CCDI015/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.CCDI015/limitHi = 3.0
+
+#********  R00.Reb2.CCDI015/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.CCDI015/limitLo = 0.0
+
+#********  R00.Reb2.CCDI016/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.CCDI016/dbandHi = 0.0
+
+#********  R00.Reb2.CCDI016/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.CCDI016/dbandLo = 0.0
+
+#********  R00.Reb2.CCDI016/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.CCDI016/limitHi = 3.0
+
+#********  R00.Reb2.CCDI016/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.CCDI016/limitLo = 0.0
+
+#********  R00.Reb2.CCDI017/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.CCDI017/dbandHi = 0.0
+
+#********  R00.Reb2.CCDI017/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.CCDI017/dbandLo = 0.0
+
+#********  R00.Reb2.CCDI017/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.CCDI017/limitHi = 3.0
+
+#********  R00.Reb2.CCDI017/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.CCDI017/limitLo = 0.0
+
+#********  R00.Reb2.CCDI100/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.CCDI100/dbandHi = 0.0
+
+#********  R00.Reb2.CCDI100/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.CCDI100/dbandLo = 0.0
+
+#********  R00.Reb2.CCDI100/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.CCDI100/limitHi = 3.0
+
+#********  R00.Reb2.CCDI100/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.CCDI100/limitLo = 0.0
+
+#********  R00.Reb2.CCDI101/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.CCDI101/dbandHi = 0.0
+
+#********  R00.Reb2.CCDI101/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.CCDI101/dbandLo = 0.0
+
+#********  R00.Reb2.CCDI101/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.CCDI101/limitHi = 3.0
+
+#********  R00.Reb2.CCDI101/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.CCDI101/limitLo = 0.0
+
+#********  R00.Reb2.CCDI102/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.CCDI102/dbandHi = 0.0
+
+#********  R00.Reb2.CCDI102/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.CCDI102/dbandLo = 0.0
+
+#********  R00.Reb2.CCDI102/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.CCDI102/limitHi = 3.0
+
+#********  R00.Reb2.CCDI102/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.CCDI102/limitLo = 0.0
+
+#********  R00.Reb2.CCDI103/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.CCDI103/dbandHi = 0.0
+
+#********  R00.Reb2.CCDI103/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.CCDI103/dbandLo = 0.0
+
+#********  R00.Reb2.CCDI103/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.CCDI103/limitHi = 3.0
+
+#********  R00.Reb2.CCDI103/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.CCDI103/limitLo = 0.0
+
+#********  R00.Reb2.CCDI104/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.CCDI104/dbandHi = 0.0
+
+#********  R00.Reb2.CCDI104/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.CCDI104/dbandLo = 0.0
+
+#********  R00.Reb2.CCDI104/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.CCDI104/limitHi = 3.0
+
+#********  R00.Reb2.CCDI104/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.CCDI104/limitLo = 0.0
+
+#********  R00.Reb2.CCDI105/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.CCDI105/dbandHi = 0.0
+
+#********  R00.Reb2.CCDI105/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.CCDI105/dbandLo = 0.0
+
+#********  R00.Reb2.CCDI105/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.CCDI105/limitHi = 3.0
+
+#********  R00.Reb2.CCDI105/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.CCDI105/limitLo = 0.0
+
+#********  R00.Reb2.CCDI106/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.CCDI106/dbandHi = 0.0
+
+#********  R00.Reb2.CCDI106/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.CCDI106/dbandLo = 0.0
+
+#********  R00.Reb2.CCDI106/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.CCDI106/limitHi = 3.0
+
+#********  R00.Reb2.CCDI106/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.CCDI106/limitLo = 0.0
+
+#********  R00.Reb2.CCDI107/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.CCDI107/dbandHi = 0.0
+
+#********  R00.Reb2.CCDI107/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.CCDI107/dbandLo = 0.0
+
+#********  R00.Reb2.CCDI107/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.CCDI107/limitHi = 3.0
+
+#********  R00.Reb2.CCDI107/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.CCDI107/limitLo = 0.0
+
+#********  R00.Reb2.CCDI110/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.CCDI110/dbandHi = 0.0
+
+#********  R00.Reb2.CCDI110/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.CCDI110/dbandLo = 0.0
+
+#********  R00.Reb2.CCDI110/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.CCDI110/limitHi = 3.0
+
+#********  R00.Reb2.CCDI110/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.CCDI110/limitLo = 0.0
+
+#********  R00.Reb2.CCDI111/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.CCDI111/dbandHi = 0.0
+
+#********  R00.Reb2.CCDI111/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.CCDI111/dbandLo = 0.0
+
+#********  R00.Reb2.CCDI111/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.CCDI111/limitHi = 3.0
+
+#********  R00.Reb2.CCDI111/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.CCDI111/limitLo = 0.0
+
+#********  R00.Reb2.CCDI112/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.CCDI112/dbandHi = 0.0
+
+#********  R00.Reb2.CCDI112/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.CCDI112/dbandLo = 0.0
+
+#********  R00.Reb2.CCDI112/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.CCDI112/limitHi = 3.0
+
+#********  R00.Reb2.CCDI112/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.CCDI112/limitLo = 0.0
+
+#********  R00.Reb2.CCDI113/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.CCDI113/dbandHi = 0.0
+
+#********  R00.Reb2.CCDI113/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.CCDI113/dbandLo = 0.0
+
+#********  R00.Reb2.CCDI113/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.CCDI113/limitHi = 3.0
+
+#********  R00.Reb2.CCDI113/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.CCDI113/limitLo = 0.0
+
+#********  R00.Reb2.CCDI114/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.CCDI114/dbandHi = 0.0
+
+#********  R00.Reb2.CCDI114/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.CCDI114/dbandLo = 0.0
+
+#********  R00.Reb2.CCDI114/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.CCDI114/limitHi = 3.0
+
+#********  R00.Reb2.CCDI114/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.CCDI114/limitLo = 0.0
+
+#********  R00.Reb2.CCDI115/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.CCDI115/dbandHi = 0.0
+
+#********  R00.Reb2.CCDI115/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.CCDI115/dbandLo = 0.0
+
+#********  R00.Reb2.CCDI115/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.CCDI115/limitHi = 3.0
+
+#********  R00.Reb2.CCDI115/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.CCDI115/limitLo = 0.0
+
+#********  R00.Reb2.CCDI116/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.CCDI116/dbandHi = 0.0
+
+#********  R00.Reb2.CCDI116/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.CCDI116/dbandLo = 0.0
+
+#********  R00.Reb2.CCDI116/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.CCDI116/limitHi = 3.0
+
+#********  R00.Reb2.CCDI116/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.CCDI116/limitLo = 0.0
+
+#********  R00.Reb2.CCDI117/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.CCDI117/dbandHi = 0.0
+
+#********  R00.Reb2.CCDI117/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.CCDI117/dbandLo = 0.0
+
+#********  R00.Reb2.CCDI117/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.CCDI117/limitHi = 3.0
+
+#********  R00.Reb2.CCDI117/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.CCDI117/limitLo = 0.0
+
+#********  R00.Reb2.CCDI200/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.CCDI200/dbandHi = 0.0
+
+#********  R00.Reb2.CCDI200/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.CCDI200/dbandLo = 0.0
+
+#********  R00.Reb2.CCDI200/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.CCDI200/limitHi = 3.0
+
+#********  R00.Reb2.CCDI200/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.CCDI200/limitLo = 0.0
+
+#********  R00.Reb2.CCDI201/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.CCDI201/dbandHi = 0.0
+
+#********  R00.Reb2.CCDI201/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.CCDI201/dbandLo = 0.0
+
+#********  R00.Reb2.CCDI201/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.CCDI201/limitHi = 3.0
+
+#********  R00.Reb2.CCDI201/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.CCDI201/limitLo = 0.0
+
+#********  R00.Reb2.CCDI202/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.CCDI202/dbandHi = 0.0
+
+#********  R00.Reb2.CCDI202/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.CCDI202/dbandLo = 0.0
+
+#********  R00.Reb2.CCDI202/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.CCDI202/limitHi = 3.0
+
+#********  R00.Reb2.CCDI202/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.CCDI202/limitLo = 0.0
+
+#********  R00.Reb2.CCDI203/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.CCDI203/dbandHi = 0.0
+
+#********  R00.Reb2.CCDI203/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.CCDI203/dbandLo = 0.0
+
+#********  R00.Reb2.CCDI203/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.CCDI203/limitHi = 3.0
+
+#********  R00.Reb2.CCDI203/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.CCDI203/limitLo = 0.0
+
+#********  R00.Reb2.CCDI204/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.CCDI204/dbandHi = 0.0
+
+#********  R00.Reb2.CCDI204/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.CCDI204/dbandLo = 0.0
+
+#********  R00.Reb2.CCDI204/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.CCDI204/limitHi = 3.0
+
+#********  R00.Reb2.CCDI204/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.CCDI204/limitLo = 0.0
+
+#********  R00.Reb2.CCDI205/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.CCDI205/dbandHi = 0.0
+
+#********  R00.Reb2.CCDI205/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.CCDI205/dbandLo = 0.0
+
+#********  R00.Reb2.CCDI205/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.CCDI205/limitHi = 3.0
+
+#********  R00.Reb2.CCDI205/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.CCDI205/limitLo = 0.0
+
+#********  R00.Reb2.CCDI206/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.CCDI206/dbandHi = 0.0
+
+#********  R00.Reb2.CCDI206/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.CCDI206/dbandLo = 0.0
+
+#********  R00.Reb2.CCDI206/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.CCDI206/limitHi = 3.0
+
+#********  R00.Reb2.CCDI206/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.CCDI206/limitLo = 0.0
+
+#********  R00.Reb2.CCDI207/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.CCDI207/dbandHi = 0.0
+
+#********  R00.Reb2.CCDI207/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.CCDI207/dbandLo = 0.0
+
+#********  R00.Reb2.CCDI207/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.CCDI207/limitHi = 3.0
+
+#********  R00.Reb2.CCDI207/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.CCDI207/limitLo = 0.0
+
+#********  R00.Reb2.CCDI210/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.CCDI210/dbandHi = 0.0
+
+#********  R00.Reb2.CCDI210/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.CCDI210/dbandLo = 0.0
+
+#********  R00.Reb2.CCDI210/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.CCDI210/limitHi = 3.0
+
+#********  R00.Reb2.CCDI210/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.CCDI210/limitLo = 0.0
+
+#********  R00.Reb2.CCDI211/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.CCDI211/dbandHi = 0.0
+
+#********  R00.Reb2.CCDI211/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.CCDI211/dbandLo = 0.0
+
+#********  R00.Reb2.CCDI211/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.CCDI211/limitHi = 3.0
+
+#********  R00.Reb2.CCDI211/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.CCDI211/limitLo = 0.0
+
+#********  R00.Reb2.CCDI212/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.CCDI212/dbandHi = 0.0
+
+#********  R00.Reb2.CCDI212/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.CCDI212/dbandLo = 0.0
+
+#********  R00.Reb2.CCDI212/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.CCDI212/limitHi = 3.0
+
+#********  R00.Reb2.CCDI212/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.CCDI212/limitLo = 0.0
+
+#********  R00.Reb2.CCDI213/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.CCDI213/dbandHi = 0.0
+
+#********  R00.Reb2.CCDI213/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.CCDI213/dbandLo = 0.0
+
+#********  R00.Reb2.CCDI213/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.CCDI213/limitHi = 3.0
+
+#********  R00.Reb2.CCDI213/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.CCDI213/limitLo = 0.0
+
+#********  R00.Reb2.CCDI214/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.CCDI214/dbandHi = 0.0
+
+#********  R00.Reb2.CCDI214/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.CCDI214/dbandLo = 0.0
+
+#********  R00.Reb2.CCDI214/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.CCDI214/limitHi = 3.0
+
+#********  R00.Reb2.CCDI214/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.CCDI214/limitLo = 0.0
+
+#********  R00.Reb2.CCDI215/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.CCDI215/dbandHi = 0.0
+
+#********  R00.Reb2.CCDI215/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.CCDI215/dbandLo = 0.0
+
+#********  R00.Reb2.CCDI215/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.CCDI215/limitHi = 3.0
+
+#********  R00.Reb2.CCDI215/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.CCDI215/limitLo = 0.0
+
+#********  R00.Reb2.CCDI216/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.CCDI216/dbandHi = 0.0
+
+#********  R00.Reb2.CCDI216/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.CCDI216/dbandLo = 0.0
+
+#********  R00.Reb2.CCDI216/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.CCDI216/limitHi = 3.0
+
+#********  R00.Reb2.CCDI216/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.CCDI216/limitLo = 0.0
+
+#********  R00.Reb2.CCDI217/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.CCDI217/dbandHi = 0.0
+
+#********  R00.Reb2.CCDI217/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.CCDI217/dbandLo = 0.0
+
+#********  R00.Reb2.CCDI217/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.CCDI217/limitHi = 3.0
+
+#********  R00.Reb2.CCDI217/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.CCDI217/limitLo = 0.0
+
+#********  R00.Reb2.CCDTemp0/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.CCDTemp0/dbandHi = 0.0
+
+#********  R00.Reb2.CCDTemp0/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.CCDTemp0/dbandLo = 0.0
+
+#********  R00.Reb2.CCDTemp0/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.CCDTemp0/limitHi = 45.0
+
+#********  R00.Reb2.CCDTemp0/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.CCDTemp0/limitLo = -120.0
+
+#********  R00.Reb2.CCDTemp1/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.CCDTemp1/dbandHi = 0.0
+
+#********  R00.Reb2.CCDTemp1/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.CCDTemp1/dbandLo = 0.0
+
+#********  R00.Reb2.CCDTemp1/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.CCDTemp1/limitHi = 45.0
+
+#********  R00.Reb2.CCDTemp1/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.CCDTemp1/limitLo = -120.0
+
+#********  R00.Reb2.CCDTemp2/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.CCDTemp2/dbandHi = 0.0
+
+#********  R00.Reb2.CCDTemp2/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.CCDTemp2/dbandLo = 0.0
+
+#********  R00.Reb2.CCDTemp2/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.CCDTemp2/limitHi = 45.0
+
+#********  R00.Reb2.CCDTemp2/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.CCDTemp2/limitLo = -120.0
+
+#********  R00.Reb2.ClkHI/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.ClkHI/dbandHi = 0.0
+
+#********  R00.Reb2.ClkHI/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.ClkHI/dbandLo = 0.0
+
+#********  R00.Reb2.ClkHI/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.ClkHI/limitHi = 150.0
+
+#********  R00.Reb2.ClkHI/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.ClkHI/limitLo = 0.0
+
+#********  R00.Reb2.ClkHV/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.ClkHV/dbandHi = 0.0
+
+#********  R00.Reb2.ClkHV/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.ClkHV/dbandLo = 0.0
+
+#********  R00.Reb2.ClkHV/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.ClkHV/limitHi = 16.0
+
+#********  R00.Reb2.ClkHV/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.ClkHV/limitLo = 0.0
+
+#********  R00.Reb2.ClkLI/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.ClkLI/dbandHi = 0.0
+
+#********  R00.Reb2.ClkLI/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.ClkLI/dbandLo = 0.0
+
+#********  R00.Reb2.ClkLI/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.ClkLI/limitHi = 100.0
+
+#********  R00.Reb2.ClkLI/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.ClkLI/limitLo = 0.0
+
+#********  R00.Reb2.ClkLV/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.ClkLV/dbandHi = 0.0
+
+#********  R00.Reb2.ClkLV/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.ClkLV/dbandLo = 0.0
+
+#********  R00.Reb2.ClkLV/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.ClkLV/limitHi = 16.0
+
+#********  R00.Reb2.ClkLV/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.ClkLV/limitLo = 0.0
+
+#********  R00.Reb2.DigI/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.DigI/dbandHi = 0.0
+
+#********  R00.Reb2.DigI/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.DigI/dbandLo = 0.0
+
+#********  R00.Reb2.DigI/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.DigI/limitHi = 600.0
+
+#********  R00.Reb2.DigI/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.DigI/limitLo = 0.0
+
+#********  R00.Reb2.DigV/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.DigV/dbandHi = 0.0
+
+#********  R00.Reb2.DigV/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.DigV/dbandLo = 0.0
+
+#********  R00.Reb2.DigV/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.DigV/limitHi = 6.0
+
+#********  R00.Reb2.DigV/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.DigV/limitLo = 0.0
+
+#********  R00.Reb2.GD0V/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.GD0V/dbandHi = 0.0
+
+#********  R00.Reb2.GD0V/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.GD0V/dbandLo = 0.0
+
+#********  R00.Reb2.GD0V/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.GD0V/limitHi =  22.0
+
+#********  R00.Reb2.GD0V/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.GD0V/limitLo =  18.0
+
+#********  R00.Reb2.GD1V/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.GD1V/dbandHi = 0.0
+
+#********  R00.Reb2.GD1V/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.GD1V/dbandLo = 0.0
+
+#********  R00.Reb2.GD1V/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.GD1V/limitHi =  22.0
+
+#********  R00.Reb2.GD1V/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.GD1V/limitLo =  18.0
+
+#********  R00.Reb2.GD2V/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.GD2V/dbandHi = 0.0
+
+#********  R00.Reb2.GD2V/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.GD2V/dbandLo = 0.0
+
+#********  R00.Reb2.GD2V/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.GD2V/limitHi =  22.0
+
+#********  R00.Reb2.GD2V/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.GD2V/limitLo =  18.0
+
+#********  R00.Reb2.HtrV/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.HtrV/dbandHi = 0.0
+
+#********  R00.Reb2.HtrV/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.HtrV/dbandLo = 0.0
+
+#********  R00.Reb2.HtrV/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.HtrV/limitHi = 9.0
+
+#********  R00.Reb2.HtrV/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.HtrV/limitLo = 0.0
+
+#********  R00.Reb2.HtrW/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.HtrW/dbandHi = 0.0
+
+#********  R00.Reb2.HtrW/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.HtrW/dbandLo = 0.0
+
+#********  R00.Reb2.HtrW/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.HtrW/limitHi = 0.0
+
+#********  R00.Reb2.HtrW/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.HtrW/limitLo = 0.0
+
+#********  R00.Reb2.OD0V/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.OD0V/dbandHi = 0.0
+
+#********  R00.Reb2.OD0V/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.OD0V/dbandLo = 0.0
+
+#********  R00.Reb2.OD0V/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.OD0V/limitHi = 30.5
+
+#********  R00.Reb2.OD0V/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.OD0V/limitLo = 0.0
+
+#********  R00.Reb2.OD1V/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.OD1V/dbandHi = 0.0
+
+#********  R00.Reb2.OD1V/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.OD1V/dbandLo = 0.0
+
+#********  R00.Reb2.OD1V/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.OD1V/limitHi = 30.5
+
+#********  R00.Reb2.OD1V/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.OD1V/limitLo = 0.0
+
+#********  R00.Reb2.OD2V/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.OD2V/dbandHi = 0.0
+
+#********  R00.Reb2.OD2V/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.OD2V/dbandLo = 0.0
+
+#********  R00.Reb2.OD2V/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.OD2V/limitHi = 30.5
+
+#********  R00.Reb2.OD2V/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.OD2V/limitLo = 0.0
+
+#********  R00.Reb2.ODI/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.ODI/dbandHi = 0.0
+
+#********  R00.Reb2.ODI/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.ODI/dbandLo = 0.0
+
+#********  R00.Reb2.ODI/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.ODI/limitHi = 200.0
+
+#********  R00.Reb2.ODI/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.ODI/limitLo = 0.0
+
+#********  R00.Reb2.ODV/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.ODV/dbandHi = 0.0
+
+#********  R00.Reb2.ODV/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.ODV/dbandLo = 0.0
+
+#********  R00.Reb2.ODV/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.ODV/limitHi = 27.0
+
+#********  R00.Reb2.ODV/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.ODV/limitLo = 23.0
+
+#********  R00.Reb2.OG0V/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.OG0V/dbandHi = 0.0
+
+#********  R00.Reb2.OG0V/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.OG0V/dbandLo = 0.0
+
+#********  R00.Reb2.OG0V/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.OG0V/limitHi =  2.2
+
+#********  R00.Reb2.OG0V/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.OG0V/limitLo =  -2.2
+
+#********  R00.Reb2.OG1V/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.OG1V/dbandHi = 0.0
+
+#********  R00.Reb2.OG1V/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.OG1V/dbandLo = 0.0
+
+#********  R00.Reb2.OG1V/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.OG1V/limitHi =  2.2
+
+#********  R00.Reb2.OG1V/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.OG1V/limitLo =  -2.2
+
+#********  R00.Reb2.OG2V/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.OG2V/dbandHi = 0.0
+
+#********  R00.Reb2.OG2V/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.OG2V/dbandLo = 0.0
+
+#********  R00.Reb2.OG2V/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.OG2V/limitHi =  2.2
+
+#********  R00.Reb2.OG2V/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.OG2V/limitLo =  -2.2
+
+#********  R00.Reb2.PClkL/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.PClkL/dbandHi = 0.0
+
+#********  R00.Reb2.PClkL/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.PClkL/dbandLo = 0.0
+
+#********  R00.Reb2.PClkL/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.PClkL/limitHi = -7.0
+
+#********  R00.Reb2.PClkL/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.PClkL/limitLo = -9.0
+
+#********  R00.Reb2.PClkU/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.PClkU/dbandHi = 0.0
+
+#********  R00.Reb2.PClkU/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.PClkU/dbandLo = 0.0
+
+#********  R00.Reb2.PClkU/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.PClkU/limitHi = 3.0
+
+#********  R00.Reb2.PClkU/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.PClkU/limitLo = 1.0
+
+#********  R00.Reb2.Power/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.Power/dbandHi = 0.0
+
+#********  R00.Reb2.Power/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.Power/dbandLo = 0.0
+
+#********  R00.Reb2.Power/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.Power/limitHi = 25.0
+
+#********  R00.Reb2.Power/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.Power/limitLo = 0.0
+
+#********  R00.Reb2.RD0V/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.RD0V/dbandHi = 0.0
+
+#********  R00.Reb2.RD0V/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.RD0V/dbandLo = 0.0
+
+#********  R00.Reb2.RD0V/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.RD0V/limitHi =  15.0
+
+#********  R00.Reb2.RD0V/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.RD0V/limitLo =  11.0
+
+#********  R00.Reb2.RD1V/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.RD1V/dbandHi = 0.0
+
+#********  R00.Reb2.RD1V/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.RD1V/dbandLo = 0.0
+
+#********  R00.Reb2.RD1V/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.RD1V/limitHi =  15.0
+
+#********  R00.Reb2.RD1V/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.RD1V/limitLo =  11.0
+
+#********  R00.Reb2.RD2V/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.RD2V/dbandHi = 0.0
+
+#********  R00.Reb2.RD2V/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.RD2V/dbandLo = 0.0
+
+#********  R00.Reb2.RD2V/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.RD2V/limitHi =  15.0
+
+#********  R00.Reb2.RD2V/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.RD2V/limitLo =  11.0
+
+#********  R00.Reb2.RGL/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.RGL/dbandHi = 0.0
+
+#********  R00.Reb2.RGL/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.RGL/dbandLo = 0.0
+
+#********  R00.Reb2.RGL/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.RGL/limitHi = 0.0
+
+#********  R00.Reb2.RGL/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.RGL/limitLo = -1.0
+
+#********  R00.Reb2.RGU/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.RGU/dbandHi = 0.0
+
+#********  R00.Reb2.RGU/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.RGU/dbandLo = 0.0
+
+#********  R00.Reb2.RGU/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.RGU/limitHi = 9.0
+
+#********  R00.Reb2.RGU/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.RGU/limitLo = 7.0
+
+#********  R00.Reb2.RTDTemp/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.RTDTemp/dbandHi = 0.0
+
+#********  R00.Reb2.RTDTemp/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.RTDTemp/dbandLo = 0.0
+
+#********  R00.Reb2.RTDTemp/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.RTDTemp/limitHi = 45.0
+
+#********  R00.Reb2.RTDTemp/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.RTDTemp/limitLo = -120.0
+
+#********  R00.Reb2.Ref05V/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.Ref05V/dbandHi = 0.0
+
+#********  R00.Reb2.Ref05V/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.Ref05V/dbandLo = 0.0
+
+#********  R00.Reb2.Ref05V/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.Ref05V/limitHi = 5.5
+
+#********  R00.Reb2.Ref05V/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.Ref05V/limitLo = 0.0
+
+#********  R00.Reb2.Ref125V/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.Ref125V/dbandHi = 0.0
+
+#********  R00.Reb2.Ref125V/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.Ref125V/dbandLo = 0.0
+
+#********  R00.Reb2.Ref125V/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.Ref125V/limitHi = 2.75
+
+#********  R00.Reb2.Ref125V/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.Ref125V/limitLo = 0.0
+
+#********  R00.Reb2.Ref15V/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.Ref15V/dbandHi = 0.0
+
+#********  R00.Reb2.Ref15V/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.Ref15V/dbandLo = 0.0
+
+#********  R00.Reb2.Ref15V/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.Ref15V/limitHi = 5.5
+
+#********  R00.Reb2.Ref15V/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.Ref15V/limitLo = 0.0
+
+#********  R00.Reb2.Ref25V/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.Ref25V/dbandHi = 0.0
+
+#********  R00.Reb2.Ref25V/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.Ref25V/dbandLo = 0.0
+
+#********  R00.Reb2.Ref25V/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.Ref25V/limitHi = 5.5
+
+#********  R00.Reb2.Ref25V/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.Ref25V/limitLo = 0.0
+
+#********  R00.Reb2.RefN12/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.RefN12/dbandHi = 0.0
+
+#********  R00.Reb2.RefN12/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.RefN12/dbandLo = 0.0
+
+#********  R00.Reb2.RefN12/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.RefN12/limitHi = 0.0
+
+#********  R00.Reb2.RefN12/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.RefN12/limitLo = -14.0
+
+#********  R00.Reb2.RefP12/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.RefP12/dbandHi = 0.0
+
+#********  R00.Reb2.RefP12/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.RefP12/dbandLo = 0.0
+
+#********  R00.Reb2.RefP12/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.RefP12/limitHi = 14.0
+
+#********  R00.Reb2.RefP12/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.RefP12/limitLo = 0.0
+
+#********  R00.Reb2.SClkL/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.SClkL/dbandHi = 0.0
+
+#********  R00.Reb2.SClkL/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.SClkL/dbandLo = 0.0
+
+#********  R00.Reb2.SClkL/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.SClkL/limitHi = -4.0
+
+#********  R00.Reb2.SClkL/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.SClkL/limitLo = -6.0
+
+#********  R00.Reb2.SClkU/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.SClkU/dbandHi = 0.0
+
+#********  R00.Reb2.SClkU/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.SClkU/dbandLo = 0.0
+
+#********  R00.Reb2.SClkU/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.SClkU/limitHi = 4.0
+
+#********  R00.Reb2.SClkU/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.SClkU/limitLo = 0.0
+
+#********  R00.Reb2.Temp1/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.Temp1/dbandHi = 5.0
+
+#********  R00.Reb2.Temp1/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.Temp1/dbandLo = 5.0
+
+#********  R00.Reb2.Temp1/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.Temp1/limitHi = 20.0
+
+#********  R00.Reb2.Temp1/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.Temp1/limitLo = -50.0
+
+#********  R00.Reb2.Temp10/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.Temp10/dbandHi = 5.0
+
+#********  R00.Reb2.Temp10/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.Temp10/dbandLo = 5.0
+
+#********  R00.Reb2.Temp10/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.Temp10/limitHi = 45.0
+
+#********  R00.Reb2.Temp10/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.Temp10/limitLo = -50.0
+
+#********  R00.Reb2.Temp2/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.Temp2/dbandHi = 5.0
+
+#********  R00.Reb2.Temp2/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.Temp2/dbandLo = 5.0
+
+#********  R00.Reb2.Temp2/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.Temp2/limitHi = 20.0
+
+#********  R00.Reb2.Temp2/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.Temp2/limitLo = -50.0
+
+#********  R00.Reb2.Temp3/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.Temp3/dbandHi = 5.0
+
+#********  R00.Reb2.Temp3/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.Temp3/dbandLo = 5.0
+
+#********  R00.Reb2.Temp3/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.Temp3/limitHi = 45.0
+
+#********  R00.Reb2.Temp3/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.Temp3/limitLo = -50.0
+
+#********  R00.Reb2.Temp4/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.Temp4/dbandHi = 5.0
+
+#********  R00.Reb2.Temp4/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.Temp4/dbandLo = 5.0
+
+#********  R00.Reb2.Temp4/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.Temp4/limitHi = 45.0
+
+#********  R00.Reb2.Temp4/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.Temp4/limitLo = -50.0
+
+#********  R00.Reb2.Temp5/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.Temp5/dbandHi = 5.0
+
+#********  R00.Reb2.Temp5/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.Temp5/dbandLo = 5.0
+
+#********  R00.Reb2.Temp5/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.Temp5/limitHi = 45.0
+
+#********  R00.Reb2.Temp5/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.Temp5/limitLo = -50.0
+
+#********  R00.Reb2.Temp6/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.Temp6/dbandHi = 5.0
+
+#********  R00.Reb2.Temp6/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.Temp6/dbandLo = 5.0
+
+#********  R00.Reb2.Temp6/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.Temp6/limitHi = 45.0
+
+#********  R00.Reb2.Temp6/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.Temp6/limitLo = -50.0
+
+#********  R00.Reb2.Temp7/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.Temp7/dbandHi = 5.0
+
+#********  R00.Reb2.Temp7/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.Temp7/dbandLo = 5.0
+
+#********  R00.Reb2.Temp7/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.Temp7/limitHi = 45.0
+
+#********  R00.Reb2.Temp7/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.Temp7/limitLo = -50.0
+
+#********  R00.Reb2.Temp8/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.Temp8/dbandHi = 5.0
+
+#********  R00.Reb2.Temp8/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.Temp8/dbandLo = 5.0
+
+#********  R00.Reb2.Temp8/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.Temp8/limitHi = 45.0
+
+#********  R00.Reb2.Temp8/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.Temp8/limitLo = -50.0
+
+#********  R00.Reb2.Temp9/dbandHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.Temp9/dbandHi = 5.0
+
+#********  R00.Reb2.Temp9/dbandLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.Temp9/dbandLo = 5.0
+
+#********  R00.Reb2.Temp9/limitHi
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.Temp9/limitHi = 45.0
+
+#********  R00.Reb2.Temp9/limitLo
+#** 
+#** type : double
+#** category : Limits
+#********
+R00.Reb2.Temp9/limitLo = -50.0
+

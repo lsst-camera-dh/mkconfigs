@@ -1,0 +1,1728 @@
+main/ccdType = itl
+
+R00.Reb0/serialNum = 418249727
+R00.Reb1/serialNum = 418266676
+R00.Reb2/serialNum = 418225502
+
+#********  R00.Reb0.ASPIC0/af1
+#** 
+#** type : int
+#** category : Rafts
+#********
+R00.Reb0.ASPIC0/af1 = 0
+
+#********  R00.Reb0.ASPIC0/clamp
+#** 
+#** type : int
+#** category : Rafts
+#********
+R00.Reb0.ASPIC0/clamp = 0
+
+#********  R00.Reb0.ASPIC0/gain
+#** 
+#** type : int
+#** category : Rafts
+#********
+R00.Reb0.ASPIC0/gain = 1
+
+#********  R00.Reb0.ASPIC0/rc
+#** 
+#** type : int
+#** category : Rafts
+#********
+R00.Reb0.ASPIC0/rc = 15
+
+#********  R00.Reb0.ASPIC0/tm
+#** 
+#** type : int
+#** category : Rafts
+#********
+R00.Reb0.ASPIC0/tm = 0
+
+#********  R00.Reb0.ASPIC1/af1
+#** 
+#** type : int
+#** category : Rafts
+#********
+R00.Reb0.ASPIC1/af1 = 0
+
+#********  R00.Reb0.ASPIC1/clamp
+#** 
+#** type : int
+#** category : Rafts
+#********
+R00.Reb0.ASPIC1/clamp = 0
+
+#********  R00.Reb0.ASPIC1/gain
+#** 
+#** type : int
+#** category : Rafts
+#********
+R00.Reb0.ASPIC1/gain = 1
+
+#********  R00.Reb0.ASPIC1/rc
+#** 
+#** type : int
+#** category : Rafts
+#********
+R00.Reb0.ASPIC1/rc = 15
+
+#********  R00.Reb0.ASPIC1/tm
+#** 
+#** type : int
+#** category : Rafts
+#********
+R00.Reb0.ASPIC1/tm = 0
+
+#********  R00.Reb0.ASPIC2/af1
+#** 
+#** type : int
+#** category : Rafts
+#********
+R00.Reb0.ASPIC2/af1 = 0
+
+#********  R00.Reb0.ASPIC2/clamp
+#** 
+#** type : int
+#** category : Rafts
+#********
+R00.Reb0.ASPIC2/clamp = 0
+
+#********  R00.Reb0.ASPIC2/gain
+#** 
+#** type : int
+#** category : Rafts
+#********
+R00.Reb0.ASPIC2/gain = 1
+
+#********  R00.Reb0.ASPIC2/rc
+#** 
+#** type : int
+#** category : Rafts
+#********
+R00.Reb0.ASPIC2/rc = 15
+
+#********  R00.Reb0.ASPIC2/tm
+#** 
+#** type : int
+#** category : Rafts
+#********
+R00.Reb0.ASPIC2/tm = 0
+
+#********  R00.Reb0.ASPIC3/af1
+#** 
+#** type : int
+#** category : Rafts
+#********
+R00.Reb0.ASPIC3/af1 = 0
+
+#********  R00.Reb0.ASPIC3/clamp
+#** 
+#** type : int
+#** category : Rafts
+#********
+R00.Reb0.ASPIC3/clamp = 0
+
+#********  R00.Reb0.ASPIC3/gain
+#** 
+#** type : int
+#** category : Rafts
+#********
+R00.Reb0.ASPIC3/gain = 1
+
+#********  R00.Reb0.ASPIC3/rc
+#** 
+#** type : int
+#** category : Rafts
+#********
+R00.Reb0.ASPIC3/rc = 15
+
+#********  R00.Reb0.ASPIC3/tm
+#** 
+#** type : int
+#** category : Rafts
+#********
+R00.Reb0.ASPIC3/tm = 0
+
+#********  R00.Reb0.ASPIC4/af1
+#** 
+#** type : int
+#** category : Rafts
+#********
+R00.Reb0.ASPIC4/af1 = 0
+
+#********  R00.Reb0.ASPIC4/clamp
+#** 
+#** type : int
+#** category : Rafts
+#********
+R00.Reb0.ASPIC4/clamp = 0
+
+#********  R00.Reb0.ASPIC4/gain
+#** 
+#** type : int
+#** category : Rafts
+#********
+R00.Reb0.ASPIC4/gain = 1
+
+#********  R00.Reb0.ASPIC4/rc
+#** 
+#** type : int
+#** category : Rafts
+#********
+R00.Reb0.ASPIC4/rc = 15
+
+#********  R00.Reb0.ASPIC4/tm
+#** 
+#** type : int
+#** category : Rafts
+#********
+R00.Reb0.ASPIC4/tm = 0
+
+#********  R00.Reb0.ASPIC5/af1
+#** 
+#** type : int
+#** category : Rafts
+#********
+R00.Reb0.ASPIC5/af1 = 0
+
+#********  R00.Reb0.ASPIC5/clamp
+#** 
+#** type : int
+#** category : Rafts
+#********
+R00.Reb0.ASPIC5/clamp = 0
+
+#********  R00.Reb0.ASPIC5/gain
+#** 
+#** type : int
+#** category : Rafts
+#********
+R00.Reb0.ASPIC5/gain = 1
+
+#********  R00.Reb0.ASPIC5/rc
+#** 
+#** type : int
+#** category : Rafts
+#********
+R00.Reb0.ASPIC5/rc = 15
+
+#********  R00.Reb0.ASPIC5/tm
+#** 
+#** type : int
+#** category : Rafts
+#********
+R00.Reb0.ASPIC5/tm = 0
+
+#********  R00.Reb0.Bias0/csGate
+#** 
+#** type : int
+#** category : Rafts
+#********
+R00.Reb0.Bias0/csGate = 0
+
+#********  R00.Reb0.Bias0/csGateP
+#** 
+#** type : double
+#** category : Rafts
+#********
+R00.Reb0.Bias0/csGateP = 1.0
+
+#********  R00.Reb0.Bias0/gd
+#** 
+#** type : int
+#** category : Rafts
+#********
+R00.Reb0.Bias0/gd = 0
+
+#********  R00.Reb0.Bias0/gdP
+#** 
+#** type : double
+#** category : Rafts
+#********
+R00.Reb0.Bias0/gdP = 20.0
+
+#********  R00.Reb0.Bias0/od
+#** 
+#** type : int
+#** category : Rafts
+#********
+R00.Reb0.Bias0/od = 0
+
+#********  R00.Reb0.Bias0/odP
+#** 
+#** type : double
+#** category : Rafts
+#********
+R00.Reb0.Bias0/odP = 25.0
+
+#********  R00.Reb0.Bias0/og
+#** 
+#** type : int
+#** category : Rafts
+#********
+R00.Reb0.Bias0/og = 0
+
+#********  R00.Reb0.Bias0/ogP
+#** 
+#** type : double
+#** category : Rafts
+#********
+R00.Reb0.Bias0/ogP = -2.0
+
+#********  R00.Reb0.Bias0/ogSh
+#** 
+#** type : int
+#** category : Rafts
+#********
+R00.Reb0.Bias0/ogSh = 0
+
+#********  R00.Reb0.Bias0/rd
+#** 
+#** type : int
+#** category : Rafts
+#********
+R00.Reb0.Bias0/rd = 0
+
+#********  R00.Reb0.Bias0/rdP
+#** 
+#** type : double
+#** category : Rafts
+#********
+R00.Reb0.Bias0/rdP = 13.0
+
+#********  R00.Reb0.Bias1/csGate
+#** 
+#** type : int
+#** category : Rafts
+#********
+R00.Reb0.Bias1/csGate = 0
+
+#********  R00.Reb0.Bias1/csGateP
+#** 
+#** type : double
+#** category : Rafts
+#********
+R00.Reb0.Bias1/csGateP = 1.0
+
+#********  R00.Reb0.Bias1/gd
+#** 
+#** type : int
+#** category : Rafts
+#********
+R00.Reb0.Bias1/gd = 0
+
+#********  R00.Reb0.Bias1/gdP
+#** 
+#** type : double
+#** category : Rafts
+#********
+R00.Reb0.Bias1/gdP = 20.0
+
+#********  R00.Reb0.Bias1/od
+#** 
+#** type : int
+#** category : Rafts
+#********
+R00.Reb0.Bias1/od = 0
+
+#********  R00.Reb0.Bias1/odP
+#** 
+#** type : double
+#** category : Rafts
+#********
+R00.Reb0.Bias1/odP = 25.0
+
+#********  R00.Reb0.Bias1/og
+#** 
+#** type : int
+#** category : Rafts
+#********
+R00.Reb0.Bias1/og = 0
+
+#********  R00.Reb0.Bias1/ogP
+#** 
+#** type : double
+#** category : Rafts
+#********
+R00.Reb0.Bias1/ogP = -2.0
+
+#********  R00.Reb0.Bias1/ogSh
+#** 
+#** type : int
+#** category : Rafts
+#********
+R00.Reb0.Bias1/ogSh = 0
+
+#********  R00.Reb0.Bias1/rd
+#** 
+#** type : int
+#** category : Rafts
+#********
+R00.Reb0.Bias1/rd = 0
+
+#********  R00.Reb0.Bias1/rdP
+#** 
+#** type : double
+#** category : Rafts
+#********
+R00.Reb0.Bias1/rdP = 13.0
+
+#********  R00.Reb0.Bias2/csGate
+#** 
+#** type : int
+#** category : Rafts
+#********
+R00.Reb0.Bias2/csGate = 0
+
+#********  R00.Reb0.Bias2/csGateP
+#** 
+#** type : double
+#** category : Rafts
+#********
+R00.Reb0.Bias2/csGateP = 1.0
+
+#********  R00.Reb0.Bias2/gd
+#** 
+#** type : int
+#** category : Rafts
+#********
+R00.Reb0.Bias2/gd = 0
+
+#********  R00.Reb0.Bias2/gdP
+#** 
+#** type : double
+#** category : Rafts
+#********
+R00.Reb0.Bias2/gdP = 20.0
+
+#********  R00.Reb0.Bias2/od
+#** 
+#** type : int
+#** category : Rafts
+#********
+R00.Reb0.Bias2/od = 0
+
+#********  R00.Reb0.Bias2/odP
+#** 
+#** type : double
+#** category : Rafts
+#********
+R00.Reb0.Bias2/odP = 25.0
+
+#********  R00.Reb0.Bias2/og
+#** 
+#** type : int
+#** category : Rafts
+#********
+R00.Reb0.Bias2/og = 0
+
+#********  R00.Reb0.Bias2/ogP
+#** 
+#** type : double
+#** category : Rafts
+#********
+R00.Reb0.Bias2/ogP = -2.0
+
+#********  R00.Reb0.Bias2/ogSh
+#** 
+#** type : int
+#** category : Rafts
+#********
+R00.Reb0.Bias2/ogSh = 0
+
+#********  R00.Reb0.Bias2/rd
+#** 
+#** type : int
+#** category : Rafts
+#********
+R00.Reb0.Bias2/rd = 0
+
+#********  R00.Reb0.Bias2/rdP
+#** 
+#** type : double
+#** category : Rafts
+#********
+R00.Reb0.Bias2/rdP = 13.0
+
+#********  R00.Reb0.DAC/csGate
+#** 
+#** type : int[]
+#** category : Rafts
+#********
+R00.Reb0.DAC/csGate = [0,0,0]
+
+#********  R00.Reb0.DAC/pclkHigh
+#** 
+#** type : int
+#** category : Rafts
+#********
+R00.Reb0.DAC/pclkHigh = 0
+
+#********  R00.Reb0.DAC/pclkHighP
+#** 
+#** type : double
+#** category : Rafts
+#********
+R00.Reb0.DAC/pclkHighP = 2.0
+
+#********  R00.Reb0.DAC/pclkHighSh
+#** 
+#** type : int
+#** category : Rafts
+#********
+R00.Reb0.DAC/pclkHighSh = 0
+
+#********  R00.Reb0.DAC/pclkLow
+#** 
+#** type : int
+#** category : Rafts
+#********
+R00.Reb0.DAC/pclkLow = 0
+
+#********  R00.Reb0.DAC/pclkLowP
+#** 
+#** type : double
+#** category : Rafts
+#********
+R00.Reb0.DAC/pclkLowP = -8.0
+
+#********  R00.Reb0.DAC/pclkLowSh
+#** 
+#** type : int
+#** category : Rafts
+#********
+R00.Reb0.DAC/pclkLowSh = 0
+
+#********  R00.Reb0.DAC/rgHigh
+#** 
+#** type : int
+#** category : Rafts
+#********
+R00.Reb0.DAC/rgHigh = 0
+
+#********  R00.Reb0.DAC/rgHighP
+#** 
+#** type : double
+#** category : Rafts
+#********
+R00.Reb0.DAC/rgHighP = 8.0
+
+#********  R00.Reb0.DAC/rgHighSh
+#** 
+#** type : int
+#** category : Rafts
+#********
+R00.Reb0.DAC/rgHighSh = 0
+
+#********  R00.Reb0.DAC/rgLow
+#** 
+#** type : int
+#** category : Rafts
+#********
+R00.Reb0.DAC/rgLow = 0
+
+#********  R00.Reb0.DAC/rgLowP
+#** 
+#** type : double
+#** category : Rafts
+#********
+R00.Reb0.DAC/rgLowP = -2.0
+
+#********  R00.Reb0.DAC/rgLowSh
+#** 
+#** type : int
+#** category : Rafts
+#********
+R00.Reb0.DAC/rgLowSh = 0
+
+#********  R00.Reb0.DAC/sclkHigh
+#** 
+#** type : int
+#** category : Rafts
+#********
+R00.Reb0.DAC/sclkHigh = 0
+
+#********  R00.Reb0.DAC/sclkHighP
+#** 
+#** type : double
+#** category : Rafts
+#********
+R00.Reb0.DAC/sclkHighP = 5.0
+
+#********  R00.Reb0.DAC/sclkHighSh
+#** 
+#** type : int
+#** category : Rafts
+#********
+R00.Reb0.DAC/sclkHighSh = 0
+
+#********  R00.Reb0.DAC/sclkLow
+#** 
+#** type : int
+#** category : Rafts
+#********
+R00.Reb0.DAC/sclkLow = 0
+
+#********  R00.Reb0.DAC/sclkLowP
+#** 
+#** type : double
+#** category : Rafts
+#********
+R00.Reb0.DAC/sclkLowP = -5.0
+
+#********  R00.Reb0.DAC/sclkLowSh
+#** 
+#** type : int
+#** category : Rafts
+#********
+R00.Reb0.DAC/sclkLowSh = 0
+
+#********  R00.Reb1.ASPIC0/af1
+#** 
+#** type : int
+#** category : Rafts
+#********
+R00.Reb1.ASPIC0/af1 = 0
+
+#********  R00.Reb1.ASPIC0/clamp
+#** 
+#** type : int
+#** category : Rafts
+#********
+R00.Reb1.ASPIC0/clamp = 0
+
+#********  R00.Reb1.ASPIC0/gain
+#** 
+#** type : int
+#** category : Rafts
+#********
+R00.Reb1.ASPIC0/gain = 1
+
+#********  R00.Reb1.ASPIC0/rc
+#** 
+#** type : int
+#** category : Rafts
+#********
+R00.Reb1.ASPIC0/rc = 15
+
+#********  R00.Reb1.ASPIC0/tm
+#** 
+#** type : int
+#** category : Rafts
+#********
+R00.Reb1.ASPIC0/tm = 0
+
+#********  R00.Reb1.ASPIC1/af1
+#** 
+#** type : int
+#** category : Rafts
+#********
+R00.Reb1.ASPIC1/af1 = 0
+
+#********  R00.Reb1.ASPIC1/clamp
+#** 
+#** type : int
+#** category : Rafts
+#********
+R00.Reb1.ASPIC1/clamp = 0
+
+#********  R00.Reb1.ASPIC1/gain
+#** 
+#** type : int
+#** category : Rafts
+#********
+R00.Reb1.ASPIC1/gain = 1
+
+#********  R00.Reb1.ASPIC1/rc
+#** 
+#** type : int
+#** category : Rafts
+#********
+R00.Reb1.ASPIC1/rc = 15
+
+#********  R00.Reb1.ASPIC1/tm
+#** 
+#** type : int
+#** category : Rafts
+#********
+R00.Reb1.ASPIC1/tm = 0
+
+#********  R00.Reb1.ASPIC2/af1
+#** 
+#** type : int
+#** category : Rafts
+#********
+R00.Reb1.ASPIC2/af1 = 0
+
+#********  R00.Reb1.ASPIC2/clamp
+#** 
+#** type : int
+#** category : Rafts
+#********
+R00.Reb1.ASPIC2/clamp = 0
+
+#********  R00.Reb1.ASPIC2/gain
+#** 
+#** type : int
+#** category : Rafts
+#********
+R00.Reb1.ASPIC2/gain = 1
+
+#********  R00.Reb1.ASPIC2/rc
+#** 
+#** type : int
+#** category : Rafts
+#********
+R00.Reb1.ASPIC2/rc = 15
+
+#********  R00.Reb1.ASPIC2/tm
+#** 
+#** type : int
+#** category : Rafts
+#********
+R00.Reb1.ASPIC2/tm = 0
+
+#********  R00.Reb1.ASPIC3/af1
+#** 
+#** type : int
+#** category : Rafts
+#********
+R00.Reb1.ASPIC3/af1 = 0
+
+#********  R00.Reb1.ASPIC3/clamp
+#** 
+#** type : int
+#** category : Rafts
+#********
+R00.Reb1.ASPIC3/clamp = 0
+
+#********  R00.Reb1.ASPIC3/gain
+#** 
+#** type : int
+#** category : Rafts
+#********
+R00.Reb1.ASPIC3/gain = 1
+
+#********  R00.Reb1.ASPIC3/rc
+#** 
+#** type : int
+#** category : Rafts
+#********
+R00.Reb1.ASPIC3/rc = 15
+
+#********  R00.Reb1.ASPIC3/tm
+#** 
+#** type : int
+#** category : Rafts
+#********
+R00.Reb1.ASPIC3/tm = 0
+
+#********  R00.Reb1.ASPIC4/af1
+#** 
+#** type : int
+#** category : Rafts
+#********
+R00.Reb1.ASPIC4/af1 = 0
+
+#********  R00.Reb1.ASPIC4/clamp
+#** 
+#** type : int
+#** category : Rafts
+#********
+R00.Reb1.ASPIC4/clamp = 0
+
+#********  R00.Reb1.ASPIC4/gain
+#** 
+#** type : int
+#** category : Rafts
+#********
+R00.Reb1.ASPIC4/gain = 1
+
+#********  R00.Reb1.ASPIC4/rc
+#** 
+#** type : int
+#** category : Rafts
+#********
+R00.Reb1.ASPIC4/rc = 15
+
+#********  R00.Reb1.ASPIC4/tm
+#** 
+#** type : int
+#** category : Rafts
+#********
+R00.Reb1.ASPIC4/tm = 0
+
+#********  R00.Reb1.ASPIC5/af1
+#** 
+#** type : int
+#** category : Rafts
+#********
+R00.Reb1.ASPIC5/af1 = 0
+
+#********  R00.Reb1.ASPIC5/clamp
+#** 
+#** type : int
+#** category : Rafts
+#********
+R00.Reb1.ASPIC5/clamp = 0
+
+#********  R00.Reb1.ASPIC5/gain
+#** 
+#** type : int
+#** category : Rafts
+#********
+R00.Reb1.ASPIC5/gain = 1
+
+#********  R00.Reb1.ASPIC5/rc
+#** 
+#** type : int
+#** category : Rafts
+#********
+R00.Reb1.ASPIC5/rc = 15
+
+#********  R00.Reb1.ASPIC5/tm
+#** 
+#** type : int
+#** category : Rafts
+#********
+R00.Reb1.ASPIC5/tm = 0
+
+#********  R00.Reb1.Bias0/csGate
+#** 
+#** type : int
+#** category : Rafts
+#********
+R00.Reb1.Bias0/csGate = 0
+
+#********  R00.Reb1.Bias0/csGateP
+#** 
+#** type : double
+#** category : Rafts
+#********
+R00.Reb1.Bias0/csGateP = 1.0
+
+#********  R00.Reb1.Bias0/gd
+#** 
+#** type : int
+#** category : Rafts
+#********
+R00.Reb1.Bias0/gd = 0
+
+#********  R00.Reb1.Bias0/gdP
+#** 
+#** type : double
+#** category : Rafts
+#********
+R00.Reb1.Bias0/gdP = 20.0
+
+#********  R00.Reb1.Bias0/od
+#** 
+#** type : int
+#** category : Rafts
+#********
+R00.Reb1.Bias0/od = 0
+
+#********  R00.Reb1.Bias0/odP
+#** 
+#** type : double
+#** category : Rafts
+#********
+R00.Reb1.Bias0/odP = 25.0
+
+#********  R00.Reb1.Bias0/og
+#** 
+#** type : int
+#** category : Rafts
+#********
+R00.Reb1.Bias0/og = 0
+
+#********  R00.Reb1.Bias0/ogP
+#** 
+#** type : double
+#** category : Rafts
+#********
+R00.Reb1.Bias0/ogP = -2.0
+
+#********  R00.Reb1.Bias0/ogSh
+#** 
+#** type : int
+#** category : Rafts
+#********
+R00.Reb1.Bias0/ogSh = 0
+
+#********  R00.Reb1.Bias0/rd
+#** 
+#** type : int
+#** category : Rafts
+#********
+R00.Reb1.Bias0/rd = 0
+
+#********  R00.Reb1.Bias0/rdP
+#** 
+#** type : double
+#** category : Rafts
+#********
+R00.Reb1.Bias0/rdP = 13.0
+
+#********  R00.Reb1.Bias1/csGate
+#** 
+#** type : int
+#** category : Rafts
+#********
+R00.Reb1.Bias1/csGate = 0
+
+#********  R00.Reb1.Bias1/csGateP
+#** 
+#** type : double
+#** category : Rafts
+#********
+R00.Reb1.Bias1/csGateP = 1.0
+
+#********  R00.Reb1.Bias1/gd
+#** 
+#** type : int
+#** category : Rafts
+#********
+R00.Reb1.Bias1/gd = 0
+
+#********  R00.Reb1.Bias1/gdP
+#** 
+#** type : double
+#** category : Rafts
+#********
+R00.Reb1.Bias1/gdP = 20.0
+
+#********  R00.Reb1.Bias1/od
+#** 
+#** type : int
+#** category : Rafts
+#********
+R00.Reb1.Bias1/od = 0
+
+#********  R00.Reb1.Bias1/odP
+#** 
+#** type : double
+#** category : Rafts
+#********
+R00.Reb1.Bias1/odP = 25.0
+
+#********  R00.Reb1.Bias1/og
+#** 
+#** type : int
+#** category : Rafts
+#********
+R00.Reb1.Bias1/og = 0
+
+#********  R00.Reb1.Bias1/ogP
+#** 
+#** type : double
+#** category : Rafts
+#********
+R00.Reb1.Bias1/ogP = -2.0
+
+#********  R00.Reb1.Bias1/ogSh
+#** 
+#** type : int
+#** category : Rafts
+#********
+R00.Reb1.Bias1/ogSh = 0
+
+#********  R00.Reb1.Bias1/rd
+#** 
+#** type : int
+#** category : Rafts
+#********
+R00.Reb1.Bias1/rd = 0
+
+#********  R00.Reb1.Bias1/rdP
+#** 
+#** type : double
+#** category : Rafts
+#********
+R00.Reb1.Bias1/rdP = 13.0
+
+#********  R00.Reb1.Bias2/csGate
+#** 
+#** type : int
+#** category : Rafts
+#********
+R00.Reb1.Bias2/csGate = 0
+
+#********  R00.Reb1.Bias2/csGateP
+#** 
+#** type : double
+#** category : Rafts
+#********
+R00.Reb1.Bias2/csGateP = 1.0
+
+#********  R00.Reb1.Bias2/gd
+#** 
+#** type : int
+#** category : Rafts
+#********
+R00.Reb1.Bias2/gd = 0
+
+#********  R00.Reb1.Bias2/gdP
+#** 
+#** type : double
+#** category : Rafts
+#********
+R00.Reb1.Bias2/gdP = 20.0
+
+#********  R00.Reb1.Bias2/od
+#** 
+#** type : int
+#** category : Rafts
+#********
+R00.Reb1.Bias2/od = 0
+
+#********  R00.Reb1.Bias2/odP
+#** 
+#** type : double
+#** category : Rafts
+#********
+R00.Reb1.Bias2/odP = 25.0
+
+#********  R00.Reb1.Bias2/og
+#** 
+#** type : int
+#** category : Rafts
+#********
+R00.Reb1.Bias2/og = 0
+
+#********  R00.Reb1.Bias2/ogP
+#** 
+#** type : double
+#** category : Rafts
+#********
+R00.Reb1.Bias2/ogP = -2.0
+
+#********  R00.Reb1.Bias2/ogSh
+#** 
+#** type : int
+#** category : Rafts
+#********
+R00.Reb1.Bias2/ogSh = 0
+
+#********  R00.Reb1.Bias2/rd
+#** 
+#** type : int
+#** category : Rafts
+#********
+R00.Reb1.Bias2/rd = 0
+
+#********  R00.Reb1.Bias2/rdP
+#** 
+#** type : double
+#** category : Rafts
+#********
+R00.Reb1.Bias2/rdP = 13.0
+
+#********  R00.Reb1.DAC/csGate
+#** 
+#** type : int[]
+#** category : Rafts
+#********
+R00.Reb1.DAC/csGate = [0,0,0]
+
+#********  R00.Reb1.DAC/pclkHigh
+#** 
+#** type : int
+#** category : Rafts
+#********
+R00.Reb1.DAC/pclkHigh = 0
+
+#********  R00.Reb1.DAC/pclkHighP
+#** 
+#** type : double
+#** category : Rafts
+#********
+R00.Reb1.DAC/pclkHighP = 2.0
+
+#********  R00.Reb1.DAC/pclkHighSh
+#** 
+#** type : int
+#** category : Rafts
+#********
+R00.Reb1.DAC/pclkHighSh = 0
+
+#********  R00.Reb1.DAC/pclkLow
+#** 
+#** type : int
+#** category : Rafts
+#********
+R00.Reb1.DAC/pclkLow = 0
+
+#********  R00.Reb1.DAC/pclkLowP
+#** 
+#** type : double
+#** category : Rafts
+#********
+R00.Reb1.DAC/pclkLowP = -8.0
+
+#********  R00.Reb1.DAC/pclkLowSh
+#** 
+#** type : int
+#** category : Rafts
+#********
+R00.Reb1.DAC/pclkLowSh = 0
+
+#********  R00.Reb1.DAC/rgHigh
+#** 
+#** type : int
+#** category : Rafts
+#********
+R00.Reb1.DAC/rgHigh = 0
+
+#********  R00.Reb1.DAC/rgHighP
+#** 
+#** type : double
+#** category : Rafts
+#********
+R00.Reb1.DAC/rgHighP = 8.0
+
+#********  R00.Reb1.DAC/rgHighSh
+#** 
+#** type : int
+#** category : Rafts
+#********
+R00.Reb1.DAC/rgHighSh = 0
+
+#********  R00.Reb1.DAC/rgLow
+#** 
+#** type : int
+#** category : Rafts
+#********
+R00.Reb1.DAC/rgLow = 0
+
+#********  R00.Reb1.DAC/rgLowP
+#** 
+#** type : double
+#** category : Rafts
+#********
+R00.Reb1.DAC/rgLowP = -2.0
+
+#********  R00.Reb1.DAC/rgLowSh
+#** 
+#** type : int
+#** category : Rafts
+#********
+R00.Reb1.DAC/rgLowSh = 0
+
+#********  R00.Reb1.DAC/sclkHigh
+#** 
+#** type : int
+#** category : Rafts
+#********
+R00.Reb1.DAC/sclkHigh = 0
+
+#********  R00.Reb1.DAC/sclkHighP
+#** 
+#** type : double
+#** category : Rafts
+#********
+R00.Reb1.DAC/sclkHighP = 5.0
+
+#********  R00.Reb1.DAC/sclkHighSh
+#** 
+#** type : int
+#** category : Rafts
+#********
+R00.Reb1.DAC/sclkHighSh = 0
+
+#********  R00.Reb1.DAC/sclkLow
+#** 
+#** type : int
+#** category : Rafts
+#********
+R00.Reb1.DAC/sclkLow = 0
+
+#********  R00.Reb1.DAC/sclkLowP
+#** 
+#** type : double
+#** category : Rafts
+#********
+R00.Reb1.DAC/sclkLowP = -5.0
+
+#********  R00.Reb1.DAC/sclkLowSh
+#** 
+#** type : int
+#** category : Rafts
+#********
+R00.Reb1.DAC/sclkLowSh = 0
+
+#********  R00.Reb2.ASPIC0/af1
+#** 
+#** type : int
+#** category : Rafts
+#********
+R00.Reb2.ASPIC0/af1 = 0
+
+#********  R00.Reb2.ASPIC0/clamp
+#** 
+#** type : int
+#** category : Rafts
+#********
+R00.Reb2.ASPIC0/clamp = 0
+
+#********  R00.Reb2.ASPIC0/gain
+#** 
+#** type : int
+#** category : Rafts
+#********
+R00.Reb2.ASPIC0/gain = 1
+
+#********  R00.Reb2.ASPIC0/rc
+#** 
+#** type : int
+#** category : Rafts
+#********
+R00.Reb2.ASPIC0/rc = 15
+
+#********  R00.Reb2.ASPIC0/tm
+#** 
+#** type : int
+#** category : Rafts
+#********
+R00.Reb2.ASPIC0/tm = 0
+
+#********  R00.Reb2.ASPIC1/af1
+#** 
+#** type : int
+#** category : Rafts
+#********
+R00.Reb2.ASPIC1/af1 = 0
+
+#********  R00.Reb2.ASPIC1/clamp
+#** 
+#** type : int
+#** category : Rafts
+#********
+R00.Reb2.ASPIC1/clamp = 0
+
+#********  R00.Reb2.ASPIC1/gain
+#** 
+#** type : int
+#** category : Rafts
+#********
+R00.Reb2.ASPIC1/gain = 1
+
+#********  R00.Reb2.ASPIC1/rc
+#** 
+#** type : int
+#** category : Rafts
+#********
+R00.Reb2.ASPIC1/rc = 15
+
+#********  R00.Reb2.ASPIC1/tm
+#** 
+#** type : int
+#** category : Rafts
+#********
+R00.Reb2.ASPIC1/tm = 0
+
+#********  R00.Reb2.ASPIC2/af1
+#** 
+#** type : int
+#** category : Rafts
+#********
+R00.Reb2.ASPIC2/af1 = 0
+
+#********  R00.Reb2.ASPIC2/clamp
+#** 
+#** type : int
+#** category : Rafts
+#********
+R00.Reb2.ASPIC2/clamp = 0
+
+#********  R00.Reb2.ASPIC2/gain
+#** 
+#** type : int
+#** category : Rafts
+#********
+R00.Reb2.ASPIC2/gain = 1
+
+#********  R00.Reb2.ASPIC2/rc
+#** 
+#** type : int
+#** category : Rafts
+#********
+R00.Reb2.ASPIC2/rc = 15
+
+#********  R00.Reb2.ASPIC2/tm
+#** 
+#** type : int
+#** category : Rafts
+#********
+R00.Reb2.ASPIC2/tm = 0
+
+#********  R00.Reb2.ASPIC3/af1
+#** 
+#** type : int
+#** category : Rafts
+#********
+R00.Reb2.ASPIC3/af1 = 0
+
+#********  R00.Reb2.ASPIC3/clamp
+#** 
+#** type : int
+#** category : Rafts
+#********
+R00.Reb2.ASPIC3/clamp = 0
+
+#********  R00.Reb2.ASPIC3/gain
+#** 
+#** type : int
+#** category : Rafts
+#********
+R00.Reb2.ASPIC3/gain = 1
+
+#********  R00.Reb2.ASPIC3/rc
+#** 
+#** type : int
+#** category : Rafts
+#********
+R00.Reb2.ASPIC3/rc = 15
+
+#********  R00.Reb2.ASPIC3/tm
+#** 
+#** type : int
+#** category : Rafts
+#********
+R00.Reb2.ASPIC3/tm = 0
+
+#********  R00.Reb2.ASPIC4/af1
+#** 
+#** type : int
+#** category : Rafts
+#********
+R00.Reb2.ASPIC4/af1 = 0
+
+#********  R00.Reb2.ASPIC4/clamp
+#** 
+#** type : int
+#** category : Rafts
+#********
+R00.Reb2.ASPIC4/clamp = 0
+
+#********  R00.Reb2.ASPIC4/gain
+#** 
+#** type : int
+#** category : Rafts
+#********
+R00.Reb2.ASPIC4/gain = 1
+
+#********  R00.Reb2.ASPIC4/rc
+#** 
+#** type : int
+#** category : Rafts
+#********
+R00.Reb2.ASPIC4/rc = 15
+
+#********  R00.Reb2.ASPIC4/tm
+#** 
+#** type : int
+#** category : Rafts
+#********
+R00.Reb2.ASPIC4/tm = 0
+
+#********  R00.Reb2.ASPIC5/af1
+#** 
+#** type : int
+#** category : Rafts
+#********
+R00.Reb2.ASPIC5/af1 = 0
+
+#********  R00.Reb2.ASPIC5/clamp
+#** 
+#** type : int
+#** category : Rafts
+#********
+R00.Reb2.ASPIC5/clamp = 0
+
+#********  R00.Reb2.ASPIC5/gain
+#** 
+#** type : int
+#** category : Rafts
+#********
+R00.Reb2.ASPIC5/gain = 1
+
+#********  R00.Reb2.ASPIC5/rc
+#** 
+#** type : int
+#** category : Rafts
+#********
+R00.Reb2.ASPIC5/rc = 15
+
+#********  R00.Reb2.ASPIC5/tm
+#** 
+#** type : int
+#** category : Rafts
+#********
+R00.Reb2.ASPIC5/tm = 0
+
+#********  R00.Reb2.Bias0/csGate
+#** 
+#** type : int
+#** category : Rafts
+#********
+R00.Reb2.Bias0/csGate = 0
+
+#********  R00.Reb2.Bias0/csGateP
+#** 
+#** type : double
+#** category : Rafts
+#********
+R00.Reb2.Bias0/csGateP = 1.0
+
+#********  R00.Reb2.Bias0/gd
+#** 
+#** type : int
+#** category : Rafts
+#********
+R00.Reb2.Bias0/gd = 0
+
+#********  R00.Reb2.Bias0/gdP
+#** 
+#** type : double
+#** category : Rafts
+#********
+R00.Reb2.Bias0/gdP = 20.0
+
+#********  R00.Reb2.Bias0/od
+#** 
+#** type : int
+#** category : Rafts
+#********
+R00.Reb2.Bias0/od = 0
+
+#********  R00.Reb2.Bias0/odP
+#** 
+#** type : double
+#** category : Rafts
+#********
+R00.Reb2.Bias0/odP = 25.0
+
+#********  R00.Reb2.Bias0/og
+#** 
+#** type : int
+#** category : Rafts
+#********
+R00.Reb2.Bias0/og = 0
+
+#********  R00.Reb2.Bias0/ogP
+#** 
+#** type : double
+#** category : Rafts
+#********
+R00.Reb2.Bias0/ogP = -2.0
+
+#********  R00.Reb2.Bias0/ogSh
+#** 
+#** type : int
+#** category : Rafts
+#********
+R00.Reb2.Bias0/ogSh = 0
+
+#********  R00.Reb2.Bias0/rd
+#** 
+#** type : int
+#** category : Rafts
+#********
+R00.Reb2.Bias0/rd = 0
+
+#********  R00.Reb2.Bias0/rdP
+#** 
+#** type : double
+#** category : Rafts
+#********
+R00.Reb2.Bias0/rdP = 13.0
+
+#********  R00.Reb2.Bias1/csGate
+#** 
+#** type : int
+#** category : Rafts
+#********
+R00.Reb2.Bias1/csGate = 0
+
+#********  R00.Reb2.Bias1/csGateP
+#** 
+#** type : double
+#** category : Rafts
+#********
+R00.Reb2.Bias1/csGateP = 1.0
+
+#********  R00.Reb2.Bias1/gd
+#** 
+#** type : int
+#** category : Rafts
+#********
+R00.Reb2.Bias1/gd = 0
+
+#********  R00.Reb2.Bias1/gdP
+#** 
+#** type : double
+#** category : Rafts
+#********
+R00.Reb2.Bias1/gdP = 20.0
+
+#********  R00.Reb2.Bias1/od
+#** 
+#** type : int
+#** category : Rafts
+#********
+R00.Reb2.Bias1/od = 0
+
+#********  R00.Reb2.Bias1/odP
+#** 
+#** type : double
+#** category : Rafts
+#********
+R00.Reb2.Bias1/odP = 25.0
+
+#********  R00.Reb2.Bias1/og
+#** 
+#** type : int
+#** category : Rafts
+#********
+R00.Reb2.Bias1/og = 0
+
+#********  R00.Reb2.Bias1/ogP
+#** 
+#** type : double
+#** category : Rafts
+#********
+R00.Reb2.Bias1/ogP = -2.0
+
+#********  R00.Reb2.Bias1/ogSh
+#** 
+#** type : int
+#** category : Rafts
+#********
+R00.Reb2.Bias1/ogSh = 0
+
+#********  R00.Reb2.Bias1/rd
+#** 
+#** type : int
+#** category : Rafts
+#********
+R00.Reb2.Bias1/rd = 0
+
+#********  R00.Reb2.Bias1/rdP
+#** 
+#** type : double
+#** category : Rafts
+#********
+R00.Reb2.Bias1/rdP = 13.0
+
+#********  R00.Reb2.Bias2/csGate
+#** 
+#** type : int
+#** category : Rafts
+#********
+R00.Reb2.Bias2/csGate = 0
+
+#********  R00.Reb2.Bias2/csGateP
+#** 
+#** type : double
+#** category : Rafts
+#********
+R00.Reb2.Bias2/csGateP = 1.0
+
+#********  R00.Reb2.Bias2/gd
+#** 
+#** type : int
+#** category : Rafts
+#********
+R00.Reb2.Bias2/gd = 0
+
+#********  R00.Reb2.Bias2/gdP
+#** 
+#** type : double
+#** category : Rafts
+#********
+R00.Reb2.Bias2/gdP = 20.0
+
+#********  R00.Reb2.Bias2/od
+#** 
+#** type : int
+#** category : Rafts
+#********
+R00.Reb2.Bias2/od = 0
+
+#********  R00.Reb2.Bias2/odP
+#** 
+#** type : double
+#** category : Rafts
+#********
+R00.Reb2.Bias2/odP = 25.0
+
+#********  R00.Reb2.Bias2/og
+#** 
+#** type : int
+#** category : Rafts
+#********
+R00.Reb2.Bias2/og = 0
+
+#********  R00.Reb2.Bias2/ogP
+#** 
+#** type : double
+#** category : Rafts
+#********
+R00.Reb2.Bias2/ogP = -2.0
+
+#********  R00.Reb2.Bias2/ogSh
+#** 
+#** type : int
+#** category : Rafts
+#********
+R00.Reb2.Bias2/ogSh = 0
+
+#********  R00.Reb2.Bias2/rd
+#** 
+#** type : int
+#** category : Rafts
+#********
+R00.Reb2.Bias2/rd = 0
+
+#********  R00.Reb2.Bias2/rdP
+#** 
+#** type : double
+#** category : Rafts
+#********
+R00.Reb2.Bias2/rdP = 13.0
+
+#********  R00.Reb2.DAC/csGate
+#** 
+#** type : int[]
+#** category : Rafts
+#********
+R00.Reb2.DAC/csGate = [0,0,0]
+
+#********  R00.Reb2.DAC/pclkHigh
+#** 
+#** type : int
+#** category : Rafts
+#********
+R00.Reb2.DAC/pclkHigh = 0
+
+#********  R00.Reb2.DAC/pclkHighP
+#** 
+#** type : double
+#** category : Rafts
+#********
+R00.Reb2.DAC/pclkHighP = 2.0
+
+#********  R00.Reb2.DAC/pclkHighSh
+#** 
+#** type : int
+#** category : Rafts
+#********
+R00.Reb2.DAC/pclkHighSh = 0
+
+#********  R00.Reb2.DAC/pclkLow
+#** 
+#** type : int
+#** category : Rafts
+#********
+R00.Reb2.DAC/pclkLow = 0
+
+#********  R00.Reb2.DAC/pclkLowP
+#** 
+#** type : double
+#** category : Rafts
+#********
+R00.Reb2.DAC/pclkLowP = -8.0
+
+#********  R00.Reb2.DAC/pclkLowSh
+#** 
+#** type : int
+#** category : Rafts
+#********
+R00.Reb2.DAC/pclkLowSh = 0
+
+#********  R00.Reb2.DAC/rgHigh
+#** 
+#** type : int
+#** category : Rafts
+#********
+R00.Reb2.DAC/rgHigh = 0
+
+#********  R00.Reb2.DAC/rgHighP
+#** 
+#** type : double
+#** category : Rafts
+#********
+R00.Reb2.DAC/rgHighP = 8.0
+
+#********  R00.Reb2.DAC/rgHighSh
+#** 
+#** type : int
+#** category : Rafts
+#********
+R00.Reb2.DAC/rgHighSh = 0
+
+#********  R00.Reb2.DAC/rgLow
+#** 
+#** type : int
+#** category : Rafts
+#********
+R00.Reb2.DAC/rgLow = 0
+
+#********  R00.Reb2.DAC/rgLowP
+#** 
+#** type : double
+#** category : Rafts
+#********
+R00.Reb2.DAC/rgLowP = -2.0
+
+#********  R00.Reb2.DAC/rgLowSh
+#** 
+#** type : int
+#** category : Rafts
+#********
+R00.Reb2.DAC/rgLowSh = 0
+
+#********  R00.Reb2.DAC/sclkHigh
+#** 
+#** type : int
+#** category : Rafts
+#********
+R00.Reb2.DAC/sclkHigh = 0
+
+#********  R00.Reb2.DAC/sclkHighP
+#** 
+#** type : double
+#** category : Rafts
+#********
+R00.Reb2.DAC/sclkHighP = 5.0
+
+#********  R00.Reb2.DAC/sclkHighSh
+#** 
+#** type : int
+#** category : Rafts
+#********
+R00.Reb2.DAC/sclkHighSh = 0
+
+#********  R00.Reb2.DAC/sclkLow
+#** 
+#** type : int
+#** category : Rafts
+#********
+R00.Reb2.DAC/sclkLow = 0
+
+#********  R00.Reb2.DAC/sclkLowP
+#** 
+#** type : double
+#** category : Rafts
+#********
+R00.Reb2.DAC/sclkLowP = -5.0
+
+#********  R00.Reb2.DAC/sclkLowSh
+#** 
+#** type : int
+#** category : Rafts
+#********
+R00.Reb2.DAC/sclkLowSh = 0
+

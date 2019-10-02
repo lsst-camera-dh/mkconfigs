@@ -1,37 +1,29 @@
-#********  R00.Reb0/clkhiAmin
-#** category : RaftsPower
-#********
-R00.Reb0/clkhiAmin = 0.0
-
-#********  R00.Reb0/clkhiQmax
-#** category : RaftsPower
-#********
-R00.Reb0/clkhiQmax = 0.093
-
-#********  R00.Reb0/clkliAmin
-#** category : RaftsPower
-#********
-R00.Reb0/clkliAmin = 0.0
-
-#********  R00.Reb0/clkliQmax
-#** category : RaftsPower
-#********
-R00.Reb0/clkliQmax = 0.045
-
-#********  R00.Reb0/odiAmin
-#** category : RaftsPower
-#********
-R00.Reb0/odiAmin = 0.0
-
-#********  R00.Reb0/odiQmax
-#** category : RaftsPower
-#********
+#---
 R00.Reb0/odiQmax = 0.005
+R00.Reb0/odiAmin = 0.023
+R00.Reb0/clkliQmax = 0.045
+R00.Reb0/clkliAmin = 0.053
+R00.Reb0/clkhiQmax = 0.093
+R00.Reb0/clkhiAmin = 0.103
+#---
+R00.Reb1/odiQmax = 0.005
+R00.Reb1/odiAmin = 0.023
+R00.Reb1/clkliQmax = 0.045
+R00.Reb1/clkliAmin = 0.053
+R00.Reb1/clkhiQmax = 0.093
+R00.Reb1/clkhiAmin = 0.103
+#---
+R00.Reb2/odiQmax = 0.005
+R00.Reb2/odiAmin = 0.023
+R00.Reb2/clkliQmax = 0.045
+R00.Reb2/clkliAmin = 0.053
+R00.Reb2/clkhiQmax = 0.093
+R00.Reb2/clkhiAmin = 0.103
 
 #********  R00.Reb0.Bias0/gdOff
 #** category : RaftsPower
 #********
-R00.Reb0.Bias0/gdOff = 0.34
+R00.Reb0.Bias0/gdOff = 0.0
 
 #********  R00.Reb0.Bias0/gdTestVolts
 #** category : RaftsPower
@@ -56,7 +48,7 @@ R00.Reb0.Bias0/gdZeroErr = 0.2
 #********  R00.Reb0.Bias0/odIMax
 #** category : RaftsPower
 #********
-R00.Reb0.Bias0/odIMax = 0.042
+R00.Reb0.Bias0/odIMax = 0.04
 
 #********  R00.Reb0.Bias0/odOff
 #** category : RaftsPower
@@ -126,7 +118,7 @@ R00.Reb0.Bias0/rdZeroErr = 0.2
 #********  R00.Reb0.Bias1/gdOff
 #** category : RaftsPower
 #********
-R00.Reb0.Bias1/gdOff = 0.34
+R00.Reb0.Bias1/gdOff = 0.0
 
 #********  R00.Reb0.Bias1/gdTestVolts
 #** category : RaftsPower
@@ -136,7 +128,7 @@ R00.Reb0.Bias1/gdTestVolts = 0.5
 #********  R00.Reb0.Bias1/gdTol
 #** category : RaftsPower
 #********
-R00.Reb0.Bias1/gdTol = 0.33
+R00.Reb0.Bias1/gdTol = 0.34
 
 #********  R00.Reb0.Bias1/gdValueErr
 #** category : RaftsPower
@@ -151,7 +143,7 @@ R00.Reb0.Bias1/gdZeroErr = 0.2
 #********  R00.Reb0.Bias1/odIMax
 #** category : RaftsPower
 #********
-R00.Reb0.Bias1/odIMax = 0.72
+R00.Reb0.Bias1/odIMax = 0.07
 
 #********  R00.Reb0.Bias1/odOff
 #** category : RaftsPower
@@ -221,7 +213,7 @@ R00.Reb0.Bias1/rdZeroErr = 0.2
 #********  R00.Reb0.Bias2/gdOff
 #** category : RaftsPower
 #********
-R00.Reb0.Bias2/gdOff = 0.34
+R00.Reb0.Bias2/gdOff = 0.0
 
 #********  R00.Reb0.Bias2/gdTestVolts
 #** category : RaftsPower
@@ -246,7 +238,7 @@ R00.Reb0.Bias2/gdZeroErr = 0.2
 #********  R00.Reb0.Bias2/odIMax
 #** category : RaftsPower
 #********
-R00.Reb0.Bias2/odIMax = 0.102
+R00.Reb0.Bias2/odIMax = 0.1
 
 #********  R00.Reb0.Bias2/odOff
 #** category : RaftsPower
@@ -316,7 +308,7 @@ R00.Reb0.Bias2/rdZeroErr = 0.2
 #********  R00.Reb0.DAC/clkhIMax
 #** category : RaftsPower
 #********
-R00.Reb0.DAC/clkhIMax = 0.115
+R00.Reb0.DAC/clkhIMax = 0.12
 
 #********  R00.Reb0.DAC/clklIMax
 #** category : RaftsPower
@@ -473,40 +465,10 @@ R00.Reb0.DAC/sclkLowValueErr = 0.2
 #********
 R00.Reb0.DAC/sclkLowZeroErr = 0.2
 
-#********  R00.Reb1/clkhiAmin
-#** category : RaftsPower
-#********
-R00.Reb1/clkhiAmin = 0.0
-
-#********  R00.Reb1/clkhiQmax
-#** category : RaftsPower
-#********
-R00.Reb1/clkhiQmax = 0.093
-
-#********  R00.Reb1/clkliAmin
-#** category : RaftsPower
-#********
-R00.Reb1/clkliAmin = 0.0
-
-#********  R00.Reb1/clkliQmax
-#** category : RaftsPower
-#********
-R00.Reb1/clkliQmax = 0.045
-
-#********  R00.Reb1/odiAmin
-#** category : RaftsPower
-#********
-R00.Reb1/odiAmin = 0.0
-
-#********  R00.Reb1/odiQmax
-#** category : RaftsPower
-#********
-R00.Reb1/odiQmax = 0.005
-
 #********  R00.Reb1.Bias0/gdOff
 #** category : RaftsPower
 #********
-R00.Reb1.Bias0/gdOff = 0.34
+R00.Reb1.Bias0/gdOff = 0.0
 
 #********  R00.Reb1.Bias0/gdTestVolts
 #** category : RaftsPower
@@ -531,7 +493,7 @@ R00.Reb1.Bias0/gdZeroErr = 0.2
 #********  R00.Reb1.Bias0/odIMax
 #** category : RaftsPower
 #********
-R00.Reb1.Bias0/odIMax = 0.042
+R00.Reb1.Bias0/odIMax = 0.04
 
 #********  R00.Reb1.Bias0/odOff
 #** category : RaftsPower
@@ -601,7 +563,7 @@ R00.Reb1.Bias0/rdZeroErr = 0.2
 #********  R00.Reb1.Bias1/gdOff
 #** category : RaftsPower
 #********
-R00.Reb1.Bias1/gdOff = 0.34
+R00.Reb1.Bias1/gdOff = 0.0
 
 #********  R00.Reb1.Bias1/gdTestVolts
 #** category : RaftsPower
@@ -626,7 +588,7 @@ R00.Reb1.Bias1/gdZeroErr = 0.2
 #********  R00.Reb1.Bias1/odIMax
 #** category : RaftsPower
 #********
-R00.Reb1.Bias1/odIMax = 0.075
+R00.Reb1.Bias1/odIMax = 0.07
 
 #********  R00.Reb1.Bias1/odOff
 #** category : RaftsPower
@@ -696,7 +658,7 @@ R00.Reb1.Bias1/rdZeroErr = 0.2
 #********  R00.Reb1.Bias2/gdOff
 #** category : RaftsPower
 #********
-R00.Reb1.Bias2/gdOff = 0.34
+R00.Reb1.Bias2/gdOff = 0.0
 
 #********  R00.Reb1.Bias2/gdTestVolts
 #** category : RaftsPower
@@ -721,7 +683,7 @@ R00.Reb1.Bias2/gdZeroErr = 0.2
 #********  R00.Reb1.Bias2/odIMax
 #** category : RaftsPower
 #********
-R00.Reb1.Bias2/odIMax = 0.11
+R00.Reb1.Bias2/odIMax = 0.1
 
 #********  R00.Reb1.Bias2/odOff
 #** category : RaftsPower
@@ -791,7 +753,7 @@ R00.Reb1.Bias2/rdZeroErr = 0.2
 #********  R00.Reb1.DAC/clkhIMax
 #** category : RaftsPower
 #********
-R00.Reb1.DAC/clkhIMax = 0.115
+R00.Reb1.DAC/clkhIMax = 0.125
 
 #********  R00.Reb1.DAC/clklIMax
 #** category : RaftsPower
@@ -948,40 +910,10 @@ R00.Reb1.DAC/sclkLowValueErr = 0.2
 #********
 R00.Reb1.DAC/sclkLowZeroErr = 0.2
 
-#********  R00.Reb2/clkhiAmin
-#** category : RaftsPower
-#********
-R00.Reb2/clkhiAmin = 0.0
-
-#********  R00.Reb2/clkhiQmax
-#** category : RaftsPower
-#********
-R00.Reb2/clkhiQmax = 0.093
-
-#********  R00.Reb2/clkliAmin
-#** category : RaftsPower
-#********
-R00.Reb2/clkliAmin = 0.0
-
-#********  R00.Reb2/clkliQmax
-#** category : RaftsPower
-#********
-R00.Reb2/clkliQmax = 0.045
-
-#********  R00.Reb2/odiAmin
-#** category : RaftsPower
-#********
-R00.Reb2/odiAmin = 0.0
-
-#********  R00.Reb2/odiQmax
-#** category : RaftsPower
-#********
-R00.Reb2/odiQmax = 0.005
-
 #********  R00.Reb2.Bias0/gdOff
 #** category : RaftsPower
 #********
-R00.Reb2.Bias0/gdOff = 0.34
+R00.Reb2.Bias0/gdOff = 0.0
 
 #********  R00.Reb2.Bias0/gdTestVolts
 #** category : RaftsPower
@@ -991,7 +923,7 @@ R00.Reb2.Bias0/gdTestVolts = 0.5
 #********  R00.Reb2.Bias0/gdTol
 #** category : RaftsPower
 #********
-R00.Reb2.Bias0/gdTol = 0.33
+R00.Reb2.Bias0/gdTol = 0.34
 
 #********  R00.Reb2.Bias0/gdValueErr
 #** category : RaftsPower
@@ -1006,7 +938,7 @@ R00.Reb2.Bias0/gdZeroErr = 0.2
 #********  R00.Reb2.Bias0/odIMax
 #** category : RaftsPower
 #********
-R00.Reb2.Bias0/odIMax = 0.042
+R00.Reb2.Bias0/odIMax = 0.04
 
 #********  R00.Reb2.Bias0/odOff
 #** category : RaftsPower
@@ -1076,7 +1008,7 @@ R00.Reb2.Bias0/rdZeroErr = 0.2
 #********  R00.Reb2.Bias1/gdOff
 #** category : RaftsPower
 #********
-R00.Reb2.Bias1/gdOff = 0.34
+R00.Reb2.Bias1/gdOff = 0.0
 
 #********  R00.Reb2.Bias1/gdTestVolts
 #** category : RaftsPower
@@ -1086,7 +1018,7 @@ R00.Reb2.Bias1/gdTestVolts = 0.5
 #********  R00.Reb2.Bias1/gdTol
 #** category : RaftsPower
 #********
-R00.Reb2.Bias1/gdTol = 0.33
+R00.Reb2.Bias1/gdTol = 0.37
 
 #********  R00.Reb2.Bias1/gdValueErr
 #** category : RaftsPower
@@ -1101,7 +1033,7 @@ R00.Reb2.Bias1/gdZeroErr = 0.2
 #********  R00.Reb2.Bias1/odIMax
 #** category : RaftsPower
 #********
-R00.Reb2.Bias1/odIMax = 0.75
+R00.Reb2.Bias1/odIMax = 0.07
 
 #********  R00.Reb2.Bias1/odOff
 #** category : RaftsPower
@@ -1171,7 +1103,7 @@ R00.Reb2.Bias1/rdZeroErr = 0.2
 #********  R00.Reb2.Bias2/gdOff
 #** category : RaftsPower
 #********
-R00.Reb2.Bias2/gdOff = 0.34
+R00.Reb2.Bias2/gdOff = 0.0
 
 #********  R00.Reb2.Bias2/gdTestVolts
 #** category : RaftsPower
@@ -1181,7 +1113,7 @@ R00.Reb2.Bias2/gdTestVolts = 0.5
 #********  R00.Reb2.Bias2/gdTol
 #** category : RaftsPower
 #********
-R00.Reb2.Bias2/gdTol = 0.33
+R00.Reb2.Bias2/gdTol = 0.40
 
 #********  R00.Reb2.Bias2/gdValueErr
 #** category : RaftsPower
@@ -1196,7 +1128,7 @@ R00.Reb2.Bias2/gdZeroErr = 0.2
 #********  R00.Reb2.Bias2/odIMax
 #** category : RaftsPower
 #********
-R00.Reb2.Bias2/odIMax = 0.11
+R00.Reb2.Bias2/odIMax = 0.1
 
 #********  R00.Reb2.Bias2/odOff
 #** category : RaftsPower
@@ -1423,22 +1355,3 @@ R00.Reb2.DAC/sclkLowValueErr = 0.2
 #********
 R00.Reb2.DAC/sclkLowZeroErr = 0.2
 
-
-#********  R00.Reb0.Bias0/odZeroErr
-R00.Reb0.Bias0/odZeroErr = 0.2
-#********  R00.Reb0.Bias1/odZeroErr
-R00.Reb0.Bias1/odZeroErr = 0.2
-#********  R00.Reb0.Bias2/odZeroErr
-R00.Reb0.Bias2/odZeroErr = 0.2
-#********  R00.Reb1.Bias0/odZeroErr
-R00.Reb1.Bias0/odZeroErr = 0.2
-#********  R00.Reb1.Bias1/odZeroErr
-R00.Reb1.Bias1/odZeroErr = 0.2
-#********  R00.Reb1.Bias2/odZeroErr
-R00.Reb1.Bias2/odZeroErr = 0.2
-#********  R00.Reb2.Bias0/odZeroErr
-R00.Reb2.Bias0/odZeroErr = 0.2
-#********  R00.Reb2.Bias1/odZeroErr
-R00.Reb2.Bias1/odZeroErr = 0.2
-#********  R00.Reb2.Bias2/odZeroErr
-R00.Reb2.Bias2/odZeroErr = 0.2
