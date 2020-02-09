@@ -1,19 +1,18 @@
 #!/usr/bin/env python
 from eTraveler.clientAPI.connection import Connection
 import re
-mastername = "focal-plane_9-raft_"
+mastername = "focal-plane_pl60dp96_"
 
 def getvoltages( pl, swing ):
-	# Offset averages for RTM-006
-	pl_off = 0.20
-	pu_off = -0.16
-	rd_off = 0.05
-	od_off = -0.15
-	og_off = 0.12
-	sl_off = 0.16
-	sh_off = -0.20
-	rgl_off = 0.05
-	rgh_off = -0.24
+	pl_off = 0.0
+	pu_off = 0.0
+	rd_off = 0.0
+	od_off = 0.0
+	og_off = 0.0
+	sl_off = 0.0
+	sh_off = 0.0
+	rgl_off = 0.0
+	rgh_off = 0.0
 	# Rules to set the voltages
 	pl0 = pl			 # nominal
 	pl1 = pl0 + pl_off   # corrected
@@ -114,12 +113,14 @@ def PrepareInfo():
 
 			# RSA
 			if areb['parent_hardwareTypeName']  == 'LCA-10753_RSA' and ( p.match(areb["child_hardwareTypeName"]) is not None ):
+				sensorinfo =connection.getHardwareInstances(htype=areb['child_hardwareTypeName'], experimentSN=areb['child_experimentSN'])[0]
 				ccds.append(
 					{
 						"Bay": Baylevel["slotName"],
 						"Flavor": flavor,
 						"Name": areb["child_experimentSN"],
 						"Slot": areb["slotName"],
+						"manSerNum": sensorinfo["manufacturerId"],
 						"path": "R{:02d}/Reb{:01d}/{}".format(
 								int(Baylevel["slotName"].replace("Bay","")),
 								int(areb["slotName"][1]),
@@ -154,12 +155,21 @@ def PrepareInfo():
 				else:
 					# W
 					slot = "W{}".format((ccdhier[0]["slotName"])[-1])
+				print ("################################")
+				print ("################################")
+				print ("################################")
+				print ("################################")
+				print ("################################")
+				print ("################################")
+				sensorinfo =connection.getHardwareInstances(htype=areb['child_hardwareTypeName'], experimentSN=areb['child_experimentSN'])[0]
+				print (sensorinfo)
 				ccds.append(
 					{
 						"Bay": Baylevel["slotName"],
 						"Flavor": flavor,
 						"Name": areb["child_experimentSN"],
 						"Slot": areb["slotName"],
+						"manSerNum": sensorinfo["manufacturerId"],
 						"path": "R{:02d}/Reb{}/S{}{}".format(
 								int(Baylevel["slotName"].replace("Bay","")),
 								slot[0].upper(),
@@ -208,6 +218,10 @@ def fixccdtemppath( template ):
 	template = re.sub(r"Reb([GW])/(..)V","Reb\g<1>/S\g<1>/\g<2>V",template) # for coner rafts.
 
 	template = re.sub(r"SW0","SW",template) # for coner rafts. this is a necesarry fix for inconsistency between RebG and RebW
+	template = re.sub(r"S.\/ODV","ODV",template) # for coner rafts. this is a necesarry fix for inconsistency between RebG and RebW
+#	template = re.sub(r"Reb([W])\/(..)I","Reb\g<1>/S\g<1>/\g<2>I",template) # for coner rafts. this is a necesarry fix for inconsistency between RebG and RebW
+#R44/RebG/ODI/limitLo
+
 
 	template = re.sub(r"RTDtemp","RTDTemp",template) # for coner rafts. this is a necesarry fix for inconsistency between RebG and RebW
 	return template
@@ -230,7 +244,8 @@ def HardwareProperties( rebs, ccds ):
 		for line in sorted(
 			list(
 				set(
-					[ "{}/name: {}\n".format(reb["path"], reb["Name"]) for reb in rebs ]+
+					[ "{}_hardware/name: {}\n".format(reb["path"], reb["Name"]) for reb in rebs ]+
+					[ "{}/manSerNum: {}\n".format(accd["path"], accd["manSerNum"]) for accd in ccds ]+
 					[ "{}/name: {}\n".format(accd["path"], accd["Name"]) for accd in ccds ]
 				)
 			)
@@ -271,8 +286,8 @@ if __name__ == "__main__":
 # RaftLimits -- not support e2v case
 # a path to serial number needs to be formatted
 	### Parameters for e2v
-#	pl = -6.0
-	pl = -5.8
+	pl = -6.0
+#	pl = -5.8
 	dp  = 9.6 
 	
 	### Write out HardwareId.properties
