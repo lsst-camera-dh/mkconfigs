@@ -155,14 +155,7 @@ def PrepareInfo():
 				else:
 					# W
 					slot = "W{}".format((ccdhier[0]["slotName"])[-1])
-				print ("################################")
-				print ("################################")
-				print ("################################")
-				print ("################################")
-				print ("################################")
-				print ("################################")
 				sensorinfo =connection.getHardwareInstances(htype=areb['child_hardwareTypeName'], experimentSN=areb['child_experimentSN'])[0]
-				print (sensorinfo)
 				ccds.append(
 					{
 						"Bay": Baylevel["slotName"],
