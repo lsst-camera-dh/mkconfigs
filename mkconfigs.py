@@ -106,7 +106,9 @@ def PrepareInfo():
 						"Flavor": flavor,
 						"Name": Baylevel['child_experimentSN'],
 						"Slot": areb["slotName"].lower().capitalize(),
+						"slot": areb["slotName"].lower().capitalize(),
 						"SerialNum": rebinfo["manufacturerId"],
+						"RebName": rebinfo["experimentSN"],
 						"path": "R{:02d}".format(int(Baylevel["slotName"].replace("Bay","")))
 					}
 				)
@@ -140,6 +142,8 @@ def PrepareInfo():
 						"Flavor": flavor,
 						"Name": Baylevel['child_experimentSN'],
 						"Slot": "WREB" if areb['child_hardwareTypeName'] == 'LCA-13537' else "GREB",
+						"slot": "RebW" if areb['child_hardwareTypeName'] == 'LCA-13537' else "RebG",
+						"RebName": rebinfo["experimentSN"],
 						"SerialNum": rebinfo["manufacturerId"],
 						"path": "R{:02d}".format(int(Baylevel["slotName"].replace("Bay","")))
 					}
@@ -237,7 +241,8 @@ def HardwareProperties( rebs, ccds ):
 		for line in sorted(
 			list(
 				set(
-					[ "{}_hardware/name: {}\n".format(reb["path"], reb["Name"]) for reb in rebs ]+
+					[ "{}/name: {}\n".format(reb["path"], reb["Name"]) for reb in rebs ]+
+					[ "{}/{}_hardware/name: {}\n".format(reb["path"], reb["slot"], reb["RebName"]) for reb in rebs ]+
 					[ "{}/manSerNum: {}\n".format(accd["path"], accd["manSerNum"]) for accd in ccds ]+
 					[ "{}/name: {}\n".format(accd["path"], accd["Name"]) for accd in ccds ]
 				)
