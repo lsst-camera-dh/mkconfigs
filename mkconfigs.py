@@ -223,6 +223,7 @@ def fixccdtemppath( template ):
 	template = re.sub(r"RTDtemp","RTDTemp",template) # for coner rafts. this is a necesarry fix for inconsistency between RebG and RebW
 	return template
 
+
 def BiasShiftFix( primitivetemplate ):
 	### Bias shift mitigation tweak
 	for  pattern, repl in [
@@ -237,7 +238,7 @@ def BiasShiftFix( primitivetemplate ):
 	return primitivetemplate
 
 def HardwareProperties( rebs, ccds ):
-	with open("{}HardwareId.properties".format(mastername),"w") as f:
+	with open("{}HardwareId.properties".format(re.sub(r"(.*)_.*_(.*)",lambda x: "{}_safe_{}".format(x.group(1), x.group(2)), mastername)),"w") as f:
 		for line in sorted(
 			list(
 				set(
@@ -263,6 +264,22 @@ def fixCornerRaftsSN(draft):
 				r"(?P<path>{}.*= )(?P<original>.*)".format(path),
 				"\g<path>{}".format(value),
 				draft)
+	return draft
+
+def fixAspicPath(draft):
+	# https://jira.slac.stanford.edu/browse/LSSTCCSRAFTS-506
+	draft = re.sub(
+		r"(R../Reb)(.)(/ASPIC)(.)",
+		lambda x: (
+			"{}{}/S{}{}{}{}".format(
+				x.group(1),
+				x.group(2),
+				x.group(2),
+				int(int(x.group(4))/2),
+				x.group(3),
+				(int(x.group(4))%2)
+			)
+		), draft)
 	return draft
 
 def fixlimitskeleton(draft):
@@ -363,7 +380,8 @@ if __name__ == "__main__":
 		open("{}Limits.properties".format(mastername),"w") as limit, \
 		open("{}RaftsPower.properties".format(mastername),"w") as power:
 		for areb in rebs:
-			f.write("### {} \n".format(areb))
+			for output in [ f, raftslimit, limit, power ]:
+				output.write("### {} \n".format(areb))
 			if areb["Slot"] == "GREB":
 				draft = buildtemplate( areb["path"], "RebG", grebprimitivetemplate )
 				raftslimitdraft = buildtemplate( areb["path"], "RebG", grebraftslimitprimitivetemplate)
@@ -401,7 +419,7 @@ if __name__ == "__main__":
 						draft 
 					)
 			
-			f.write("{}\n".format(fixCornerRaftsSN(draft)))
+			f.write("{}\n".format(fixAspicPath(fixCornerRaftsSN(draft))))
 			raftslimit.write("{}\n".format(raftslimitdraft))
 			power.write("{}\n".format(powerdraft))
 			limit.write("{}\n".format(limitdraft))
