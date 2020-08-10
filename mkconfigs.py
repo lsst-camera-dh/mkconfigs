@@ -290,7 +290,21 @@ def fixlimitskeleton(draft):
 		m = re.match(r"(.*)[\s\t]*=[\s\t]*(.*)",aline)
 		path = m.group(1)
 		value = m.group(2)
-		print(path,value)
+		draft = re.sub(
+				r"(?P<path>{}.*= )(?P<original>.*)".format(path),
+				"\g<path>{}".format(value),
+				draft)
+	return draft
+
+def fixbyregex(draft):
+	with open("skeletons/regex.list") as f:
+		lines = f.readlines()
+	lines = filter( lambda x: re.match("^#.*$", x) is None, lines ) 
+
+	for aline in lines:
+		m = re.match(r"(.*)[\s\t]*=[\s\t]*(.*)",aline)
+		path = m.group(1)
+		value = m.group(2)
 		draft = re.sub(
 				r"(?P<path>{}.*= )(?P<original>.*)".format(path),
 				"\g<path>{}".format(value),
@@ -419,7 +433,7 @@ if __name__ == "__main__":
 						draft 
 					)
 			
-			f.write("{}\n".format(fixAspicPath(fixCornerRaftsSN(draft))))
+			f.write("{}\n".format(fixbyregex(fixAspicPath(fixCornerRaftsSN(draft)))))
 			raftslimit.write("{}\n".format(raftslimitdraft))
 			power.write("{}\n".format(powerdraft))
 			limit.write("{}\n".format(limitdraft))

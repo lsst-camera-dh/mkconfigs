@@ -1,0 +1,25 @@
+R10/Reb0/Bias0/gdP = 15.0
+R10/Reb0/Bias1/gdP = 15.0
+R10/Reb2/Bias1/gdP = 15.0
+# RTM-025 RG low? https://docushare.lsst.org/docushare/dsweb/Get/Document-32500/DOC-32500_LCA-15131-D_MODIFIED_(Changes_to_Standard_Operating_Parameters_RTM-025_Acceptance).pdf
+# RTM-024 RG low? https://docushare.lsst.org/docushare/dsweb/Get/Document-32611/DOC-32611_LCA-15131-D_MODIFIED_(Recommended_Optimized_Operating_Parameters_RTM-024_Acceptance).pdf
+R03/Reb0/Bias[012]/gdP = 15.0
+R03/Reb1/Bias[012]/gdP = 15.0
+R03/Reb2/Bias[12]/gdP = 15.0
+R03/Reb2/Bias[12]/ogP = 0.0
+# RTM-016 https://docushare.lsst.org/docushare/dsweb/Get/Document-28914/DOC-28914_LCA-15131-D_MODIFIED_(Recommended_Optimized_Operating_Parameters_RTM-016_Acceptance).pdf
+# RTM-016 https://docushare.lsst.org/docushare/dsweb/Get/Document-28819/DOC-28819_LCA-15131-D_MODIFIED_(Bipolar_SP-Clocks_Operating_Parameters_RTM-016_Acceptance).pdf
+# RTM-016 https://docushare.lsst.org/docushare/dsweb/Get/Document-28818/DOC-28818_LCA-15131-D_MODIFIED_(Changes_to_Standard_Operating_Parameters_RTM-016_Acceptance).pdf
+# RTM-019 RG H/L https://docushare.lsst.org/docushare/dsweb/Get/Document-29118/DOC-29118_LCA-15131-D_MODIFIED_(Changes_to_Standard_Operating_Parameters_RTM-019_Acceptance).pdf
+# RTM-006 csGate needs to be 5 https://docushare.lsst.org/docushare/dsweb/Get/Document-28342/DOC-28342_LCA-15131-C_MODIFIED_(Changes_to_Standard_Operating_Parameters_RTM-006_Acceptance).pdf
+# RTM-015 RG H https://docushare.lsst.org/docushare/dsweb/Get/Document-28527/DOC-28527_LCA-15131-D_MODIFIED_(Changes_to_Standard_Operating_Parameters_RTM-015_Acceptance).pdf
+# RTM-008 hv -40 / pclkH https://docushare.lsst.org/docushare/dsweb/Get/Document-28343/DOC-28343_LCA-15131-C_MODIFIED_(Changes_to_Standard_Operating_Parameters_RTM-008_Acceptance).pdf
+R41/Reb[0-2]/Bias0/ogP = -1.0
+R41/Reb2/Bias0/gdP = 13.0
+R41/Reb1/Bias[12]/gdP = 15.0
+R42/Reb0/Bias0/gdP = 15.0
+R42/Reb1/Bias2/gdP = 15.0
+R42/Reb0/Bias[01]/ogP = -1.0
+R42/Reb2/Bias[01]/ogP = -1.0
+R43/Reb0/Bias2/gdP = 15.0
+R43/Reb2/Bias2/ogP = 0.0
