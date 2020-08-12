@@ -1,9 +1,9 @@
 #!/usr/bin/env python
 from eTraveler.clientAPI.connection import Connection
 import re
-mastername = "focal-plane_pl60dp96_"
+mastername = "focal-plane_proposed_"
 
-def getvoltages( pl, swing ):
+def getvoltages( pl, pswing, sswing, rgswing ):
 	pl_off = 0.0
 	pu_off = 0.0
 	rd_off = 0.0
@@ -13,33 +13,38 @@ def getvoltages( pl, swing ):
 	sh_off = 0.0
 	rgl_off = 0.0
 	rgh_off = 0.0
+	gd_off = 0.0
+	chz = 11
 	# Rules to set the voltages
 	pl0 = pl			 # nominal
 	pl1 = pl0 + pl_off   # corrected
 	#
-	pu0 = pl0 + swing	# nominal based on pl nominal
+	pu0 = pl0 + pswing	# nominal based on pl nominal
 	pu1 = pu0 + pu_off   # corrected
 	#
-	rd0 = pu0 - 0.8 * swing + 16.72
+	rd0 = pu0 + 8.0
 	rd1 = rd0 + rd_off
 	#
 	od0 = rd0 + 11.8
 	od1 = od0 + od_off
 	#
-	og0 = rd0 - 15
+	og0 = rd0 - chz - 4
 	og1 = og0 + og_off
 	#
 	sl0 = og0 - 2.0
 	sl1 = sl0 + sl_off
 	#
-	sh0 = sl0 + 9.3
+	sh0 = sl0 + sswing
 	sh1 = sh0 + sh_off
 	#
-	rgh0 = rd0 - 6.0
+	rgh0 = rd0 - 5.5
 	rgh1 = rgh0 + rgh_off
 	#
-	rgl0 = rgh0 - 10.1
+	rgl0 = rgh0 - rgswing
 	rgl1 = rgl0 + rgl_off
+	#
+	gd0 = 26
+	gd1 = gd0 + gd_off
 	#
 	# Apply the offsets
 	# pl = pl + pl_off
@@ -65,6 +70,7 @@ def getvoltages( pl, swing ):
 				"rdP": rd1,
 				"odP": od1,
 				"ogP": og1,
+				"gdP": gd1,
 			}
 		}
 
@@ -179,7 +185,7 @@ def PrepareInfo():
 
 	return rebs,ccds
 
-def buildrules( ):
+def newadditions( ):
 	with open("skeletons/newadditions.list") as f:
 		lines = f.readlines()
 
@@ -298,6 +304,18 @@ def fixAspicPath(draft):
 				(int(x.group(4))%2)
 			)
 		), draft)
+
+	draft = re.sub(
+		r"(R../RebW/SW)(.)(/ASPIC)(.)(/.*)",
+		lambda x: (
+			"{}{}{}{}{}".format(
+				x.group(1),
+				x.group(4),
+				x.group(3),
+				x.group(2),
+				x.group(5)
+			)
+		), draft)
 	return draft
 
 def fixlimitskeleton(draft):
@@ -334,8 +352,9 @@ if __name__ == "__main__":
 # a path to serial number needs to be formatted
 	### Parameters for e2v
 	pl = -6.0
-#	pl = -5.8
 	dp  = 9.6 
+	ds  = 9.3 
+	dr  = 10.1
 	
 	### Write out HardwareId.properties
 	rebs, ccds = PrepareInfo()
@@ -436,6 +455,7 @@ if __name__ == "__main__":
 					powerdraft = buildtemplate(areb["path"], areb["Slot"], powerprimitivetemplate_itl)
 					limitdraft = buildtemplate(areb["path"], areb["Slot"], limitprimitivetemplate_itl)
 
+			### convert serialNum to hex
 			draft = re.sub(
 					r"(?P<path>.*serialNum = )(.*)",
 					"\g<path>{}".format(int(areb["SerialNum"],16)),
@@ -443,21 +463,27 @@ if __name__ == "__main__":
 				)
 
 			### Inserting new additions
-			rules = buildrules()
+			rules = newadditions()
 			atag = "{}/{}".format(areb["path"],areb["slot"])
 			if atag in rules.keys():
 				draft = draft +"\n"+"\n".join(rules[atag]["item"])
 
+			### change e2v voltages based on the relation defined
 			if areb["Flavor"] == "E2V":
-				wanted = getvoltages( pl = pl, swing = dp )
+				wanted = getvoltages( pl = pl, pswing = dp, sswing = ds, rgswing = dr )
 				for k, v in dict(**wanted["DAC"],**wanted["Bias"]).items():
 					draft = re.sub(
 						r"(?P<path>.*{} = )(.*)".format(k),
 						"\g<path>{:.2f}".format(v),
 						draft 
 					)
+
+			draft = fixbyregex(fixAspicPath(fixCornerRaftsSN(draft)))
+			draft = draft.split("\n")
+			draft.sort()
+			draft = "\n".join(draft)
 			
-			f.write("{}\n".format(fixbyregex(fixAspicPath(fixCornerRaftsSN(draft)))))
+			f.write("{}\n".format(draft))
 			raftslimit.write("{}\n".format(raftslimitdraft))
 			power.write("{}\n".format(powerdraft))
 			limit.write("{}\n".format(limitdraft))
