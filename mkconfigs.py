@@ -179,6 +179,22 @@ def PrepareInfo():
 
 	return rebs,ccds
 
+def buildrules( ):
+	with open("skeletons/newadditions.list") as f:
+		lines = f.readlines()
+
+	rules = {}
+	for aline in lines:
+		ret = aline.split("/")
+		abay = ret[0]
+		areb = ret[1]
+		atag = "{}/{}".format(abay,areb)
+		if atag in rules.keys():
+			rules[atag]["item"].append(aline.rstrip())
+		else:
+			rules.update( { atag: { "bay": abay, "reb": areb, "item": [ aline.rstrip() ]} } )
+	return rules
+
 def buildtemplate( baynum, rebnum, primitivetemplate):
 	for pattern, repl in [
 			( r"R00",baynum ),
@@ -190,6 +206,8 @@ def buildtemplate( baynum, rebnum, primitivetemplate):
 		primitivetemplate=re.sub(r"(R.*)\.(Reb.)\/(.*)","\g<1>/\g<2>/\g<3>",primitivetemplate) # slash
 		primitivetemplate=re.sub(r"Reb1/S0","Reb1/S1",primitivetemplate) # slash
 		primitivetemplate=re.sub(r"Reb2/S0","Reb2/S2",primitivetemplate) # slash
+
+		
 	return primitivetemplate
 
 def fixccdtemppath( template ):
@@ -423,6 +441,12 @@ if __name__ == "__main__":
 					"\g<path>{}".format(int(areb["SerialNum"],16)),
 					draft
 				)
+
+			### Inserting new additions
+			rules = buildrules()
+			atag = "{}/{}".format(areb["path"],areb["slot"])
+			if atag in rules.keys():
+				draft = draft +"\n"+"\n".join(rules[atag]["item"])
 
 			if areb["Flavor"] == "E2V":
 				wanted = getvoltages( pl = pl, swing = dp )
