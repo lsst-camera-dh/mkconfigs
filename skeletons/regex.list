@@ -3,10 +3,9 @@ R10/Reb0/Bias1/gdP = 15.0
 R10/Reb2/Bias1/gdP = 15.0
 # RTM-025 RG low? https://docushare.lsst.org/docushare/dsweb/Get/Document-32500/DOC-32500_LCA-15131-D_MODIFIED_(Changes_to_Standard_Operating_Parameters_RTM-025_Acceptance).pdf
 # RTM-024 RG low? https://docushare.lsst.org/docushare/dsweb/Get/Document-32611/DOC-32611_LCA-15131-D_MODIFIED_(Recommended_Optimized_Operating_Parameters_RTM-024_Acceptance).pdf
-R03/Reb0/Bias[012]/gdP = 15.0
-R03/Reb1/Bias[012]/gdP = 15.0
+R03/Reb[01]/Bias[012]/gdP = 15.0
 R03/Reb2/Bias[12]/gdP = 15.0
-R03/Reb2/Bias[12]/ogP = 0.0
+R03/Reb2/Bias0/ogP = 0.0
 # RTM-016 https://docushare.lsst.org/docushare/dsweb/Get/Document-28914/DOC-28914_LCA-15131-D_MODIFIED_(Recommended_Optimized_Operating_Parameters_RTM-016_Acceptance).pdf
 # RTM-016 https://docushare.lsst.org/docushare/dsweb/Get/Document-28819/DOC-28819_LCA-15131-D_MODIFIED_(Bipolar_SP-Clocks_Operating_Parameters_RTM-016_Acceptance).pdf
 # RTM-016 https://docushare.lsst.org/docushare/dsweb/Get/Document-28818/DOC-28818_LCA-15131-D_MODIFIED_(Changes_to_Standard_Operating_Parameters_RTM-016_Acceptance).pdf
@@ -19,7 +18,6 @@ R41/Reb2/Bias0/gdP = 13.0
 R41/Reb1/Bias[12]/gdP = 15.0
 R42/Reb0/Bias0/gdP = 15.0
 R42/Reb1/Bias2/gdP = 15.0
-R42/Reb0/Bias[01]/ogP = -1.0
-R42/Reb2/Bias[01]/ogP = -1.0
+R42/Reb[02]/Bias[01]/ogP = -1.0
 R43/Reb0/Bias2/gdP = 15.0
 R43/Reb2/Bias2/ogP = 0.0
