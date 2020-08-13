@@ -478,6 +478,19 @@ if __name__ == "__main__":
 						draft 
 					)
 
+			### change e2v voltage limits based on the relation defined
+				for k, v in dict(**wanted["DAC"],**wanted["Bias"]).items():
+					raftslimitdraft = re.sub(
+						r"(?P<path>.*{} = )(.*)".format(k.replace("P","Max")),
+						"\g<path>{:.2f}".format(v+1.0),
+						raftslimitdraft	
+					)
+					raftslimitdraft = re.sub(
+						r"(?P<path>.*{} = )(.*)".format(k.replace("P","Min")),
+						"\g<path>{:.2f}".format(v-1.0),
+						raftslimitdraft	
+					)
+
 			draft = fixbyregex(fixAspicPath(fixCornerRaftsSN(draft)))
 			draft = draft.split("\n")
 			draft.sort()
