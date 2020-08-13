@@ -1,7 +1,6 @@
 #!/usr/bin/env python
 from eTraveler.clientAPI.connection import Connection
 import re
-mastername = "focal-plane_proposed_"
 
 def getvoltages( pl, pswing, sswing, rgswing ):
 	pl_off = 0.0
@@ -261,19 +260,6 @@ def BiasShiftFix( primitivetemplate ):
 			)
 	return primitivetemplate
 
-def HardwareProperties( rebs, ccds ):
-	with open("{}HardwareId.properties".format(re.sub(r"(.*)_.*_(.*)",lambda x: "{}_safe_{}".format(x.group(1), x.group(2)), mastername)),"w") as f:
-		for line in sorted(
-			list(
-				set(
-					[ "{}/name: {}\n".format(reb["path"], reb["Name"]) for reb in rebs ]+
-					[ "{}/{}_hardware/name: {}\n".format(reb["path"], reb["slot"], reb["RebName"]) for reb in rebs ]+
-					[ "{}/manSerNum: {}\n".format(accd["path"], accd["manSerNum"]) for accd in ccds ]+
-					[ "{}/name: {}\n".format(accd["path"], accd["Name"]) for accd in ccds ]
-				)
-			)
-		):
-			f.write(line)
 
 def fixCornerRaftsSN(draft):
 	with open("skeletons/crsn.list") as f:
@@ -355,6 +341,7 @@ if __name__ == "__main__":
 	dp  = 9.6 
 	ds  = 9.3 
 	dr  = 10.1
+	mastername = "focal-plane_proposed_"
 	
 	### Write out HardwareId.properties
 	rebs, ccds = PrepareInfo()
