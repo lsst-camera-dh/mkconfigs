@@ -378,14 +378,14 @@ if __name__ == "__main__":
 	with open("skeletons/RTM-005_BPtestSM3_TS8Subsystem__RaftsLimits.skeleton") as f:
 		lines = f.readlines()
 	raftslimitprimitivetemplate_e2v = "\n".join([ line.rstrip() for line in filter( lambda x: re.search( r"^R00.Reb0", x ) is not None, lines )])
-	with open("skeletons/RTM-023_TS8Subsystem__RaftsLimits.skeleton") as f:
+	with open("skeletons/ts8-fp_defaultInitial_RaftsLimits.skeleton") as f:
 		lines = f.readlines()
-	raftslimitprimitivetemplate_itl = "\n".join([ line.rstrip() for line in filter( lambda x: re.search( r"^R00.Reb0", x ) is not None, lines )])
+	raftslimitprimitivetemplate_itl = "\n".join([ line.rstrip() for line in filter( lambda x: re.search( r"^R22/Reb0", x ) is not None, lines )])
 
 	### Limits
-	with open("skeletons/TS8Subsystem__Limits.skeleton") as f:
+	with open("skeletons/ts8-fp_defaultInitial_Limits.skeleton") as f:
 		lines = f.readlines()
-	limitprimitivetemplate_itl = "\n".join([ line.rstrip() for line in filter( lambda x: re.search( r"^R00.Reb0", x ) is not None, lines )])
+	limitprimitivetemplate_itl = "\n".join([ line.rstrip() for line in filter( lambda x: re.search( r"^R22/Reb0", x ) is not None, lines )])
 	limitprimitivetemplate_itl = fixccdtemppath( fixlimitskeleton(limitprimitivetemplate_itl))
 	with open("skeletons/RTM-005_BPtestSM3_TS8Subsystem__Limits.skeleton") as f:
 		lines = f.readlines()
@@ -393,12 +393,12 @@ if __name__ == "__main__":
 	limitprimitivetemplate_e2v = fixccdtemppath( fixlimitskeleton(limitprimitivetemplate_e2v))
 
 	### RaftsPower
-	with open("skeletons/RTM-005_BPtestSM3_TS8Subsystem__RaftsPower.skeleton") as f:
+	with open("skeletons/focal-plane_defaultInitial_RaftsPower.properties") as f:
 		lines = f.readlines()
-	powerprimitivetemplate_e2v = "\n".join([ line.rstrip() for line in filter( lambda x: re.search( r"^R00.Reb0", x ) is not None, lines )])
-	with open("skeletons/RTM-018_TS8Subsystem__RaftsPower.skeleton") as f:
+	powerprimitivetemplate_e2v = "\n".join([ line.rstrip() for line in filter( lambda x: re.search( r"^R22/Reb0", x ) is not None, lines )])
+	with open("skeletons/focal-plane_defaultInitial_RaftsPower.properties") as f:
 		lines = f.readlines()
-	powerprimitivetemplate_itl = "\n".join([ line.rstrip() for line in filter( lambda x: re.search( r"^R00.Reb0", x ) is not None, lines )])
+	powerprimitivetemplate_itl = "\n".join([ line.rstrip() for line in filter( lambda x: re.search( r"^R10/Reb0", x ) is not None, lines )])
 
 	### CornerRafts: This came from /opt/lsst/ccs/20190726/ccs-test-configurations-master/IR2/lsst-ir2daq01/CRTM-0002
 	with open("skeletons/cr-raft__Rafts.skeleton") as f:
