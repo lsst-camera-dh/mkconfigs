@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 from mkconfigs import *
+import oldformula
 import re
 
 
@@ -20,10 +21,10 @@ def HardwareProperties( rebs, ccds ):
 # RaftLimits -- not support e2v case
 # a path to serial number needs to be formatted
 ### Parameters for e2v
-pl = -6.0
-dp  = 9.6 
-ds  = 9.3 
-dr  = 10.1
+pl = -5.82
+dp  = 9.58
+#ds  = 9.3 
+#dr  = 10.1
 mastername = "focal-plane_proposed_"
 
 ### Write out HardwareId.properties
@@ -140,7 +141,7 @@ with open("{}Rafts.properties".format(mastername),"w") as f, \
 
 		### change e2v voltages based on the relation defined
 		if areb["Flavor"] == "E2V":
-			wanted = getvoltages( pl = pl, pswing = dp, sswing = ds, rgswing = dr )
+			wanted = oldformula.getvoltages( pl = pl, pswing = dp )
 			for k, v in dict(**wanted["DAC"],**wanted["Bias"]).items():
 				draft = re.sub(
 					r"(?P<path>.*{} = )(.*)".format(k),
@@ -167,7 +168,7 @@ with open("{}Rafts.properties".format(mastername),"w") as f, \
 		draft = "\n".join(draft)
 		
 		f.write("{}\n".format(draft))
-		raftslimit.write("{}\n".format(raftslimitdraft))
+		raftslimit.write("{}\n".format(fixraftslimitbyregex(raftslimitdraft)))
 		power.write("{}\n".format(powerdraft))
 		limit.write("{}\n".format(limitdraft))
 		
