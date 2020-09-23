@@ -1,6 +1,5 @@
 R10/Reb0/Bias0/gdP = 15.0
-R10/Reb0/Bias1/gdP = 15.0
-R10/Reb2/Bias1/gdP = 15.0
+R10/Reb[02]/Bias1/gdP = 15.0
 # RTM-025 RG low? https://docushare.lsst.org/docushare/dsweb/Get/Document-32500/DOC-32500_LCA-15131-D_MODIFIED_(Changes_to_Standard_Operating_Parameters_RTM-025_Acceptance).pdf
 # RTM-024 RG low? https://docushare.lsst.org/docushare/dsweb/Get/Document-32611/DOC-32611_LCA-15131-D_MODIFIED_(Recommended_Optimized_Operating_Parameters_RTM-024_Acceptance).pdf
 R03/Reb[01]/Bias[012]/gdP = 15.0
