@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 from mkconfigs import *
-import oldformula
+import newformula as formula
 import re
 
 
@@ -21,11 +21,11 @@ def HardwareProperties( rebs, ccds ):
 # RaftLimits -- not support e2v case
 # a path to serial number needs to be formatted
 ### Parameters for e2v
-pl = -5.82
-dp  = 9.58
-#ds  = 9.3 
-#dr  = 10.1
-mastername = "focal-plane_proposed_"
+pl = -6.0
+dp  = 9.6
+ds  = 9.3 
+dr  = 10.1
+mastername = "focal-plane_defaultInitial_"
 
 ### Write out HardwareId.properties
 rebs, ccds = PrepareInfo()
@@ -141,11 +141,11 @@ with open("{}Rafts.properties".format(mastername),"w") as f, \
 
 		### change e2v voltages based on the relation defined
 		if areb["Flavor"] == "E2V":
-			wanted = oldformula.getvoltages( pl = pl, pswing = dp )
+			wanted = formula.getvoltages( pl = pl, pswing = dp, sswing=ds, rgswing=dr )
 			for k, v in dict(**wanted["DAC"],**wanted["Bias"]).items():
 				draft = re.sub(
 					r"(?P<path>.*{} = )(.*)".format(k),
-					"\g<path>{:.2f}".format(v),
+					"\g<path>{:.1f}".format(v),
 					draft 
 				)
 
@@ -153,12 +153,12 @@ with open("{}Rafts.properties".format(mastername),"w") as f, \
 			for k, v in dict(**wanted["DAC"],**wanted["Bias"]).items():
 				raftslimitdraft = re.sub(
 					r"(?P<path>.*{} = )(.*)".format(k.replace("P","Max")),
-					"\g<path>{:.2f}".format(v+1.0),
+					"\g<path>{:.1f}".format(v+1.0),
 					raftslimitdraft	
 				)
 				raftslimitdraft = re.sub(
 					r"(?P<path>.*{} = )(.*)".format(k.replace("P","Min")),
-					"\g<path>{:.2f}".format(v-1.0),
+					"\g<path>{:.1f}".format(v-1.0),
 					raftslimitdraft	
 				)
 

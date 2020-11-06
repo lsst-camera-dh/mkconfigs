@@ -13,7 +13,8 @@ R03/Reb2/Bias0/ogP = 0.0
 # RTM-015 RG H https://docushare.lsst.org/docushare/dsweb/Get/Document-28527/DOC-28527_LCA-15131-D_MODIFIED_(Changes_to_Standard_Operating_Parameters_RTM-015_Acceptance).pdf
 # RTM-008 hv -40 / pclkH https://docushare.lsst.org/docushare/dsweb/Get/Document-28343/DOC-28343_LCA-15131-C_MODIFIED_(Changes_to_Standard_Operating_Parameters_RTM-008_Acceptance).pdf
 R41/Reb[0-2]/Bias0/ogP = -1.0
-R41/Reb2/Bias0/gdP = 13.0
+R41/Reb2/Bias0/gdP = 15.0
+#R41/Reb2/Bias0/gdP = 13.0   # 13 was specified but it was too low for the current hard codeded limit. So we set it 15 instead
 R41/Reb1/Bias[12]/gdP = 15.0
 R42/Reb0/Bias0/gdP = 15.0
 R42/Reb1/Bias2/gdP = 15.0
