@@ -1,4 +1,4 @@
-def getvoltages( pl, pswing, sswing, rgswing ):
+def getvoltages( pl, pswing, sswing, rgswing, drd=8.0 ):
 	pl_off = 0.0
 	pu_off = 0.0
 	rd_off = 0.0
@@ -17,7 +17,7 @@ def getvoltages( pl, pswing, sswing, rgswing ):
 	pu0 = pl0 + pswing	# nominal based on pl nominal
 	pu1 = pu0 + pu_off   # corrected
 	#
-	rd0 = pu0 + 8.0
+	rd0 = pu0 + drd
 	rd1 = rd0 + rd_off
 	#
 	od0 = rd0 + 11.8

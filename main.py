@@ -25,7 +25,8 @@ pl = -6.0
 dp  = 9.6
 ds  = 9.3 
 dr  = 10.1
-mastername = "focal-plane_defaultInitial_"
+drd = 8.3
+mastername = "focal-plane_drd8p3_"
 
 ### Write out HardwareId.properties
 rebs, ccds = PrepareInfo()
@@ -141,7 +142,7 @@ with open("{}Rafts.properties".format(mastername),"w") as f, \
 
 		### change e2v voltages based on the relation defined
 		if areb["Flavor"] == "E2V":
-			wanted = formula.getvoltages( pl = pl, pswing = dp, sswing=ds, rgswing=dr )
+			wanted = formula.getvoltages( pl = pl, pswing = dp, sswing=ds, rgswing=dr, drd=drd )
 			for k, v in dict(**wanted["DAC"],**wanted["Bias"]).items():
 				draft = re.sub(
 					r"(?P<path>.*{} = )(.*)".format(k),
