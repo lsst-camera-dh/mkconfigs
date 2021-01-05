@@ -247,8 +247,8 @@ def fixlimitskeleton(draft):
 				draft)
 	return draft
 
-def fixbyregex(draft):
-	with open("skeletons/regex.list") as f:
+def fixbyregex(draft,regexfile):
+	with open(regexfile) as f:
 		lines = f.readlines()
 	lines = filter( lambda x: re.match("^#.*$", x) is None, lines ) 
 
@@ -262,8 +262,8 @@ def fixbyregex(draft):
 				draft)
 	return draft
 
-def fixraftslimitbyregex(draft):
-	with open("skeletons/regex.list") as f:
+def fixraftslimitbyregex(draft,regexfile):
+	with open(regexfile) as f:
 		lines = f.readlines()
 	lines = filter( lambda x: re.match("^#.*$", x) is None, lines ) 
 
@@ -280,4 +280,19 @@ def fixraftslimitbyregex(draft):
 				"\g<path>{}".format(value-1.0),
 				draft)
 	return draft
+
+
+def HardwareProperties( rebs, ccds, mastername ):
+        with open("{}HardwareId.properties".format(re.sub(r"(.*)_.*_(.*)",lambda x: "{}_safe_{}".format(x.group(1), x.group(2)), mastername)),"w") as f:
+                for line in sorted(
+                        list(
+                                set(
+                                        [ "{}/name: {}\n".format(reb["path"], reb["Name"]) for reb in rebs ]+
+                                        [ "{}/{}_hardware/name: {}\n".format(reb["path"], reb["slot"], reb["RebName"]) for reb in rebs ]+
+                                        [ "{}/manSerNum: {}\n".format(accd["path"], accd["manSerNum"]) for accd in ccds ]+
+                                        [ "{}/name: {}\n".format(accd["path"], accd["Name"]) for accd in ccds ]
+                                )
+                        )
+                ):
+                        f.write(line)
 
