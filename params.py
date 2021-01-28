@@ -5,7 +5,11 @@ params = [
                         "pswing" : 9.3,
                         "sswing" : 9.3,
                         "rgswing" : 10.1,
-                        "drd" : 8.0
+                        "drd" : 8.0,
+                        "DAC": {
+                        },
+                        "Bias": {
+                        }
                 },
                 "ITL": {
                         "DAC": {
@@ -25,7 +29,11 @@ params = [
                         "pswing" : 9.3,
                         "sswing" : 9.3,
                         "rgswing" : 10.1,
-                        "drd" : 8.0
+                        "drd" : 8.0,
+                        "DAC": {
+                        },
+                        "Bias": {
+                        }
                 },
                 "ITL": {
                         "DAC": {
@@ -42,7 +50,12 @@ params = [
                         "pswing" : 9.3,
                         "sswing" : 9.3,
                         "rgswing" : 10.1,
-                        "drd" : 8.0
+                        "drd" : 8.0,
+                        "DAC": {
+                        },
+                        "Bias": {
+				"csGateP": 2.0
+                        }
                 },
                 "ITL": {
                         "DAC": {
@@ -50,7 +63,7 @@ params = [
                         "Bias": {
                         }
                 },
-                "regex": "skeletons/regex_csGate2.0.list",
+                "regex": "skeletons/regex.list",
                 "tag": "2csgate2.0"
         },
         {
@@ -59,7 +72,11 @@ params = [
                         "pswing" : 9.3,
                         "sswing" : 9.3,
                         "rgswing" : 10.5,
-                        "drd" : 8.0
+                        "drd" : 8.0,
+                        "DAC": {
+                        },
+                        "Bias": {
+                        }
                 },
                 "ITL": {
                         "DAC": {
@@ -76,7 +93,11 @@ params = [
                         "pswing" : 9.3,
                         "sswing" : 9.5,
                         "rgswing" : 10.1,
-                        "drd" : 8.0
+                        "drd" : 8.0,
+                        "DAC": {
+                        },
+                        "Bias": {
+                        }
                 },
                 "ITL": {
                         "DAC": {
@@ -93,7 +114,12 @@ params = [
                         "pswing" : 9.3,
                         "sswing" : 9.3,
                         "rgswing" : 10.1,
-                        "drd" : 8.0
+                        "drd" : 8.0,
+                        "DAC": {
+                        },
+                        "Bias": {
+                        }
+
                 },
                 "ITL": {
                         "DAC": {
@@ -112,7 +138,11 @@ params = [
                         "pswing" : 9.3,
                         "sswing" : 9.3,
                         "rgswing" : 10.1,
-                        "drd" : 8.0
+                        "drd" : 8.0,
+                        "DAC": {
+                        },
+                        "Bias": {
+                        }
                 },
                 "ITL": {
                         "DAC": {
@@ -131,7 +161,11 @@ params = [
                         "pswing" : 9.3,
                         "sswing" : 9.3,
                         "rgswing" : 10.1,
-                        "drd" : 8.0
+                        "drd" : 8.0,
+                        "DAC": {
+                        },
+                        "Bias": {
+                        }
                 },
                 "ITL": {
                         "DAC": {
@@ -149,7 +183,12 @@ params = [
                         "pswing" : 9.3,
                         "sswing" : 9.3,
                         "rgswing" : 10.1,
-                        "drd" : 8.0
+                        "drd" : 8.0,
+                        "DAC": {
+                        },
+                        "Bias": {
+                        }
+
                 },
                 "ITL": {
                         "DAC": {

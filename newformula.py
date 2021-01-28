@@ -1,4 +1,4 @@
-def getvoltages( pl, pswing, sswing, rgswing, drd=8.0 ):
+def getvoltages( pl, pswing, sswing, rgswing, drd=8.0, **kwargs ):
 	pl_off = 0.0
 	pu_off = 0.0
 	rd_off = 0.0
@@ -52,7 +52,7 @@ def getvoltages( pl, pswing, sswing, rgswing, drd=8.0 ):
 	# rgh = rgh + rgh_off
 	# rgl = rgl + rgl_off
 	# ----------
-	return {
+	proto = {
 			"DAC": {
 				"pclkHighP": pu1,
 				"pclkLowP": pl1,
@@ -68,4 +68,7 @@ def getvoltages( pl, pswing, sswing, rgswing, drd=8.0 ):
 				"gdP": gd1,
 			}
 		}
+	for key in [ "DAC", "Bias" ]:
+		proto[key].update(kwargs[key])
+	return proto
 
