@@ -123,14 +123,38 @@ params = [
                 },
                 "ITL": {
                         "DAC": {
-                                "sclkHighP": 5.0,
-                                "sclkLowP": -5.5,
+                                "sclkHighP": 5.5,
+                                "sclkLowP": -5.0
                         },
                         "Bias": {
                         }
                 },
                 "regex": "skeletons/regex.list",
                 "tag": "5sl-5sh5.5"
+        },
+	{
+                "E2V": {
+                        "pl" : -6.0,
+                        "pswing" : 9.3,
+                        "sswing" : 9.3,
+                        "rgswing" : 10.1,
+                        "drd" : 8.0,
+                        "DAC": {
+                        },
+                        "Bias": {
+                        }
+
+                },
+                "ITL": {
+                        "DAC": {
+                                "sclkHighP": 5.3,
+                                "sclkLowP": -5.0,
+                        },
+                        "Bias": {
+                        }
+                },
+                "regex": "skeletons/regex.list",
+                "tag": "5.1sl-5sh5.3"
         },
         {
                 "E2V": {
@@ -146,14 +170,37 @@ params = [
                 },
                 "ITL": {
                         "DAC": {
-                                "sclkHighP": 5.0,
-                                "sclkLowP": -6.0,
+                                "sclkHighP": 6.0,
+                                "sclkLowP": -5.0,
                         },
                         "Bias": {
                         }
                 },
                 "regex": "skeletons/regex.list",
                 "tag": "6sl-5sh6"
+        },
+        {
+                "E2V": {
+                        "pl" : -6.0,
+                        "pswing" : 9.3,
+                        "sswing" : 9.3,
+                        "rgswing" : 10.1,
+                        "drd" : 8.0,
+                        "DAC": {
+                        },
+                        "Bias": {
+                        }
+                },
+                "ITL": {
+                        "DAC": {
+                                "sclkHighP": 5.8,
+                                "sclkLowP": -5.0,
+                        },
+                        "Bias": {
+                        }
+                },
+                "regex": "skeletons/regex.list",
+                "tag": "6.1sl-5sh5.8"
         },
         {
                 "E2V": {
